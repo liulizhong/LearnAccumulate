@@ -1,4 +1,4 @@
-package com.tool;
+package alltool;
 
 import org.junit.Test;
 
@@ -18,7 +18,7 @@ public class FileTool {
     }
 
     /**
-     * ### 文件夹下递归改文件名
+     * 方法一： 文件夹下递归改文件名
      * @param file
      * @param regex 正则匹配内容
      * @param replacement 更改后字符串
