@@ -1,15 +1,22 @@
-package ruihua.opcclient.utils;
+package alltool.oraclejdbc;
 
 import oracle.jdbc.driver.OracleDriver;
+import org.junit.Test;
+
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
 /**
- * 获取各系统的所有点表名
+ * @author lizhong.liu
+ * @version TODO
+ * @class ??
+ * @CalssName TestOJdbc
+ * @create 2020-03-30 15:30
+ * @Des TODO
  */
-public class GetNames {
+public class TestOJdbc {
     static Connection connect = null;
     static Statement statement = null;
     static ResultSet resultSet = null;
@@ -22,13 +29,13 @@ public class GetNames {
     static {
         try {
             Properties pro = new Properties();
-            pro.put("user", "clph");
-            pro.put("password", "clph");
+            pro.put("user", "mkgk");
+            pro.put("password", "mkgk");
 
             Driver driver = new OracleDriver();
             DriverManager.deregisterDriver(driver);
 
-            connect = driver.connect("jdbc:oracle:thin:@10.238.255.252:1521:orcl", pro);;
+            connect = driver.connect("jdbc:oracle:thin:@10.238.255.250:1521:MKDB3D", pro);;
             statement = connect.createStatement();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -39,7 +46,7 @@ public class GetNames {
     //产量平衡
     public static Map<String,String> clph() throws Exception{
         //执行sql语句
-        resultSet = statement.executeQuery("select distinct ATTRIBUTENAME from tb_beltattribute");
+        resultSet = statement.executeQuery("select *  from TB_EMP_ATTENDTIMERULE");
 
         //处理结果集
         while (resultSet.next())
@@ -60,5 +67,11 @@ public class GetNames {
         if (resultSet!=null) resultSet.close();
         if (statement!=null) statement.close();
         if (connect!=null) connect.close();
+    }
+
+    @Test
+    public void test()throws Exception{
+        Map<String, String> clph = clph();
+        System.out.println(clph);
     }
 }

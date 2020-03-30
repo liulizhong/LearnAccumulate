@@ -1,10 +1,11 @@
-package alltool;
+package alltool.filetool;
 
 import org.junit.Test;
 
 import java.io.File;
 
 /**
+ * @class Tools
  * @author lizhong.liu
  * @version TODO
  * @CalssName RenameFileName
