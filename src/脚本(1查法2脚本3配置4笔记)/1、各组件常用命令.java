@@ -1,0 +1,27 @@
+// 1、shell
+    jps         ps -ef grep java                            //查看所有java进程/进程中删选有java的jvm实例
+    tar -zxvf kafka_2.11-0.11.0.0.tgz -C /opt/module/       //解压安装包到指定目录
+    xsync kafka/                                            //集群间拷贝资料
+    sudo vim /etc/profile                                   //使用root权限修改文件
+    source /etc/profile                                     //是配置文件生效
+// 2、zookeeper
+    zookeeper-3.4.6/bin/zkServer.sh status                  //查看
+// 3、Kafka
+    bin/kafka-server-start.sh config/server.properties &    //启动Kafka的broker(节点)
+    bin/kafka-server-stop.sh stop                           //关闭kafka
+    bin/kafka-topics.sh --zookeeper hadoop102:2181 --list   //查看所有topic
+    bin/kafka-topics.sh --zookeeper hadoop102:2181 --create --replication-factor 3 --partitions 1 --topic first     //创建topic：--replication-factor  定义副本数，不能大于节点数
+    bin/kafka-topics.sh --zookeeper hadoop102:2181 --delete --topic first                                           //删除topic
+    bin/kafka-console-producer.sh --broker-list hadoop102:9092 --topic first                                        //命令行给topic发送消息
+    bin/kafka-console-consumer.sh --bootstrap-server hadoop102:9092 --from-beginning --topic first  --consumer.config config/consumer.properties    //消费消息(--from-beginning 把主题下所有数据都消费出来)
+    bin/kafka-topics.sh --zookeeper hadoop102:2181 --describe --topic first                                         //查看某个topic详情
+    bin/kafka-console-consumer.sh --topic __consumer_offsets --zookeeper hadoop102:2181 \
+        --formatter "kafka.coordinator.group.GroupMetadataManager\$OffsetsMessageFormatter" \
+        --consumer.config config/consumer.properties --from-beginning                                               //读取本地保存的offset(--from-beginning只看一次，第二次不加这个参数)
+//4、Hadoop
+
+
+
+
+
+
