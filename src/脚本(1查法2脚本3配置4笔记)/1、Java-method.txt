@@ -127,5 +127,152 @@
     (6)System.exit(status);  终止当前正在运行的 Java 虚拟机。非0是异常终止，0是正常退出
     (7)System.gc()：通知垃圾回收器来回收垃圾
     (8)Properties getProperties()  ：获取当前系统的属性
-9、
+9、日期类
+    一、Date
+        (1) date.getTime();	//获取当前毫秒值
+    二、GregorianCalendar
+        (1)Calendar c = Calendar.getInstance();	    //建对象
+        (2)int year = c.get(Calendar.YEAR);         //取出时间对象Calendar的year，还可MONTH、DAY_OF_MONTH、HOUR_OF_DAY、SECOND等
+        (3)c.set(Calendar.YEAR, 2018);              //设置时间对象Calendar的值
+    三、java.text.DateFormat
+        (1) SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");   //创建实现类对象(指定格式)
+        (2) String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS").format(new Date());   //返回目前时间的string
+    四、java.time.LocalDate/LocalTime/LocalDateTime   不可改变日期类型
+        (1) LocalDate jin = LocalDate.now();     //获取现在时间 2020-03-31
+        (2) int year = jin.getYear();DayOfWeek dayOfWeek = jin.getDayOfWeek();      //获取具体值方法
+        (3) LocalDate next = jin.plusMonths(3);     //三月后时间(也可jitianhou)
+        (4) boolean b = jin.isLeapYear();           //是否是今年最后一天
+    五、java.time.Instant/ZoneId/Duration/Period/format.DateTimeFormatter
+        (1) Instant t = Instant.now();		//本初字母线时间
+            OffsetDateTime atOffset = t.atOffset(ZoneOffset.ofHours(8));    //本初字母线偏移8小时时间
+        (2) ZonedDateTime t = ZonedDateTime.now();  //现在的时区时间
+            ZonedDateTime t1 = ZonedDateTime.now(ZoneId.of("America/New_York"));    //指定时区的时间
+        (3) LocalDateTime t1 = LocalDateTime.now();
+            LocalDateTime t2 = LocalDateTime.of(2018, 12, 31, 23, 59, 59, 999);
+            Duration between = Duration.between(t1, t2);
+            //Period between = Period.between(t1, t2);      //两种方法计算时间差
+            between.toDays()；between.toHours()；     //计算时间差
+        (4) DateTimeFormatter.ISO_DATE.format(LocalDate.now())          //格式化时间
+            DateTimeFormatter.ISO_DATE_TIME.format(LocalDateTime.now()) //格式化时间
+            DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).format(LocalDate.now())     //FULL和SHORT适用于LocalDate和LocalTime
+            DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT).format(LocalTime.now())    //FULL和SHORT适用于LocalDate和LocalTime
+            DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM).format(LocalDateTime.now())   //LONG和MEDIUM适用于LocalDateTime
+            DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(LocalDateTime.now())      //格式化目前时间
+10、File
+    (1) 获取文件名：getName()	（传的路径名字拿走就留下文件名 “1.jpg”）
+    (2) 获取文件的路径：getPath()    指定路径，new File对象时指定的路径，原样打印
+	     获取文件的绝对路径：getAbsolutePath()   绝对路径，不会解析..等，（那个盘下全名，）
+         ★获取文件的规范路径：getCanonicalPath()  绝对路径，会解析..等表示方式（那个盘下全名，）
+	     获取父目录路径：getParent()		父目录路径就是传入的字符串路径名去掉文件名
+    (3) 获取文件的大小：length()  单位字节   不能直接获取目录的大小，如果要获取，可以用递归
+    (4) 获取文件最后修改时间：lastModified()  单位毫秒
+    (5) 是否是文件：isFile()
+        是否是目录：isDirectory()
+        是否是隐藏：isHidden()
+        是否存在：exists()
+        是否可读：canRead
+        是否可写：canWrite
+    (6) 文件操作：
+         * 1、创建：createNewFile，若目录不存在则没反应
+         * 2、删除：delete()
+         * 3、重命名：renameTo()	不能创建目录
+         * 4、创建临时文件
+               static File createTempFile(String prefix, String suffix)
+               一般会配合void deleteOnExit()
+    (7)目录的操作：
+         * 1、创建
+         * 		mkdir()  失败不报异常，如果父目录不存在，什么也不做
+         * 		mkdirs() 如果父目录不存在，一并创建
+         * 2、删除
+         * 		delete()  删除的是最目录的最底层（而且只能删除空目录)，如果删除非空目录可以用递归
+         * 3、重命名：
+         * 		renameTo(xx)	xx位置可以更换位置，而且里边文件跟着移动，不能创建目录
+         * 4、列出本目录下的子级
+         * 		String[] list()
+         * 		File[] listFiles()
+11、IO流通用方法：
+    一、字节输入流：InputStream
+        （1）int read()：一次读一个字节，返回的读取的字节的值，如果到达数据末尾没有数据了就返回-1
+        （2）int read(byte[] data)：一次读取多个字节，读取的数据存到data字节数组中，从[0]下标开始存储，返回实际读取的字节的个数，最多读data.length个，如果到达数据末尾没有数据了就返回-1
+        （3）int read(byte[] data, int offset, int count)：：一次读取多个字节，读取的数据存到data字节数组中，从[offset]下标开始存储，返回实际读取的字节的个数，最多读取count个，没数据返回-1
+        （4）void close():关闭IO流
+    二、字节输出流：OutputStream
+        （1）void write(int)：一次写一个字节
+        （2）void write(byte[] data)：一次写整个字节数组
+        （3）void write(byte[] data, int offset, int count)：一次写多个字节，从data[offset]开始，count个字节
+        （4）void close():关闭IO流
+        （5）void flush（）：刷新-从缓冲区立即写出
+    三、字符输入流：Reader
+        （1）int read()：一次读一个字符，返回的读取的字符的Unicode编码值，这个方法，如果流中没数据了，返回-1
+        （2）int read(char[] data)：一次读取多个字符，读取的数据存到data字符数组中，从[0]下标开始存储，返回实际读取的字符的个数，最多读data.length个，这个方法，如果流中没数据了，返回-1
+        （3）int read(char[] data, int offset, int count)：：一次读取多个字符，读取的数据存到data字符数组中，从[offset]下标开始存储，返回实际读取的字符的个数，最多读取count个，没数据返回-1
+        （4）void close():关闭IO流
+    四、字符输出流：Writer
+        （1）void write(int)：一次写一个字符
+        （2）void write(char[] data)：一次写整个字符数组
+        （3）void write(char[] data, int offset, int count)：一次写多个字符，从data[offset]开始，count个字符
+        （4）void write(String str)：字符串写出去
+        （5）void write(String str, int offset, int count)：从offset写count这么长
+        （6）void close():关闭IO流
+        （7）void flush（）：刷新-从缓冲区立即写出
+    五、常见IO
+         （1）文件IO流
+         * FileInputStream：以字节的方式读取文件内容
+         * FileOutputStream：以字节的方式输出，保存文件内容
+         * FileReader：以字符的方式读取纯文本文件内容
+         * FileWriter：以字符的方式输出纯文本数据到纯文本文件中。
+         （2）字节数组IO流
+         * ByteArrayInputStream：从字节数组中读取数据
+         * ByteArrayOutputStream：把数据保存到字节数组中
+         （3）字符数组IO流
+         * CharArrayReader：从字符数组中读取数据
+         * CharArrayWriter：把数据保存到字符数组中
+         * StringReader：从字符串中读取数据
+         * StringWriter：把数据保存到字符串中
+         （4）解码和编码IO流
+         * OutputStreamWrite：//数据从程序 --> osw（字符流) -->按照编码-->fos（字节流)-->文件
+         * InputStreamReader：//数据流向： "utf-8.txt" --> fis（字节流) --> isr（字符流))-->输出
+         （5）缓冲IO流：
+         * BufferedInputStream：给InputStream系列的IO流增加“缓冲”功能
+         * BufferedOutputStream：给OutputStream系列的IO流增加“缓冲”功能
+         * BufferedReader：给Reader系列的IO流增加“缓冲”功能
+         * BufferedWriter：给Writer系列的IO流增加“缓冲”功能
+         （6）对象IO流
+         * ObjectInputStream：一次输入一个对象
+         * ObjectOutputStream：一次输出一个对象
+         （7）基本数据IO流
+         * DataInputStream：一次输入一个Java的基本数据类型的值
+         * DataOutputStream：一次输出一个Java的基本数据类型的值
+         （8）打印流
+         * PrintStream：例如：System.out
+         * PrintWriter：例如：web中,response.getWriter() 给客户端输出数据用的
+    六、DataInputStream / DataOutpuStream
+        writeUTF(xx)	//String类型
+        writeInt(xx)
+        writeDouble(xx)
+        writeChar(xx)
+        writeBoolean(xx)
+12、Thread / Runnable 多线程
+13、Kafka
+    一、producer
+        (1) new KafkaProducer<String, String>(pro);  //创建生产者实例
+        (2) producer.send( new ProducerRecord<String, String>(topicString, partition, key, value), 【new Callback(){***}】)  //发送消息：带回调函数
+        (3) void onCompletion(RecordMetadata recordMetadata, Exception e)    //回调函数抽象方法(消息元数据，异常)
+            recordMetadata.topic()； //回调函数中获取主题
+            recordMetadata.offset()； //获取偏移量
+            recordMetadata.partition()； //获取分区号
+        (4) producer.close(); //关闭生产者
+        (5) implements Partitioner    //自定义分区类
+        (6) implements ProducerInterceptor<String, String>      //自定义Kafka拦截器
+    二、consumer
+        (1) new KafkaConsumer<String, String>(pros); //创建消费者实例
+        (2) consumer.subscribe(Arrays.asList("first","second","third")); //设置消费者订阅那些topic
+        (3) ConsumerRecords<String, String> records = consumer.poll(100);  //消费数据并返回
+        (4) record.topic(); record.offset(); record.key(); record.value(); record.partition();      //获取主题、偏移量、分区、key、value
+        (5) new SimpleConsumer(leader, 9092, 3000, 1024 * 1024, "消费数据");    //创建消费者
+        (6) new FetchRequestBuilder().addFetch(topic, partition, offset, 1024 * 1024).build();  //封装获取数据的请求
+        (7) FetchResponse fetchResponse = consumer.fetch(fetchRequest); //发送请求获取响应
+        (8) fetchResponse.messageSet(topic, partition);     //筛选出指定topic和partition的响应集
+        (9) messageAndOffset.offset(); //获取offset
+        (10) messageAndOffset.message(); message.payload()get(new byte[payload.limit()]); new String(bytes); //将message解析成String
 
