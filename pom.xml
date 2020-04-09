@@ -43,7 +43,11 @@
     -->
 
     <build>
+        <!-- 【0.4】、指定sourceDirectory和testsourceDirectory -->
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
         <plugins>
+
             <!-- 【1】、解决maven test命令时console出现中文乱码问题，每个项目都要单独导 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -120,7 +124,36 @@
             <version>2.7.2</version>
         </dependency>
 
-        <!-- 【9】、不知道是啥
+        <!-- 【9】、MyBatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+
+        <!-- 【10】、MySqlJDBC -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.37</version>
+        </dependency>
+
+        <!-- 【11】、log4j 和 src/main/respurces/log4j.properties 配合 -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!-- 【12】、redis导入 jedis 依赖 -->
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
+        <!-- 【99】、不知道是啥
         <dependency>
             <groupId>jdk.tools</groupId>
             <artifactId>jdk.tools</artifactId>
