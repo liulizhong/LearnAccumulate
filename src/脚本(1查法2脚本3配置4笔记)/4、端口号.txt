@@ -29,4 +29,5 @@ dfs.datanode.address:50010
 7、Kafka
  hadoop102:9092  ：Kafka端口号
 
-8、
+8、MySQL
+ 默认端口号：3306
