@@ -1,5 +1,5 @@
-1. 安装好linux，虚拟机准备
-	硬盘50G 内存4G cpu 6*2 2*2
+1. 安装好linux，虚拟机准备(小韩linux里VMWare安装、CentOS安装)
+	硬盘50G 内存4G cpu 6*2 2*2(我这里是一个4*2两个2*2)
 	/boot 200M
 	/swap 2G
 	/ 全部
@@ -10,12 +10,12 @@
 	终端用“./vmware-install.pl”命令来运行该安装程序一路回车
 	重新启动即可
 
-3. 关闭防火墙
+3. 关闭防火墙(终端命令行执行)
     sudo service iptables stop
     sudo chkconfig iptables off
 	sudo chkconfig --list iptables
 
-4. 创建一个一般用户atguigu并设置密码
+4. 创建一个一般用户atguigu并设置密码(终端命令行执行，密码是输入用户名后弹出输入密码)
     useradd atguigu
     passwd atguigu
 
@@ -27,7 +27,7 @@
     vim /etc/sudoers
     在
 	root    ALL=(ALL)       ALL    下面添加
-	atguigu ALL=(ALL)       NOPASSWD:ALL
+	liulizhong  ALL=(ALL)       NOPASSWD:ALL
     保存时wq!强制保存
 
 7. 配置/etc/hosts

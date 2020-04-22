@@ -45,7 +45,7 @@
     <build>
         <!-- 【0.4】、指定sourceDirectory和testsourceDirectory -->
         <sourceDirectory>src/main/java</sourceDirectory>
-        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <!--<testSourceDirectory>src/test/java</testSourceDirectory>-->
         <plugins>
 
             <!-- 【1】、解决maven test命令时console出现中文乱码问题，每个项目都要单独导 -->
