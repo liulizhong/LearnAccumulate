@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="" />
+    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、各组件常用命令.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +18,14 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -28,41 +34,41 @@
           <entry key="class" value="10" />
           <entry key="dtd" value="2" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="100" />
+          <entry key="java" value="105" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="properties" value="17" />
-          <entry key="sh" value="10" />
-          <entry key="txt" value="19" />
-          <entry key="xml" value="24" />
+          <entry key="sh" value="12" />
+          <entry key="txt" value="23" />
+          <entry key="xml" value="25" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
+          <entry key="Bash" value="6" />
           <entry key="CLASS" value="10" />
           <entry key="DTD" value="2" />
-          <entry key="JAVA" value="100" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="JAVA" value="105" />
+          <entry key="PLAIN_TEXT" value="36" />
           <entry key="Properties" value="18" />
-          <entry key="XML" value="25" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="7402" />
+          <entry key="java" value="7601" />
           <entry key="properties" value="464" />
           <entry key="sh" value="156" />
-          <entry key="txt" value="2804" />
+          <entry key="txt" value="2825" />
           <entry key="xml" value="1139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7402" />
-          <entry key="PLAIN_TEXT" value="2972" />
+          <entry key="JAVA" value="7601" />
+          <entry key="PLAIN_TEXT" value="2993" />
           <entry key="Properties" value="464" />
           <entry key="XML" value="1139" />
         </counts>
@@ -70,7 +76,71 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、jpsall.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="255" column="6" lean-forward="true" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、关键字.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,14 +206,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/脚本工具/1、各组件命令.java" />
         <option value="$PROJECT_DIR$/src/脚本工具/3、pom.xml" />
         <option value="$PROJECT_DIR$/src/脚本工具/1、各组件常用命令.java" />
         <option value="$PROJECT_DIR$/src/脚本工具/0、Java-method.java" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、所有关键字.txt" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.java" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/3、pom.xml" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/CallBackProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/KafkaCallBackProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/KafkaProducer.java" />
@@ -161,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/InterceptoraddTimestap.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh.properties" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/kafkastart.txt" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/kafkastart.txt.properties" />
@@ -187,6 +254,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/redis/JedisPooltool.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/redis/JedisClient.java" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、各组件常用命令.java" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt" />
       </list>
     </option>
   </component>
@@ -195,6 +265,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/software/idea/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="C:\software\idea\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -208,9 +286,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2418" />
-    <option name="width" value="900" />
-    <option name="height" value="499" />
+    <option name="x" value="2528" />
+    <option name="y" value="-33" />
+    <option name="width" value="864" />
+    <option name="height" value="469" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -221,12 +300,15 @@
             <id>Java</id>
           </State>
           <State>
+            <id>Maven</id>
+          </State>
+          <State>
             <id>Probable bugsJava</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>WrongPackageStatement</id>
+            <id>MavenModelInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -242,7 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,6 +381,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rhkafka" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rhkafka" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,16 +401,23 @@
               <item name="rhkafka" type="462c0819:PsiDirectoryNode" />
               <item name="producer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="脚本(1查法2脚本3配置4笔记)" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586425428777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587549298077" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="C:/software/idea/commons-pool2-2.4.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -328,7 +425,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="xml.catalog" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -481,6 +578,12 @@
       <workItem from="1585904611634" duration="6980000" />
       <workItem from="1586136960547" duration="18061000" />
       <workItem from="1586403957455" duration="17087000" />
+      <workItem from="1586508474000" duration="983000" />
+      <workItem from="1586768538724" duration="4501000" />
+      <workItem from="1587114035080" duration="1091000" />
+      <workItem from="1587355711749" duration="563000" />
+      <workItem from="1587431540980" duration="2516000" />
+      <workItem from="1587548766415" duration="508000" />
     </task>
     <servers />
   </component>
@@ -517,7 +620,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101944000" />
+    <option name="totallyTimeSpent" value="112106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,8 +633,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19537275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2114396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,8 +651,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4987874" visible="true" weight="0.33909574" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.33916083" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807197" visible="true" weight="0.3502747" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50192803" side_tool="true" weight="0.33909574" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.26196808" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -602,20 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/producer.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/ProducerCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/InterceptoraddTimestap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -645,20 +735,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/kafkastart.txt.properties" />
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、各组件常用命令.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、jpsall.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、sqoop(本地-HDP集群).sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -677,27 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、关键字.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="266" column="14" lean-forward="true" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -747,28 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,10 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2656#2672#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,16 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,20 +854,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rh/consumer/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/consumer/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/utils/GetNames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-start-column="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,41 +890,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/analysis/DataQualityAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/pom.xml" />
     <entry file="jar://C:/software/java/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -939,14 +916,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/analysis/DataQualityAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/redis/JedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4714#4730#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/redis/ertgs.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/redis/dfg.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="255" column="6" lean-forward="true" selection-start-line="255" selection-start-column="6" selection-end-line="255" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、jpsall.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、关键字.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
