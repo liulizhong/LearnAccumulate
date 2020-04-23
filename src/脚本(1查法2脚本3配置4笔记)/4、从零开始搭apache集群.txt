@@ -157,6 +157,7 @@ done
 		5.各个测试一下
 		ssh hadoop102
 
+//备注：此时虚拟机不能上网，需改网管配置，还需window主机上配置虚拟机默认网关(详见《linux第五章》)
 14. 在一台机器上安装Java和Hadoop，并配置环境变量，并分发到集群其他机器
         1. 拷贝文件到/opt/software，两个tar包
         2. tar -zxf h"+tab" -C /opt/module
@@ -251,7 +252,7 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
     启动历史服务器：mr-jobhistory-daemon.sh start historyserver
 
-20. 配置Slaves
+20. 配置Slaves文件
 hadoop102
 hadoop103
 hadoop104
@@ -278,8 +279,9 @@ hadoop104
 26 关 stop-dfs.sh stop-yarn.sh
 
 27 单点启动
-	hadoop-daemon.sh start namenode或datanode
-	yarn-daemon.sh start resourcemanager或nodemanager
+	hadoop-daemon.sh  start / stop  namenode / datanode / secondarynamenode
+	yarn-daemon.sh  start / stop  resourcemanager / nodemanager
+	mr-jobhistory-daemon.sh start historyserver
 
 如果集群出了问题
     stop-dfs.sh
