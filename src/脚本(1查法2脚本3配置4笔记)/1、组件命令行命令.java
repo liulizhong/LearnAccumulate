@@ -23,6 +23,28 @@
         --formatter "kafka.coordinator.group.GroupMetadataManager\$OffsetsMessageFormatter" \
         --consumer.config config/consumer.properties --from-beginning                                               //读取本地保存的offset(--from-beginning只看一次，第二次不加这个参数)
 //4、Hadoop
+//5、zookeeper
+    stat path [watch]
+    set path data [version]
+    ls path [watch]
+    delquota [-n|-b] path
+    ls2 path [watch]
+    setAcl path acl
+    setquota -n|-b val path
+    history
+    redo cmdno
+    printwatches on|off
+    delete path [version]
+    sync path
+    listquota path
+    rmr path
+    get path [watch]
+    create [-s] [-e] path data acl
+    addauth scheme auth
+    quit
+    getAcl path
+    close
+    connect host:port
 
 
 
