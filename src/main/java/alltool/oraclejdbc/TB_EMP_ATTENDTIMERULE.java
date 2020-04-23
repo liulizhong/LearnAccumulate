@@ -3,6 +3,7 @@ package alltool.oraclejdbc;
 /**
  * @author lizhong.liu
  * @version TODO
+ * @class Bean的表类，和数据库的字段对应
  * @CalssName Department
  * @create 2020-03-25 15:32
  * @Des TODO

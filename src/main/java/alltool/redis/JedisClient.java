@@ -8,7 +8,7 @@ import java.util.*;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class redis的五种数据常用方法
  * @CalssName JedisClient
  * @create 2020-04-09 14:30
  * @Des TODO

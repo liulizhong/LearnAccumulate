@@ -11,6 +11,7 @@ import java.util.Properties;
 /**
  * @author lizhong.liu
  * @version TODO
+ * @class 初始化数据源(druid、阿里的数据库连接池、数据源ds)
  * @CalssName TestDBUtils
  * @create 2020-03-25 15:12
  * @Des TODO

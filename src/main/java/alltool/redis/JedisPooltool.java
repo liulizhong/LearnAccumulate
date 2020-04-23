@@ -11,7 +11,7 @@ import java.util.HashSet;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class redis连接池
  * @CalssName JedisPooltool
  * @create 2020-04-09 15:20
  * @Des TODO

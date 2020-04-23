@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class 所有方法接口类
  * @CalssName EmployeeMapper
  * @create 2020-04-06 10:13
  * @Des TODO

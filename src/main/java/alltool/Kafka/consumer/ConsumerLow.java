@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class 低阶API消费者
  * @CalssName ConsumerLow
  * @create 2020-04-01 13:39
  * @Des TODO

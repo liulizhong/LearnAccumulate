@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+// MySQL测试链接类
 /**
  * ArrayHandler：把结果集中的第一行数据转成对象数组。
  * ArrayListHandler：把结果集中的每一行数据都转成一个数组，再存放到List中。

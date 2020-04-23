@@ -13,7 +13,7 @@ import java.util.Properties;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class 高阶API消费者
  * @CalssName ConsumerHigh
  * @create 2020-04-01 13:39
  * @Des TODO

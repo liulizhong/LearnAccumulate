@@ -3,7 +3,7 @@ package alltool.mybatis;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class Bean对象
+ * @class Bean的员工类
  * @CalssName Employee
  * @create 2020-04-06 10:06
  * @Des TODO

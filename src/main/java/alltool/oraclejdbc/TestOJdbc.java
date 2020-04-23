@@ -11,7 +11,7 @@ import java.util.Properties;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class 不用连接池，直接用jdbc连接oracle数据库
  * @CalssName TestOJdbc
  * @create 2020-03-30 15:30
  * @Des TODO

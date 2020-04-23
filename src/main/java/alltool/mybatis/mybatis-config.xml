@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!-- 此文件应该在resources文件下 -->
+<!-- 总配置文件，配置数据库链接及Mapper映射文件。此文件应该在resources文件下 -->
 
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"

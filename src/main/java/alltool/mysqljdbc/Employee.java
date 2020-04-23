@@ -3,6 +3,7 @@ package alltool.mysqljdbc;
 /**
  * @author lizhong.liu
  * @version TODO
+ * @class Bean的员工类，和数据库字段对应
  * @CalssName Department
  * @create 2020-03-25 15:32
  * @Des TODO
