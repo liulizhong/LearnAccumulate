@@ -152,6 +152,13 @@
             <version>2.9.0</version>
         </dependency>
 
+        <!-- 【13】、hive依赖：https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+
         <!-- 【99】、不知道是啥
         <dependency>
             <groupId>jdk.tools</groupId>
