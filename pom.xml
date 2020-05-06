@@ -159,6 +159,14 @@
             <version>1.2.1</version>
         </dependency>
 
+        <!-- 【14】、flume-API依赖 -->
+        <dependency>
+            <groupId>org.apache.flume</groupId>
+            <artifactId>flume-ng-core</artifactId>
+            <version>1.7.0</version>
+        </dependency>
+
+
         <!-- 【99】、不知道是啥
         <dependency>
             <groupId>jdk.tools</groupId>
