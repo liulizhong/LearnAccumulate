@@ -31,3 +31,6 @@ dfs.datanode.address:50010
 
 8、MySQL
  默认端口号：3306
+
+8、flume-Ganglia
+ 默认端口号：8649  web：http://192.168.1.102/ganglia
