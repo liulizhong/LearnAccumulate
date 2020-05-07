@@ -16,9 +16,9 @@ public class FileTool {
     @Test
     public void reNameFile() throws Exception {
         reNameFiles(new File(
-                        "D:\\studyware\\03_大数据正式课程\\4、田婷婷_hive\\6.大数据技术之Kafka"),
+                        "D:\\studyware\\bizdata_module\\4、田婷婷_hive_azkaban_kafka_flume_impala_cdh"),
                 "尚硅谷",
-                "辽工大");
+                "哔站");
     }
 
     /**
@@ -37,7 +37,7 @@ public class FileTool {
             //改目录名
             file.renameTo(new File(file.getCanonicalPath().replaceAll(regex, replacement)));
             File[] files = file.listFiles();
-            if (null == file || files.length == 0) {
+            if (!file.exists() || null == file || files.length == 0) {
             } else {
                 for (File newFile : files) {
                     reNameFiles(newFile, regex, replacement);
