@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class ??
+ * @class HBase-API常用方法
  * @CalssName HbaseAPI
  * @create 2020-05-07 17:11
  * @Des TODO
@@ -25,8 +25,10 @@ public class HbaseAPI {
     static {
         conf = HBaseConfiguration.create();
         // 配置zookeeper集群
-        conf.set("hbase.zookeeper.quorum", "192.168.1.243");
+        conf.set("hbase.zookeeper.quorum", "192.168.1.242,192.168.1.243,192.168.1.244");
         conf.set("hbase.zookeeper.property.clientPort", "2181");
+//        conf.set("hbase.rootdir", "hdfs://192.168.1.241:8020/apps/hbase/data");
+//        conf.set("zookeeper.znode.parent", "/hbase-unsecure");
         try {
             //创建HBase连接和admin
             connection = ConnectionFactory.createConnection(conf);
@@ -63,7 +65,7 @@ public class HbaseAPI {
             return false;
         } else {
             // 创建表样例-后续直接 admin.createTable 创建表
-            HTableDescriptor hTableDescriptor = new HTableDescriptor(TableName.valueOf(tableName));
+            HTableDescriptor hTableDescriptor = new HTableDescriptor(tableName);
             for (String columnFamily : columnFamilys) {
                 hTableDescriptor.addFamily(new HColumnDescriptor(columnFamily));
             }
