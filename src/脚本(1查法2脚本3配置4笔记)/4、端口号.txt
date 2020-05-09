@@ -37,3 +37,7 @@ dfs.datanode.address:50010
 
 10、HBase
  默认端口号：16010
+
+11、ELK
+ ElasticSearch：9200
+ Kibana：5601
