@@ -16,9 +16,9 @@ public class FileTool {
     @Test
     public void reNameFile() throws Exception {
         reNameFiles(new File(
-                        "D:\\studyware\\bizdata_module\\4、田婷婷_hive_azkaban_kafka_flume_impala_cdh"),
-                "尚硅谷",
-                "哔站");
+                        "D:\\studyware\\bizdata_module\\9、韩顺平_Scala\\正式课程每天视频资料"),
+                "scala核心编程-",
+                "");
     }
 
     /**
