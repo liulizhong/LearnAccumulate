@@ -1,4 +1,4 @@
-package rhkafka.utils;
+package rh.utils;
 
 /**
  *　点表详细信息

@@ -1,4 +1,4 @@
-package rhkafka.utils;
+package rh.utils;
 
 import oracle.jdbc.driver.OracleDriver;
 import java.sql.*;
@@ -40,14 +40,17 @@ public class GetNames {
     public static Map<String,String> clph() throws Exception{
         //执行sql语句
         resultSet = statement.executeQuery("select distinct ATTRIBUTENAME from tb_beltattribute");
+
+        map.clear();
+
         //处理结果集
         while (resultSet.next())
         {
             name = resultSet.getString("ATTRIBUTENAME");
             map.put(name,"clph");
-            //System.out.println("点表名称："+name);  //打印输出结果集
+            System.out.println(name);  //打印输出结果集
         }
-        close();
+//        close();
         return map;
     }
 
@@ -59,5 +62,10 @@ public class GetNames {
         if (resultSet!=null) resultSet.close();
         if (statement!=null) statement.close();
         if (connect!=null) connect.close();
+    }
+
+    public static void main(String[] args) throws Exception{
+        GetNames.clph();
+        GetNames.close();
     }
 }

@@ -1,4 +1,4 @@
-package rhkafka.consumer;
+package rh.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -19,7 +19,7 @@ public class ClphConsumer {
     static {
         properties = new Properties();
         properties.put("bootstrap.servers", "10.238.255.151:9092,10.238.255.152:9092,10.238.255.153:9092");
-        properties.put("group.id", "test");
+        properties.put("group.id", "test-26");
         properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         kafkaConsumer = new KafkaConsumer<String,String>(properties);
@@ -37,7 +37,7 @@ public class ClphConsumer {
             ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
             for (ConsumerRecord<String, String> record : records) {
                 //clph,offset = 12641951, value = 2020/03/30 16:43:24---DA.CST1070BAI0302---184---192
-                jedis.hset("clph",record.value().split("---")[1],record.value());
+                jedis.hset("clph:realTimeData",record.value().split("---")[1],record.value());
                 System.out.printf("clph,offset = %d, value = %s", record.offset(), record.value());
                 System.out.println();
             }

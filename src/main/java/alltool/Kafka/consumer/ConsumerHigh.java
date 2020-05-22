@@ -29,7 +29,7 @@ public class ConsumerHigh {
         //消费者
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(pro);
         //发布订阅主题(可多主题)
-        consumer.subscribe(Arrays.asList("rangetest"));
+        consumer.subscribe(Arrays.asList("test"));
         while (true) {
             //消费数据
             ConsumerRecords<String, String> records = consumer.poll(1000);

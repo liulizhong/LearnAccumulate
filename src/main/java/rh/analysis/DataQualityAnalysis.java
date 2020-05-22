@@ -1,4 +1,4 @@
-package rhkafka.analysis;
+package rh.analysis;
 
 import java.io.BufferedReader;
 import java.io.File;

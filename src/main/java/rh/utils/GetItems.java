@@ -1,6 +1,5 @@
 /*
-
-package rhkafka.utils;
+package rh.utils;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,10 +13,28 @@ import org.openscada.opc.lib.da.Server;
 import org.openscada.opc.lib.da.browser.Branch;
 import org.openscada.opc.lib.da.browser.Leaf;
 
-
-// 获取所有group,item
+*/
+/**
+ * 获取所有group,item
+ *//*
 
 public class GetItems {
+//    public static void main(String[] args) {
+//
+//        try {
+////            FileWriter fw = new FileWriter(new File("C:\\Users\\Administrator\\Desktop\\items.txt"), true);
+////            BufferedWriter bw = new BufferedWriter(fw);
+//            ArrayList<String> arr = dumpFlat();
+//            for(String str:arr){
+////                bw.write(str + "\r\n");
+//                System.out.println(str);
+//            }
+//            //System.out.println(arr.size());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+
 
     public static ArrayList dumpFlat()
             throws IllegalArgumentException, UnknownHostException, Exception {
@@ -38,7 +55,7 @@ public class GetItems {
 //            System.out.println(name);
             arr.add(name);
         }
-        //System.out.println("count:" + arr.size());
+//        System.out.println("count:" + arr.size());
 
         server.disconnect();
 
