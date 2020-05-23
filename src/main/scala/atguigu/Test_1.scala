@@ -1,8 +1,6 @@
 package atguigu
 
-
 import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
 
 /**
   * @class ??
@@ -15,32 +13,47 @@ import scala.collection.mutable.ArrayBuffer
 
 object ApplyDemo {
   def main(args: Array[String]): Unit = {
-    val list1 = new ArrayBuffer[Int]()
-    list1.append(1, 3, 5, 7)
-    println(list1)
-    for (i <- 0 to list1.length - 1) {
-      list1(i) *= 2
-    }
-    println(list1)
-    val list2 = list1.map(x => 2*x)
-    println(list2)
-    val list3 = list2.map(f1)
-    println(list3)
+    val dog = new Dog
+    dog + 10
+    dog.+(90)
+    println(dog.age) // 110
 
-    println("==========================")
-    val names = List("Alice", "Bob", "Nick")
-    val namess = names.flatMap(name => {println("xxx~~~" ); name.toUpperCase})
-    println(namess)
-    println(namess.length)
+    //后置操作符的使用
+    dog-- //  109
 
-    println("==========================")
-    val namefilter = names.filter(str => str.startsWith("A"))
-    println(namefilter)
-    println("Asdfsf".startsWith("A"))
+    dog++ //110
+
+    dog-- // 109
+
+    dog++
+
+
+    println(dog.age) // ?
+
+    !dog
+    println("dog.age=" + dog.age) //?
+
   }
 
-  def f1(num:Int)={
-    2*num
+  class Dog {
+    var age = 10
+
+    def +(n: Int): Unit = {
+      this.age += n
+    }
+
+    def --(): Unit = {
+      this.age -= 1
+    }
+
+    //后置操作符
+    def ++(): Unit = {
+      this.age += 1
+    }
+
+    def unary_!(): Unit = {
+      this.age = -this.age
+    }
   }
 
 }

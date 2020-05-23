@@ -1,3 +1,4 @@
+
 package rh.influxdbconsumer;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -14,6 +15,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+
 /**
  * @author lizhong.liu
  * @version TODO
@@ -22,10 +24,13 @@ import java.util.concurrent.TimeUnit;
  * @create 2020-05-22 10:25
  * @Des TODO
  */
+
 public class AllConsumerToInfluxdb {
-    /**
+
+/**
      * 消费所有数据到245服务器磁盘
      */
+
 
     static InfluxDB influxDB;
     static Properties properties = null;
@@ -52,9 +57,11 @@ public class AllConsumerToInfluxdb {
     }
 
 
-    /**
+
+/**
      * 全部数据
      */
+
     public static void SumConsumer() throws Exception{
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         //订阅opc点表Kafka主题
@@ -77,3 +84,4 @@ public class AllConsumerToInfluxdb {
         }
     }
 }
+
