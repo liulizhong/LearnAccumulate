@@ -13,47 +13,13 @@ import scala.collection.mutable
 
 object ApplyDemo {
   def main(args: Array[String]): Unit = {
-    val dog = new Dog
-    dog + 10
-    dog.+(90)
-    println(dog.age) // 110
-
-    //后置操作符的使用
-    dog-- //  109
-
-    dog++ //110
-
-    dog-- // 109
-
-    dog++
-
-
-    println(dog.age) // ?
-
-    !dog
-    println("dog.age=" + dog.age) //?
-
+    val ch = 'V'
+    var res = ch match {
+      case '+' => println("ok~")
+      // 1. mychar = ch  2.  然后再去匹配  3. 这样的语法，我们称为模式中的变量
+      case mychar => println("ok~" + mychar)
+      case _ => println ("ok~~")
+    }
+    res = ()
   }
-
-  class Dog {
-    var age = 10
-
-    def +(n: Int): Unit = {
-      this.age += n
-    }
-
-    def --(): Unit = {
-      this.age -= 1
-    }
-
-    //后置操作符
-    def ++(): Unit = {
-      this.age += 1
-    }
-
-    def unary_!(): Unit = {
-      this.age = -this.age
-    }
-  }
-
 }
