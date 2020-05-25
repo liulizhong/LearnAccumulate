@@ -1,3 +1,4 @@
+/*
 package alltool.hbase.mr_hbase_hbase;
 
 import org.apache.hadoop.conf.Configuration;
@@ -11,6 +12,7 @@ import org.apache.hadoop.util.Tool;
 
 import java.util.HashMap;
 
+*/
 /**
  * @author lizhong.liu
  * @version TODO
@@ -18,7 +20,8 @@ import java.util.HashMap;
  * @CalssName MRTool
  * @create 2020-05-12 16:55
  * @Des TODO
- */
+ *//*
+
 public class MRTool implements Tool {
     public int run(String[] args) throws Exception {
 
@@ -66,3 +69,4 @@ public class MRTool implements Tool {
         return null;
     }
 }
+*/

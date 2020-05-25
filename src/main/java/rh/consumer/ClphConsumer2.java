@@ -1,6 +1,6 @@
 package rh.consumer;
 
-import rh.utils.GetNames ;
+import rh.utils.GetNames;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -34,35 +34,37 @@ public class ClphConsumer2 {
         //kafka配置
         properties = new Properties();
         properties.put("bootstrap.servers", "10.238.255.151:9092,10.238.255.152:9092,10.238.255.153:9092");
-        properties.put("group.id", "test-26");
+        properties.put("group.id", "test-266");
         properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        kafkaConsumer = new KafkaConsumer<String,String>(properties);
-
+        kafkaConsumer = new KafkaConsumer<String, String>(properties);
+/*
         //redis配置
         jedis = new Jedis("10.238.255.198");
-        jedis.select(2);
+        jedis.select(2);*/
 
-        try {
+/*        try {
             //获取产量平衡所有点表名    <点表名,clph>
             clph = GetNames.clph();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     /**
      * 产量平衡
      */
-    public static void clphConsumer()throws Exception{
-        ScheduledExecutorService timer = Executors.newSingleThreadScheduledExecutor();
+    public static void clphConsumer() throws Exception {
+        int num = 0;
+        long start = System.currentTimeMillis();
+//        ScheduledExecutorService timer = Executors.newSingleThreadScheduledExecutor();
 
-        TimerTask timerTask = new TimerTask(4000); // 任务需要 4000 ms 才能执行完毕
+//        TimerTask timerTask = new TimerTask(4000); // 任务需要 4000 ms 才能执行完毕
 
 //        System.out.printf("起始时间：%s\n\n", new SimpleDateFormat("HH:mm:ss").format(new Date()));
 
         // 延时 1 秒后，按 1 h的周期执行任务
-        timer.scheduleAtFixedRate(timerTask, 1000, 3000 * 60  * 20, TimeUnit.MILLISECONDS);
+//        timer.scheduleAtFixedRate(timerTask, 1000, 3000 * 60 * 20, TimeUnit.MILLISECONDS);
 
         //消费test主题数据
         kafkaConsumer.subscribe(Arrays.asList("test"));
@@ -72,16 +74,17 @@ public class ClphConsumer2 {
 
                 //clph,offset = 12641951, value = 2020/03/30 16:43:24---DA.CST1070BAI0302---184---192
 //                判断该条数据是否为产量平衡的数据，是：则写入redis
-                if(clph.get(record.value().split("---")[1]) == "clph"){
-                    jedis.hset("clph:realTimeData",record.value().split("---")[1],record.value());
-//                    System.out.printf("test,offset = %d, value = %s", record.offset(), record.value());
-//                    System.out.println();
-                }
+//                if (clph.get(record.value().split("---")[1]) == "clph") {
+//                    jedis.hset("clph:realTimeData",record.value().split("---")[1],record.value());
+//                System.out.printf("test,offset = %d, value = %s", record.offset(), record.value());
+//                System.out.println();
+                System.out.println((System.currentTimeMillis()-start)/1000+":"+num++);
+//                }
             }
         }
     }
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         clphConsumer();
     }
 
@@ -115,23 +118,22 @@ public class ClphConsumer2 {
     }
 
 
-
     /**
      * 全部数据
      */
-    public static void SumConsumer() throws Exception{
+    public static void SumConsumer() throws Exception {
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
         kafkaConsumer.subscribe(Arrays.asList("test"));
         while (true) {
             ConsumerRecords<String, String> records = kafkaConsumer.poll(100);
             for (ConsumerRecord<String, String> record : records) {
-                File file = new File("E:\\opcData\\" + dateFormat.format(new Date()).substring(0,7) + "\\" + dateFormat.format(new Date()).substring(0,10) + ".txt");
-                File fileParents = new File("E:\\opcData\\" + dateFormat.format(new Date()).substring(0,7));
+                File file = new File("E:\\opcData\\" + dateFormat.format(new Date()).substring(0, 7) + "\\" + dateFormat.format(new Date()).substring(0, 10) + ".txt");
+                File fileParents = new File("E:\\opcData\\" + dateFormat.format(new Date()).substring(0, 7));
                 //System.out.println(file.getAbsolutePath());
-                if(!fileParents.exists()){
+                if (!fileParents.exists()) {
                     fileParents.mkdirs();
                 }
-                if(!file.exists()){
+                if (!file.exists()) {
                     file.createNewFile();
                 }
 

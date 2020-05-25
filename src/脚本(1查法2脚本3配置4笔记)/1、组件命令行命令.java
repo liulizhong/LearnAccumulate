@@ -2,10 +2,10 @@
     netsh interface portproxy show all       //查看本机所有端口转发情况
     netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=20000 connectaddress=10.8.0.6 connectport=1525     //设置机器端口映射，访问本机的20000端口会转发到10.8.0.6:1525
         10.238.255.151:9092
-        netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=19092 connectaddress=10.238.255.151 connectport=9092
-        netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=19093 connectaddress=10.238.255.152 connectport=9092
-        netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=19094 connectaddress=10.238.255.153 connectport=9092
-    netsh interface portproxy delete v4tov4 listenaddress=10.8.0.6 listenport=19092       //删除本机9006端口的转发
+        netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=9093 connectaddress=10.238.255.151 connectport=9092
+        netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=9094 connectaddress=10.238.255.152 connectport=9092
+        netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=9095 connectaddress=10.238.255.153 connectport=9092
+    netsh interface portproxy delete v4tov4 listenaddress=10.8.0.6 listenport=9092       //删除本机9006端口的转发
 // 1、shell
     jps         ps -ef grep java                            //查看所有java进程/进程中删选有java的jvm实例
     tar -zxvf kafka_2.11-0.11.0.0.tgz -C /opt/module/       //解压安装包到指定目录

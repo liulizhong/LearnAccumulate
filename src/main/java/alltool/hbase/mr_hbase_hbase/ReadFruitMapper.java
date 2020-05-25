@@ -1,3 +1,4 @@
+/*
 package alltool.hbase.mr_hbase_hbase;
 
 import org.apache.hadoop.hbase.Cell;
@@ -10,6 +11,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 
+*/
 /**
  * @author lizhong.liu
  * @version TODO
@@ -17,7 +19,8 @@ import java.io.IOException;
  * @CalssName ReadFruitMapper
  * @create 2020-05-12 16:09
  * @Des TODO
- */
+ *//*
+
 
 //hbase已经指定了输入的key和value，咱们需要指定输出的key和value就行。key相同，mapper的value是Put类型
 public class ReadFruitMapper extends TableMapper<ImmutableBytesWritable, Put> {
@@ -40,3 +43,4 @@ public class ReadFruitMapper extends TableMapper<ImmutableBytesWritable, Put> {
         context.write(key, put);
     }
 }
+*/

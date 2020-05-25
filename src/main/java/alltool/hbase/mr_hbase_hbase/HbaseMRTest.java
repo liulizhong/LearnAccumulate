@@ -12,6 +12,6 @@ import org.apache.hadoop.util.ToolRunner;
  */
 public class HbaseMRTest {
     public static void main(String[] args) throws Exception {
-        ToolRunner.run(new MRTool(), args);
+//        ToolRunner.run(new MRTool(), args);
     }
 }

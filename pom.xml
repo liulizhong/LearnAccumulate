@@ -10,7 +10,11 @@
     <!--        [4]scope：当前导入的模块的适用范围:test不传递、compile传递        -->
     <groupId>myfirst</groupId>
     <artifactId>LearnAccumulate</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>myinfluxdb</module>
+    </modules>
 
     <!-- 【0.1】、父工程管理依赖版本，在子工程中就可以不配置以来的版本了 -->
     <dependencyManagement>
