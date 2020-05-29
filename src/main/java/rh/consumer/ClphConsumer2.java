@@ -98,7 +98,7 @@ public class ClphConsumer2 {
             dateFormat = new SimpleDateFormat("HH:mm:ss");
         }
 
-        @Override
+
         public void run() {
 //            System.out.println("任务开始，当前时间：" + dateFormat.format(new Date()));
 

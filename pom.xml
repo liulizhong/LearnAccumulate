@@ -12,9 +12,6 @@
     <artifactId>LearnAccumulate</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>myinfluxdb</module>
-    </modules>
 
     <!-- 【0.1】、父工程管理依赖版本，在子工程中就可以不配置以来的版本了 -->
     <dependencyManagement>
@@ -46,32 +43,32 @@
     </modules>
     -->
 
-    <build>
-        <!-- 【0.4】、指定sourceDirectory和testsourceDirectory -->
-        <sourceDirectory>src/main/java</sourceDirectory>
-        <!--<testSourceDirectory>src/test/java</testSourceDirectory>-->
-        <plugins>
+    <!--    <build>
+            &lt;!&ndash; 【0.4】、指定sourceDirectory和testsourceDirectory &ndash;&gt;
+            <sourceDirectory>src/main/java</sourceDirectory>
+            &lt;!&ndash;<testSourceDirectory>src/test/java</testSourceDirectory>&ndash;&gt;
+            <plugins>
 
-            <!-- 【1】、解决maven test命令时console出现中文乱码问题，每个项目都要单独导 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.7.2</version>
-                <configuration>
-                    <forkMode>once</forkMode>      <!--在一个进程中进行所有测试 ; 默认值:once -->
-                    <argLine>-Dfile.encoding=UTF-8</argLine>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>6</source>
-                    <target>6</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+                &lt;!&ndash; 【1】、解决maven test命令时console出现中文乱码问题，每个项目都要单独导 &ndash;&gt;
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.7.2</version>
+                    <configuration>
+                        <forkMode>once</forkMode>      &lt;!&ndash;在一个进程中进行所有测试 ; 默认值:once &ndash;&gt;
+                        <argLine>-Dfile.encoding=UTF-8</argLine>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>6</source>
+                        <target>6</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>-->
 
     <!-- 【2】、依赖的版本管理，控制依赖都是4.1.1版本及以上，‘<spring.version>’的明细随便取
             然后在下边dependencies里指定 “<version>${spring.version}</version>”即可使用-->
@@ -199,6 +196,20 @@
             <version>2.15</version>
         </dependency>
 
+        <!-- 【18】、数据写到远程仓库需要 -->
+        <dependency>
+            <groupId>ch.ethz.ganymed</groupId>
+            <artifactId>ganymed-ssh2</artifactId>
+            <version>build210</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.50</version>
+        </dependency>
+
         <!-- 【99】、不知道是啥
         <dependency>
             <groupId>jdk.tools</groupId>
@@ -211,5 +222,59 @@
 
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12.4</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+            <!-- <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-assembly-plugin</artifactId>
+                 <version>2.2.1</version>
+                 <configuration>
+                     <archive>
+                         <manifest>
+                             <mainClass>rh.AllConsumerTo244File</mainClass>
+                         </manifest>
+                     </archive>
+                     <descriptorRefs>
+                         <descriptorRef>jar-with-dependencies</descriptorRef>
+                     </descriptorRefs>
+                 </configuration>
+             </plugin>-->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.5.5</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>rh.AllConsumerTo244File</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
 
 </project>

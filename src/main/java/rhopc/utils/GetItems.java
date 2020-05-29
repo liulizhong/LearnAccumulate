@@ -1,17 +1,14 @@
 
-package rh.utils;
-
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.concurrent.Executors;
+package rhopc.utils;
 
 import org.openscada.opc.lib.common.ConnectionInformation;
 import org.openscada.opc.lib.da.Server;
 import org.openscada.opc.lib.da.browser.Branch;
 import org.openscada.opc.lib.da.browser.Leaf;
+
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.concurrent.Executors;
 
 
 /**
