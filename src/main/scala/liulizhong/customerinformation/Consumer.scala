@@ -1,4 +1,4 @@
-package liulizhong.project
+package liulizhong.customerinformation
 
 /**
   * @class ??

@@ -1,4 +1,4 @@
-package liulizhong.project
+package liulizhong.customerinformation
 
 import scala.io.StdIn
 
