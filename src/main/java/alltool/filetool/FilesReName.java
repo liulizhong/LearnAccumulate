@@ -7,12 +7,12 @@ import java.io.File;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class Tools
+ * @class 递归修改文件夹下文件的名字(正则匹配)
  * @CalssName RenameFileName
  * @create 2020-03-26 9:08
  * @Des TODO
  */
-public class FileTool {
+public class FilesReName {
     @Test
     public void reNameFile() throws Exception {
         reNameFiles(new File(

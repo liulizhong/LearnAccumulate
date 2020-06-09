@@ -1,32 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myinfluxdb:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="">
+    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/TestEmPer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/TestEmPer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-config.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-config.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-mapper.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-mapper.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/MysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/MysqlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/OracleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/OracleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TestOJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TestOJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/redis/JedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/redis/JedisClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/redis/JedisPooltool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/redis/JedisPooltool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/filetool/FileTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/love/Cardioid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/lovesurprised/Cardioid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/analysis/DataQualityAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/consumer/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/producer/UtgardTutorial1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/utils/GetNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/utils/ScheduledExecutorServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/consumer/ConsumerHigh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/consumer/ConsumerLow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/InterceptoraddTimestap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerCallBack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/FileTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/TestEmPer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/MysqlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/OracleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/TestOJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/redis/JedisClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/redis/JedisPooltool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logs/controller.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logs/kafka-request.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logs/log-cleaner.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logs/server.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logs/state-change.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rhkafka/analysis/DataQualityAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rhkafka/consumer/ClphConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rhkafka/consumer/SumConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rhkafka/utils/GetNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rhkafka/utils/Result.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/myinfluxdb/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,64 +71,86 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="33" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="4、所有关键字" value="1" />
-          <entry key="class" value="10" />
+          <entry key="MF" value="2" />
+          <entry key="class" value="15" />
+          <entry key="cnf" value="1" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="121" />
+          <entry key="html" value="4" />
+          <entry key="java" value="237" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
-          <entry key="properties" value="21" />
-          <entry key="sh" value="10" />
-          <entry key="txt" value="22" />
-          <entry key="xml" value="27" />
+          <entry key="pom" value="1" />
+          <entry key="properties" value="22" />
+          <entry key="scala" value="24" />
+          <entry key="sh" value="14" />
+          <entry key="txt" value="30" />
+          <entry key="xml" value="44" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
-          <entry key="CLASS" value="10" />
+          <entry key="Bash" value="8" />
+          <entry key="CLASS" value="15" />
           <entry key="DTD" value="5" />
-          <entry key="JAVA" value="121" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Properties" value="22" />
-          <entry key="XML" value="28" />
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="237" />
+          <entry key="Manifest" value="2" />
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Properties" value="23" />
+          <entry key="Scala" value="24" />
+          <entry key="XML" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dtd" value="21" />
           <entry key="dummy" value="12" />
-          <entry key="html" value="379" />
-          <entry key="java" value="7675" />
+          <entry key="html" value="393" />
+          <entry key="java" value="13023" />
           <entry key="properties" value="464" />
           <entry key="py" value="8" />
-          <entry key="sh" value="156" />
-          <entry key="txt" value="4780" />
-          <entry key="xml" value="1230" />
+          <entry key="scala" value="3660" />
+          <entry key="sh" value="165" />
+          <entry key="txt" value="4928" />
+          <entry key="xml" value="1438" />
           <entry key="xsl" value="1" />
           <entry key="yaml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Bash" value="9" />
           <entry key="DTD" value="21" />
-          <entry key="HTML" value="379" />
-          <entry key="JAVA" value="7675" />
-          <entry key="PLAIN_TEXT" value="4956" />
+          <entry key="HTML" value="393" />
+          <entry key="JAVA" value="13023" />
+          <entry key="PLAIN_TEXT" value="5104" />
           <entry key="Properties" value="464" />
-          <entry key="XML" value="1231" />
+          <entry key="Scala" value="3660" />
+          <entry key="XML" value="1439" />
           <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
@@ -137,44 +193,45 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="566" column="23" lean-forward="true" selection-start-line="566" selection-start-column="23" selection-end-line="566" selection-end-column="23" />
+            <state relative-caret-position="298">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
-                <element signature="e#5#875#0" />
-                <element signature="e#885#1698#0" />
-                <element signature="e#1705#2145#0" />
-                <element signature="e#2152#4554#0" />
-                <element signature="e#4568#5512#0" />
-                <element signature="e#5521#6108#0" />
-                <element signature="e#6118#6962#0" />
-                <element signature="e#6973#7313#0" />
-                <element signature="e#7320#9573#0" />
-                <element signature="e#9582#10696#0" />
-                <element signature="e#10709#13504#0" />
-                <element signature="e#13530#14828#0" />
-                <element signature="e#14835#18397#0" />
-                <element signature="e#18406#20357#0" />
-                <element signature="e#20371#21563#0" />
-                <element signature="e#21577#26072#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1528#1536#0" expanded="true" />
+                <element signature="e#1749#2014#0" expanded="true" />
+                <element signature="e#2013#2014#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-config.dtd">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="24" lean-forward="true" selection-start-column="39" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="281" column="30" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/influxdbconsumer/AllConsumerTo175File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -192,36 +249,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Employee</find>
-      <find>emp</find>
-      <find>sorce</find>
-      <find>）</find>
-      <find>[</find>
-      <find>//</find>
-      <find>=</find>
-      <find>&quot;);</find>
-      <find>9092</find>
-      <find>rangetest</find>
-      <find>2181</find>
-      <find>9082</find>
-      <find>bootstrap.servers=10.238.255.151:9092,10.238.255.152:9092,10.238.255.153:9092</find>
-      <find>rootLogger</find>
-      <find>stdout</find>
-      <find>logfile</find>
-      <find>testGetEmployeeById</find>
-      <find>alltool/mybatis/EmployeeMapper.xml</find>
-      <find>void</find>
-      <find>com.atguigu.mybatis.entities.Employee</find>
-      <find>getEmployeAndDepById</find>
-      <find>EmployeeMapper</find>
-      <find>getEmployeeById</find>
-      <find>Result</find>
-      <find>rh.</find>
-      <find>junit</find>
-      <find>log4j</find>
-      <find>java.time</find>
-      <find>string</find>
-      <find>consumer</find>
+      <find>\\home\\liulizhong\\module\\influxdb\\kafkaopc\\</find>
+      <find>record</find>
+      <find>whoami</find>
+      <find>\\</find>
+      <find>com.rh.AllConsumerTo245File</find>
+      <find>GetNames</find>
+      <find>test</find>
+      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId() + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date())));</find>
+      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date())));</find>
+      <find>localhost</find>
+      <find>yyyy-MM</find>
+      <find>---</find>
+      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + &quot;1&quot; + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date()))</find>
+      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + &quot;0&quot; + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date()))</find>
+      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId() + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date()))</find>
+      <find>333</find>
+      <find>allItems</find>
+      <find>consumers.length</find>
+      <find>hadoop</find>
+      <find>headQueue</find>
+      <find>org.apache.logging.log4j</find>
+      <find>org.apache.hadoop</find>
+      <find>value</find>
+      <find>FSDataOutputStream</find>
+      <find>calendar</find>
+      <find>a</find>
+      <find>a</find>
+      <find>(a</find>
+      <find>exists</find>
+      <find>【6】</find>
     </findStrings>
     <replaceStrings>
       <replace>DBUtils</replace>
@@ -238,6 +295,15 @@
       <replace>9092</replace>
       <replace>public void</replace>
       <replace>alltool.mybatis.Employee</replace>
+      <replace>//</replace>
+      <replace>/</replace>
+      <replace>influxdb</replace>
+      <replace>10.238.255.198</replace>
+      <replace>consumers.length -1</replace>
+      <replace>【1】</replace>
+      <replace>【2】</replace>
+      <replace>【3】</replace>
+      <replace>【4】</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -246,57 +312,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/interceptor/addTimestapInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/addTimestapInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/producer.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/ProducerCallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/InterceptoraddTimestap.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh.properties" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/kafkastart.txt" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/kafkastart.txt.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/3、log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/EmployeeMapper2.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/analysis/DataQualityAnalysis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/consumer/SumConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/utils/GetNames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/utils/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/influxdbconsumer/AllConsumerToInfluxdb222.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/influxdbconsumer/OPCFileToInfluxdb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/influxdbconsumer/AllConsumerTo245File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/consumer/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hbase/mr_hbase_hbase/ReadFruitMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hbase/mr_hbase_hbase/MRTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hbase/mr_hbase_hbase/HbaseMRTest.java" />
+        <option value="$PROJECT_DIR$/myinfluxdb/src/main/java/com/rh/AllConsumerToInfluxdb.java" />
+        <option value="$PROJECT_DIR$/myinfluxdb/src/main/java/com/rh/OPCFileToInfluxdb.java" />
+        <option value="$PROJECT_DIR$/myinfluxdb/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/atguigu/Test_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/love/Cardioid.java" />
+        <option value="$PROJECT_DIR$/myinfluxdb/src/main/java/com/rh/To245FileTest.java" />
+        <option value="$PROJECT_DIR$/myinfluxdb/src/main/java/com/rh/AllConsumerTo245File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/influxdbconsumer/AllConsumerToInfluxdb.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/rh/producer/UtgardTutorial1.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、从零开始搭apache集群.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/rhopc/producer/UtgardTutorial1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rhopc/influxdbconsumer/AllConsumerTo175File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rhopc/utils/GetItems.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/service.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/maintest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/app/CustomerCrm.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/bean/Customer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/service/CustomerService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/view/CustomerView.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/Consumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/ViewConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/ServiceConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/lovesurprised/Cardioid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FileTool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ShareFileToOtherComputerFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsFileToLinuxFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsToLinuxFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/KafkatoHdfs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-config.dtd" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-mapper.dtd" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mybatis/TestEmPer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/DBUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/MysqlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/DBUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/OracleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TestOJdbc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/redis/JedisPooltool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/redis/JedisClient.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.yaml" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.txt" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.py" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.sql" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.xsl" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.dtd" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.xml" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -309,6 +375,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="C:\software\idea\RepMaven" />
         <option name="mavenHome" value="D:/software/idea/apache-maven-3.2.2" />
         <option name="userSettingsFile" value="D:\software\idea\apache-maven-3.2.2\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -321,15 +388,20 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="LearnAccumulate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LearnAccumulate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2528" />
-    <option name="y" value="-33" />
-    <option name="width" value="864" />
-    <option name="height" value="469" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -361,8 +433,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -402,62 +472,62 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="rhopc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="脚本(1查法2脚本3配置4笔记)" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rhopc" type="462c0819:PsiDirectoryNode" />
+              <item name="influxdbconsumer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587636436387" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591687894156" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
+    <property name="last_opened_file_path" value="C:/software/idea/tashanopcconncet/slf4j-api-1.7.25.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workhouse\LearnAccumulate\src\main\resources" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\consumer" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\oraclejdbc" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mysqljdbc" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="alltool.Kafka.producer" />
-      <recent name="com.tool" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
       <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
       <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
       <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
       <recent name="C:\workhouse\LearnAccumulate\src\脚本工具" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rhopc.influxdbconsumer" />
+      <recent name="rh.producer" />
+      <recent name="rh.consumer" />
+      <recent name="alltool.Kafka.producer" />
+      <recent name="com.tool" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workhouse\LearnAccumulate\src\main\scala\liulizhong" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rhopc" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh\influxdbconsumer" />
+      <recent name="C:\workhouse\LearnAccumulate\myinfluxdb\src\main\java\com\rh" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,101 +542,89 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JedisClient.test">
-    <configuration name="JedisClient.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.file189to241hdfs">
+    <configuration name="ApplyDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="liulizhong.ApplyDemo" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.redis.*" />
+          <option name="PATTERN" value="liulizhong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alltool.redis" />
-      <option name="MAIN_CLASS_NAME" value="alltool.redis.JedisClient" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisClient.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadOPCToLocalFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rhopc.producer.ReadOPCToLocalFile" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.redis.*" />
+          <option name="PATTERN" value="rhopc.producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alltool.redis" />
-      <option name="MAIN_CLASS_NAME" value="alltool.redis.JedisClient" />
-      <option name="METHOD_NAME" value="testHash" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisClient.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="file189to241hdfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.hadoophdfs.file189to241hdfs" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.redis.*" />
+          <option name="PATTERN" value="alltool.hadoophdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alltool.redis" />
-      <option name="MAIN_CLASS_NAME" value="alltool.redis.JedisClient" />
-      <option name="METHOD_NAME" value="testList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisClient.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="maintest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="liulizhong.customerinformation.maintest" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.redis.*" />
+          <option name="PATTERN" value="liulizhong.customerinformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alltool.redis" />
-      <option name="MAIN_CLASS_NAME" value="alltool.redis.JedisClient" />
-      <option name="METHOD_NAME" value="testSet" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisClient.testZSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HdfsClient.testMkdirs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.redis.*" />
+          <option name="PATTERN" value="alltool.hadoophdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alltool.redis" />
-      <option name="MAIN_CLASS_NAME" value="alltool.redis.JedisClient" />
-      <option name="METHOD_NAME" value="testZSet" />
+      <option name="PACKAGE_NAME" value="alltool.hadoophdfs" />
+      <option name="MAIN_CLASS_NAME" value="alltool.hadoophdfs.HdfsClient" />
+      <option name="METHOD_NAME" value="testMkdirs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JedisClient.testList" />
-      <item itemvalue="JUnit.JedisClient.testSet" />
-      <item itemvalue="JUnit.JedisClient.testHash" />
-      <item itemvalue="JUnit.JedisClient.testZSet" />
-      <item itemvalue="JUnit.JedisClient.test" />
+      <item itemvalue="Application.ApplyDemo" />
+      <item itemvalue="Application.ReadOPCToLocalFile" />
+      <item itemvalue="Application.maintest" />
+      <item itemvalue="JUnit.HdfsClient.testMkdirs" />
+      <item itemvalue="Application.file189to241hdfs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JedisClient.test" />
-        <item itemvalue="JUnit.JedisClient.testZSet" />
-        <item itemvalue="JUnit.JedisClient.testHash" />
-        <item itemvalue="JUnit.JedisClient.testSet" />
-        <item itemvalue="JUnit.JedisClient.testList" />
+        <item itemvalue="Application.file189to241hdfs" />
+        <item itemvalue="JUnit.HdfsClient.testMkdirs" />
+        <item itemvalue="Application.ApplyDemo" />
+        <item itemvalue="Application.maintest" />
+        <item itemvalue="Application.ReadOPCToLocalFile" />
       </list>
     </recent_temporary>
   </component>
@@ -595,6 +653,33 @@
       <workItem from="1587469809647" duration="1017000" />
       <workItem from="1587474640643" duration="5448000" />
       <workItem from="1587558893828" duration="4995000" />
+      <workItem from="1587696920647" duration="1355000" />
+      <workItem from="1588052628998" duration="1325000" />
+      <workItem from="1588239426884" duration="1905000" />
+      <workItem from="1588747578105" duration="3998000" />
+      <workItem from="1588816602060" duration="3708000" />
+      <workItem from="1588830633624" duration="14879000" />
+      <workItem from="1588910191937" duration="3789000" />
+      <workItem from="1588990549955" duration="4364000" />
+      <workItem from="1589352479514" duration="1793000" />
+      <workItem from="1589422439375" duration="1210000" />
+      <workItem from="1589952911248" duration="656000" />
+      <workItem from="1589953805972" duration="629000" />
+      <workItem from="1590026791880" duration="16000000" />
+      <workItem from="1590116557340" duration="11866000" />
+      <workItem from="1590222162397" duration="1260000" />
+      <workItem from="1590370950053" duration="18535000" />
+      <workItem from="1590457509462" duration="6457000" />
+      <workItem from="1590464169429" duration="12945000" />
+      <workItem from="1590546853507" duration="11256000" />
+      <workItem from="1590633224650" duration="20514000" />
+      <workItem from="1590746973560" duration="106000" />
+      <workItem from="1590994070048" duration="869000" />
+      <workItem from="1591064777915" duration="195000" />
+      <workItem from="1591082108612" duration="1926000" />
+      <workItem from="1591234630845" duration="9325000" />
+      <workItem from="1591322807290" duration="14896000" />
+      <workItem from="1591597985859" duration="11169000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -603,43 +688,141 @@
       <option name="project" value="LOCAL" />
       <updated>1587564855318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="my.cnf">
+      <created>1588052870147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588052870147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="flume">
+      <created>1588750542516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588750542517</updated>
+    </task>
+    <task id="LOCAL-00004" summary="flume">
+      <created>1588750767745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588750767745</updated>
+    </task>
+    <task id="LOCAL-00005" summary="my.cnf">
+      <created>1588836476128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588836476128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="my.cnf">
+      <created>1588846855973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588846855973</updated>
+    </task>
+    <task id="LOCAL-00007" summary="my.cnf">
+      <created>1588915657713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588915657713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="my.cnf">
+      <created>1589018758349</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589018758349</updated>
+    </task>
+    <task id="LOCAL-00009" summary="my.cnf">
+      <created>1589425762163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589425762163</updated>
+    </task>
+    <task id="LOCAL-00010" summary="my.cnf">
+      <created>1590143552849</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590143552849</updated>
+    </task>
+    <task id="LOCAL-00011" summary="my.cnf">
+      <created>1590143587996</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590143587996</updated>
+    </task>
+    <task id="LOCAL-00012" summary="5/25 18:02">
+      <created>1590400941199</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590400941199</updated>
+    </task>
+    <task id="LOCAL-00013" summary="my.cnf">
+      <created>1590747045222</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590747045222</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2020-06-05 9:33">
+      <created>1591320815823</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591320815823</updated>
+    </task>
+    <task id="LOCAL-00015" summary="my.cnf">
+      <created>1591350995678</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591350995678</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisClient_testZSet - 2020.04.09 at 17h 12m 59s.xml">
-      <configuration name="JedisClient.testZSet" configurationId="JUnit" />
+    <history-entry file="FileTool_reNameFile - 2020.05.14 at 10h 17m 08s.xml">
+      <configuration name="FileTool.reNameFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_testZSet - 2020.04.09 at 17h 19m 31s.xml">
-      <configuration name="JedisClient.testZSet" configurationId="JUnit" />
+    <history-entry file="FileTool_reNameFile - 2020.05.14 at 10h 17m 43s.xml">
+      <configuration name="FileTool.reNameFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_testZSet - 2020.04.09 at 17h 21m 24s.xml">
-      <configuration name="JedisClient.testZSet" configurationId="JUnit" />
+    <history-entry file="FileTool_reNameFile - 2020.05.14 at 10h 18m 15s.xml">
+      <configuration name="FileTool.reNameFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_testZSet - 2020.04.09 at 17h 31m 01s.xml">
-      <configuration name="JedisClient.testZSet" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 26m 08s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_test - 2020.04.09 at 17h 32m 51s.xml">
-      <configuration name="JedisClient.test" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 26m 58s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_test - 2020.04.09 at 17h 33m 33s.xml">
-      <configuration name="JedisClient.test" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 43m 09s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_test - 2020.04.09 at 17h 35m 07s.xml">
-      <configuration name="JedisClient.test" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 44m 29s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_test - 2020.04.09 at 17h 37m 19s.xml">
-      <configuration name="JedisClient.test" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 45m 03s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_test - 2020.04.09 at 17h 38m 26s.xml">
-      <configuration name="JedisClient.test" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 45m 46s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisClient_test - 2020.04.09 at 17h 39m 27s.xml">
-      <configuration name="JedisClient.test" configurationId="JUnit" />
+    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 11h 33m 52s.xml">
+      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131060000" />
+    <option name="totallyTimeSpent" value="308822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,7 +837,7 @@
     <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21401028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20051414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,17 +845,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.26196808" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" weight="0.42307693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4987874" visible="true" weight="0.39285713" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.33916083" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.26196808" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.078296706" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.37362638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -681,10 +864,10 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32969153" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195372" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26494345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -692,17 +875,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.26196808" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.06569343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4987874" visible="true" weight="0.33802816" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012126" side_tool="true" weight="0.33916083" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.26196808" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.5018248" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.3740876" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -711,7 +894,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32969153" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195476" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,301 +905,329 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="flume" />
+    <MESSAGE value="5/25 18:02" />
+    <MESSAGE value="2020-06-05 9:33" />
+    <MESSAGE value="my.cnf" />
+    <option name="LAST_COMMIT_MESSAGE" value="my.cnf" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/log-cleaner.log" />
-    <entry file="file://$PROJECT_DIR$/logs/kafka-request.log" />
-    <entry file="file://$PROJECT_DIR$/logs/controller.log" />
-    <entry file="file://$PROJECT_DIR$/logs/state-change.log" />
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/3、pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/3、log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/myinfluxdb/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/project/Consumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、jpsall.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、xsync.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.fxml" />
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.13/junit-4.13.jar!/org/junit/internal/requests/FilterRequest.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/EmployeeMapper2.xml" />
-    <entry file="jar://C:/software/idea/chloro-mr-1.0.0-shaded.jar!/redis/clients/jedis/Jedis.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rh/consumer/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/utils/GetNames.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/utils/GetNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/idea/tashanopcconncet/org.openscada.opc.lib-1.3.0-20150512.072954-4-sources.jar!/org/openscada/opc/lib/da/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="371" column="23" selection-start-line="371" selection-start-column="23" selection-end-line="371" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/idea/tashanopcconncet/org.openscada.opc.lib-1.3.0-20150512.072954-4-sources.jar!/org/openscada/opc/lib/da/browser/FlatBrowser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/idea/tashanopcconncet/org.openscada.opc.lib-1.3.0-20150512.072954-4-sources.jar!/org/openscada/opc/lib/da/SyncAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/GetNames.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/ScheduledExecutorServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/GetItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/influxdbconsumer/AllConsumerTo244File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="105" column="228" selection-start-line="104" selection-start-column="16" selection-end-line="105" selection-end-column="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/project/service.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/app/CustomerCrm.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/bean/Customer.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/service/CustomerService.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customercrm/view/CustomerView.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/maintest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/Consumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/ViewConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/ServiceConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/producer/UtgardTutorial1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/utils/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/consumer/SumConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/producer/UtgardTutorial1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/utils/GetItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/analysis/DataQualityAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/pom.xml" />
-    <entry file="jar://C:/software/java/src.zip!/java/lang/System.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhkafka/consumer/ClphConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、从零开始搭apache集群.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="309" column="22" lean-forward="true" selection-start-line="309" selection-start-column="22" selection-end-line="309" selection-end-column="22" />
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="57">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="191" column="6" lean-forward="true" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/lovesurprised/Cardioid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/azkaban/Shell_Java_Hadoop_Hive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/azkaban/Shell_Java_Hadoop_Hive.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#948#963#0" expanded="true" />
+            <element signature="e#2533#7606#0" expanded="true" />
+            <element signature="e#7605#7606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsToLinuxFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/KafkatoHdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/fs/FSDataOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1528#1536#0" expanded="true" />
+            <element signature="e#1749#2014#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/influxdbconsumer/AllConsumerTo175File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/InterceptoraddTimestap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/ProducerCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/ProducerPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/TestEmPer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/consumer.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/druid.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/OracleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/MysqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mysqljdbc/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TestOJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="13" column="12" selection-start-line="12" selection-start-column="16" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/redis/JedisPooltool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/redis/JedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/mybatis/mybatis-3-config.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="24" lean-forward="true" selection-start-column="39" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="566" column="23" lean-forward="true" selection-start-line="566" selection-start-column="23" selection-end-line="566" selection-end-column="23" />
-          <folding>
-            <element signature="e#5#875#0" />
-            <element signature="e#885#1698#0" />
-            <element signature="e#1705#2145#0" />
-            <element signature="e#2152#4554#0" />
-            <element signature="e#4568#5512#0" />
-            <element signature="e#5521#6108#0" />
-            <element signature="e#6118#6962#0" />
-            <element signature="e#6973#7313#0" />
-            <element signature="e#7320#9573#0" />
-            <element signature="e#9582#10696#0" />
-            <element signature="e#10709#13504#0" />
-            <element signature="e#13530#14828#0" />
-            <element signature="e#14835#18397#0" />
-            <element signature="e#18406#20357#0" />
-            <element signature="e#20371#21563#0" />
-            <element signature="e#21577#26072#0" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="281" column="30" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1026,10 +1237,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>myinfluxdb:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1049,6 +1262,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

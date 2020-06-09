@@ -5,10 +5,7 @@ import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IOUtils;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -27,7 +24,9 @@ public class HdfsClient {
         // 1、获取文件系统
         Configuration configuration = new Configuration();
         // 可配置在集群上运行
-        // configuration.set("fs.defaultFS", "hdfs://hadoop102:9000");
+        configuration.set("fs.hdfs.impl", org.apache.hadoop.hdfs.DistributedFileSystem.class.getName());      //防止打包运行不报错
+        // configuration.set("fs.defaultFS", "hdfs://hadoop102:8020");   //configuration中配置URL
+        // System.setProperty("HADOOP_USER_NAME", "hdfs");               //configuration中配置用户名
         // FileSystem fs = FileSystem.get(configuration);
         FileSystem fs = FileSystem.get(new URI("hdfs://192.168.10.10:8020"), configuration, "hdfs");
 
@@ -71,42 +70,58 @@ public class HdfsClient {
                     System.out.println(host);
                 }
             }
-
-            // 7、文件和文件夹的判断
-            FileStatus[] listStatus = fs.listStatus(new Path("/"));
-            for (FileStatus fileStatus : listStatus) {
-                // 如果是文件
-                if (fileStatus.isFile()) {
-                    System.out.println("f:"+fileStatus.getPath().getName());
-                }else {
-                    System.out.println("d:"+fileStatus.getPath().getName());
-                }
-            }
-
-            // 8、文件上传的IO流
-                // (1) 创建输入流
-            FileInputStream ipFis = new FileInputStream(new File("e:/banhua.txt"));
-                // (2)获取输出流
-            FSDataOutputStream upFos = fs.create(new Path("/banhua.txt"));
-                // (3)流对拷
-            IOUtils.copyBytes(ipFis, upFos, configuration);
-                // (4)关闭资源
-            IOUtils.closeStream(upFos);
-            IOUtils.closeStream(ipFis);
-
-            // 9、文件下载的IO流
-                // (1)获取输入流
-            FSDataInputStream downFis = fs.open(new Path("/banhua.txt"));
-                // (2)获取输出流
-            FileOutputStream downFos = new FileOutputStream(new File("e:/banhua.txt"));
-                // (3)流的对拷
-            IOUtils.copyBytes(downFis, downFos, configuration);
-                // (4)关闭资源
-            IOUtils.closeStream(downFos);
-            IOUtils.closeStream(downFis);
-
-            // 10、关闭资源
-            fs.close();
         }
+        // 8、文件和文件夹的判断
+        FileStatus[] listStatus = fs.listStatus(new Path("/"));
+        for (FileStatus fileStatus : listStatus) {
+            // 如果是文件
+            if (fileStatus.isFile()) {
+                System.out.println("f:" + fileStatus.getPath().getName());
+            } else {
+                System.out.println("d:" + fileStatus.getPath().getName());
+            }
+        }
+
+        // 9、文件上传的IO流
+        //     (1) 创建输入流
+        FileInputStream ipFis = new FileInputStream(new File("\\\\10.238.255.189\\liulizhong\\opcdata\\2020-06\\2020-06-08.txt"));
+        //     (2.1)获取输出流
+        FSDataOutputStream upFos = fs.create(new Path("/opc/2020-06/2020-06-08.txt"), false);  //下边方法加了是否存在的判断。
+/*
+        //     (2.2)增加判断文件是否存在，创建后再写入，更安全
+        Path newPath = new Path("/opc/2020-06/2020-06-08.txt");
+        FSDataOutputStream upFos = null;
+        if (!fs.exists(newPath)) {
+            upFos = fs.create(newPath, false);
+        } else {
+            //存在就追加
+            upFos = fs.append(newPath);
+        }
+*/
+        //     (2.2)缓冲IO流 [似乎可有可无，有的话把copyBytes前两个参数替换掉就ok了]
+        //BufferedInputStream bufferedInputStream = new BufferedInputStream(ipFis);
+        //BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(upFos);
+        //     (3)流对拷
+        IOUtils.copyBytes(ipFis, upFos, configuration);
+        //     (3.2) 不用流对拷，可以直接写入数据，并写入后刷新同步
+        //upFos.write("也可以写入String的getBytes\r\n".getBytes());
+        //upFos.hsync();
+        //     (4)关闭资源
+        IOUtils.closeStream(upFos);
+        IOUtils.closeStream(ipFis);
+
+        // 10、文件下载的IO流
+        //     (1)获取输入流
+        FSDataInputStream downFis = fs.open(new Path("/banhua.txt"));
+        //     (2)获取输出流
+        FileOutputStream downFos = new FileOutputStream(new File("e:/banhua.txt"));
+        //     (3)流的对拷
+        IOUtils.copyBytes(downFis, downFos, configuration);
+        //     (4)关闭资源
+        IOUtils.closeStream(downFos);
+        IOUtils.closeStream(downFis);
+
+        // 10、关闭资源
+        fs.close();
     }
 }

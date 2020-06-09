@@ -70,21 +70,21 @@
             </plugins>
         </build>-->
 
-    <!-- 【2】、依赖的版本管理，控制依赖都是4.1.1版本及以上，‘<spring.version>’的明细随便取
+    <!-- 【0.4】、依赖的版本管理，控制依赖都是4.1.1版本及以上，‘<spring.version>’的明细随便取
             然后在下边dependencies里指定 “<version>${spring.version}</version>”即可使用-->
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
     </properties>
 
     <dependencies>
-        <!-- 【3】、junit - Test工具类-->
+        <!-- 【1】、junit - Test工具类-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
 
-            <!-- 【4】、依赖排除(在此工程的dependency中排除次依赖下的可能产生的依赖重复进行排除) -->
+            <!-- 【2】、依赖排除(在此工程的dependency中排除次依赖下的可能产生的依赖重复进行排除) -->
             <exclusions>
                 <exclusion>
                     <groupId>commons-logging</groupId>
@@ -93,7 +93,7 @@
             </exclusions>
         </dependency>
 
-        <!-- 【5】、Kafka消费者和生产者导包 -->
+        <!-- 【3】、Kafka消费者和生产者导包 -->
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -101,7 +101,7 @@
             <version>0.11.0.0</version>
         </dependency>
 
-        <!-- 【6】、Kafka监听器导包 -->
+        <!-- 【4】、Kafka监听器导包 -->
         <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -109,14 +109,14 @@
             <version>0.11.0.0</version>
         </dependency>
 
-        <!-- 【7】、log4j 和 src/main/respurces/log4j.properties 配合 -->
+        <!-- 【5】、log4j 和 src/main/respurces/log4j.properties 配合 -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.8.2</version>
         </dependency>
 
-        <!-- 【8】、hadoop相关 -->
+        <!-- 【6】、hadoop相关 -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
@@ -132,28 +132,28 @@
             <artifactId>hadoop-hdfs</artifactId>
             <version>2.7.2</version>
         </dependency>
-        <!--  【9】、zookeeper的API -->
+        <!--  【7】、zookeeper的API -->
         <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
             <version>3.4.9</version>
         </dependency>
-        <!-- 【10】、MyBatis -->
+        <!-- 【8】、MyBatis -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.2</version>
         </dependency>
 
-        <!-- 【11】、MySqlJDBC -->
+        <!-- 【9】、MySqlJDBC -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.37</version>
         </dependency>
 
-        <!-- 【12】、redis导入 jedis 依赖 -->
+        <!-- 【10】、redis导入 jedis 依赖 -->
         <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
         <dependency>
             <groupId>redis.clients</groupId>
@@ -161,42 +161,40 @@
             <version>2.9.0</version>
         </dependency>
 
-        <!-- 【13】、hive依赖：https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+        <!-- 【11】、hive依赖：https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-exec</artifactId>
             <version>1.2.1</version>
         </dependency>
 
-        <!-- 【14】、flume-API依赖 -->
+        <!-- 【12】、flume-API依赖 -->
         <dependency>
             <groupId>org.apache.flume</groupId>
             <artifactId>flume-ng-core</artifactId>
             <version>1.7.0</version>
         </dependency>
 
-        <!-- 【15】、hbase服务端依赖 -->
+        <!-- 【13】、hbase服务端、客户端依赖 -->
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-server</artifactId>
             <version>1.3.1</version>
         </dependency>
-
-        <!-- 【16】、hbase客户端依赖 -->
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-client</artifactId>
             <version>1.3.1</version>
         </dependency>
 
-        <!-- 【17】、influxdb连接工具 https://mvnrepository.com/artifact/org.influxdb/influxdb-java -->
+        <!-- 【14】、influxdb连接工具 https://mvnrepository.com/artifact/org.influxdb/influxdb-java -->
         <dependency>
             <groupId>org.influxdb</groupId>
             <artifactId>influxdb-java</artifactId>
             <version>2.15</version>
         </dependency>
 
-        <!-- 【18】、数据写到远程仓库需要 -->
+        <!-- 【15】、数据写到远程Linux服务器依赖包 -->
         <dependency>
             <groupId>ch.ethz.ganymed</groupId>
             <artifactId>ganymed-ssh2</artifactId>
@@ -209,7 +207,7 @@
             <version>0.1.50</version>
         </dependency>
 
-        <!-- 【19】、flink消费Kafka -->
+        <!-- 【16】、flink消费Kafka -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
@@ -277,8 +275,7 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
-
-        <!-- 【20】、 -->
+        <!-- 【17】、 -->
 
         <!-- 【99】、不知道是啥
         <dependency>
@@ -289,57 +286,68 @@
             <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
         </dependency>
         -->
-
     </dependencies>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.12.4</version>
+                <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <skipTests>true</skipTests>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
-
-            <!-- <plugin>
-                 <groupId>org.apache.maven.plugins</groupId>
-                 <artifactId>maven-assembly-plugin</artifactId>
-                 <version>2.2.1</version>
-                 <configuration>
-                     <archive>
-                         <manifest>
-                             <mainClass>rh.AllConsumerTo244File</mainClass>
-                         </manifest>
-                     </archive>
-                     <descriptorRefs>
-                         <descriptorRef>jar-with-dependencies</descriptorRef>
-                     </descriptorRefs>
-                 </configuration>
-             </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+            </plugin>
+            <!--            <plugin>-->
+            <!--                <artifactId>maven-assembly-plugin</artifactId>-->
+            <!--                <configuration>-->
+            <!--                    <archive>-->
+            <!--                        <manifest>-->
+            <!--                            &lt;!&ndash;你的主类&ndash;&gt;-->
+            <!--                            <mainClass>com.rh.flink.FlinkConsumer</mainClass>-->
+            <!--                        </manifest>-->
+            <!--                    </archive>-->
+            <!--                    <descriptorRefs>-->
+            <!--                        <descriptorRef>jar-with-dependencies</descriptorRef>-->
+            <!--                    </descriptorRefs>-->
+            <!--                </configuration>-->
+            <!--                &lt;!&ndash;下面是为了使用 mvn package命令，如果不加则使用mvn assembly&ndash;&gt;-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <id>make-assemble</id>-->
+            <!--                        <phase>package</phase>-->
+            <!--                        <goals>-->
+            <!--                            <goal>single</goal>-->
+            <!--                        </goals>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.5.5</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>rh.AllConsumerTo244File</mainClass>
-                        </manifest>
-                    </archive>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                </configuration>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.3</version>
                 <executions>
                     <execution>
-                        <id>make-assembly</id>
                         <phase>package</phase>
                         <goals>
-                            <goal>single</goal>
+                            <goal>shade</goal>
                         </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>rh.file189to241hdfs.File189To241HDFS</mainClass>
+                                </transformer>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                    <resource>reference.conf</resource>
+                                </transformer>
+                            </transformers>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
