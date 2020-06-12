@@ -1,5 +1,5 @@
 1、Hadoop：
-dfs.namenode.http-address:h50070
+dfs.namenode.http-address:50070
 SecondaryNameNode辅助名称节点端口号：50090
 hdfs.defaultFS:默认8020 咱们设置为9000
 yarn.resourcemanager.webapp.address:8088

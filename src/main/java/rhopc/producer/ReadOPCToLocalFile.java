@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import rh.utils.GetItems;
+import rhopc.utils.GetItems;
 import org.jinterop.dcom.common.JIException;
 import org.openscada.opc.lib.common.ConnectionInformation;
 import org.openscada.opc.lib.da.AccessBase;
@@ -19,7 +19,6 @@ import org.openscada.opc.lib.da.Item;
 import org.openscada.opc.lib.da.ItemState;
 import org.openscada.opc.lib.da.Server;
 import org.openscada.opc.lib.da.SyncAccess;
-
 
 /**
  * 读取点表数据，写入kafka

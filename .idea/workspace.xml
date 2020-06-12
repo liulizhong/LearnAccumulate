@@ -8,7 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,23 +26,23 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,42 +53,42 @@
           <entry key="cnf" value="1" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
-          <entry key="html" value="4" />
-          <entry key="java" value="240" />
+          <entry key="html" value="5" />
+          <entry key="java" value="245" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
           <entry key="properties" value="22" />
-          <entry key="scala" value="24" />
-          <entry key="sh" value="18" />
-          <entry key="txt" value="32" />
-          <entry key="xml" value="44" />
+          <entry key="scala" value="32" />
+          <entry key="sh" value="20" />
+          <entry key="txt" value="35" />
+          <entry key="xml" value="45" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="12" />
+          <entry key="Bash" value="14" />
           <entry key="CLASS" value="15" />
           <entry key="DTD" value="5" />
-          <entry key="HTML" value="4" />
-          <entry key="JAVA" value="240" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="245" />
           <entry key="Manifest" value="2" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="PLAIN_TEXT" value="49" />
           <entry key="Properties" value="23" />
-          <entry key="Scala" value="24" />
-          <entry key="XML" value="46" />
+          <entry key="Scala" value="32" />
+          <entry key="XML" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dtd" value="21" />
           <entry key="dummy" value="12" />
-          <entry key="html" value="393" />
-          <entry key="java" value="13024" />
+          <entry key="html" value="395" />
+          <entry key="java" value="13111" />
           <entry key="properties" value="464" />
           <entry key="py" value="8" />
-          <entry key="scala" value="3660" />
+          <entry key="scala" value="4273" />
           <entry key="sh" value="165" />
           <entry key="txt" value="4928" />
           <entry key="xml" value="1438" />
@@ -97,11 +100,11 @@
         <counts>
           <entry key="Bash" value="9" />
           <entry key="DTD" value="21" />
-          <entry key="HTML" value="393" />
-          <entry key="JAVA" value="13024" />
+          <entry key="HTML" value="395" />
+          <entry key="JAVA" value="13111" />
           <entry key="PLAIN_TEXT" value="5104" />
           <entry key="Properties" value="464" />
-          <entry key="Scala" value="3660" />
+          <entry key="Scala" value="4273" />
           <entry key="XML" value="1439" />
           <entry key="YAML" value="20" />
         </counts>
@@ -146,32 +149,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="49" selection-start-line="49" selection-end-line="61" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="100" column="86" lean-forward="true" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
+            <state relative-caret-position="8">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#25#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -252,12 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rh/influxdbconsumer/OPCFileToInfluxdb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/influxdbconsumer/AllConsumerTo245File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rh/consumer/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/hbase/mr_hbase_hbase/ReadFruitMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/hbase/mr_hbase_hbase/MRTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/hbase/mr_hbase_hbase/HbaseMRTest.java" />
         <option value="$PROJECT_DIR$/myinfluxdb/src/main/java/com/rh/AllConsumerToInfluxdb.java" />
         <option value="$PROJECT_DIR$/myinfluxdb/src/main/java/com/rh/OPCFileToInfluxdb.java" />
@@ -273,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/rhopc/influxdbconsumer/AllConsumerTo175File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/rhopc/utils/GetItems.java" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/service.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/maintest.scala" />
@@ -286,14 +264,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/ServiceConsumer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.java" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/lovesurprised/Cardioid.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FileTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ShareFileToOtherComputerFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsFileToLinuxFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsToLinuxFile.java" />
@@ -303,6 +279,15 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/Share198To189File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/dateortime/GetDateaddnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/dateortime/GetDateAddNum.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.scala" />
       </list>
     </option>
   </component>
@@ -337,7 +322,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -373,6 +358,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,39 +383,43 @@
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="liulizhong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
-              <item name="filetool" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="liulizhong" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="脚本(1查法2脚本3配置4笔记)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591697702142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591953611727" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
-    <property name="last_opened_file_path" value="C:/software/idea/tashanopcconncet/slf4j-api-1.7.25.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -437,22 +428,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
-      <recent name="C:\workhouse\LearnAccumulate\src\脚本工具" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="rhopc.influxdbconsumer" />
-      <recent name="rh.producer" />
-      <recent name="rh.consumer" />
-      <recent name="alltool.Kafka.producer" />
-      <recent name="com.tool" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workhouse\LearnAccumulate\src\main\scala\liulizhong" />
@@ -460,6 +437,20 @@
       <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh\influxdbconsumer" />
       <recent name="C:\workhouse\LearnAccumulate\myinfluxdb\src\main\java\com\rh" />
       <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="alltool.filetool" />
+      <recent name="rhopc.influxdbconsumer" />
+      <recent name="rh.producer" />
+      <recent name="rh.consumer" />
+      <recent name="alltool.Kafka.producer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
+      <recent name="C:\workhouse\LearnAccumulate\src\脚本工具" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,7 +465,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.file189to241hdfs">
+  <component name="RunManager" selected="Application.MaoPao">
     <configuration name="ApplyDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="liulizhong.ApplyDemo" />
       <module name="LearnAccumulate" />
@@ -488,12 +479,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadOPCToLocalFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rhopc.producer.ReadOPCToLocalFile" />
+    <configuration name="GetDateAddNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.dateortime.GetDateAddNum" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rhopc.producer.*" />
+          <option name="PATTERN" value="alltool.dateortime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaoPao" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="liulizhong.sort.MaoPao" />
+      <module name="LearnAccumulate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liulizhong.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -507,19 +511,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="alltool.hadoophdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maintest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="liulizhong.customerinformation.maintest" />
-      <module name="LearnAccumulate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="liulizhong.customerinformation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,18 +536,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ApplyDemo" />
-      <item itemvalue="Application.ReadOPCToLocalFile" />
-      <item itemvalue="Application.maintest" />
       <item itemvalue="JUnit.HdfsClient.testMkdirs" />
       <item itemvalue="Application.file189to241hdfs" />
+      <item itemvalue="Application.GetDateAddNum" />
+      <item itemvalue="Application.MaoPao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaoPao" />
+        <item itemvalue="Application.GetDateAddNum" />
+        <item itemvalue="Application.ApplyDemo" />
         <item itemvalue="Application.file189to241hdfs" />
         <item itemvalue="JUnit.HdfsClient.testMkdirs" />
-        <item itemvalue="Application.ApplyDemo" />
-        <item itemvalue="Application.maintest" />
-        <item itemvalue="Application.ReadOPCToLocalFile" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +602,10 @@
       <workItem from="1591082108612" duration="1926000" />
       <workItem from="1591234630845" duration="9325000" />
       <workItem from="1591322807290" duration="14896000" />
-      <workItem from="1591597985859" duration="15399000" />
+      <workItem from="1591597985859" duration="15437000" />
+      <workItem from="1591757981250" duration="62000" />
+      <workItem from="1591773734871" duration="10022000" />
+      <workItem from="1591932103071" duration="4467000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -754,7 +748,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313052000" />
+    <option name="totallyTimeSpent" value="327641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +763,7 @@
     <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20051414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13688946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -778,14 +772,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" weight="0.42307693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.37225273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.44230768" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.23351648" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.37362638" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -848,36 +842,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/software/idea/tashanopcconncet/org.openscada.opc.lib-1.3.0-20150512.072954-4-sources.jar!/org/openscada/opc/lib/da/browser/FlatBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/software/idea/tashanopcconncet/org.openscada.opc.lib-1.3.0-20150512.072954-4-sources.jar!/org/openscada/opc/lib/da/SyncAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rh/consumer/ClphConsumer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/Result.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/GetNames.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/ScheduledExecutorServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/utils/GetItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57" />
@@ -887,20 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="105" column="228" selection-start-line="104" selection-start-column="16" selection-end-line="105" selection-end-column="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -937,35 +887,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rh/producer/UtgardTutorial1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/producer/UtgardTutorial1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/rh/utils/GetItems.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -973,27 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -1008,16 +912,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/azkaban/Shell_Java_Hadoop_Hive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1036,22 +931,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/KafkatoHdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/KafkatoHdfs.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/fs/FSDataOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1070,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,13 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-267">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
         </state>
       </provider>
     </entry>
@@ -1104,9 +977,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh" />
     <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、zk_hdfs_yarn_jobhistory-start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1114,50 +985,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、sqoop(本地-HDP集群).sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、从零开始搭apache集群.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、关键字.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1528#1536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="49" selection-start-line="49" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="817">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="355" column="12" lean-forward="true" selection-start-line="290" selection-start-column="4" selection-end-line="355" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/Share198To189File.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="100" column="86" lean-forward="true" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
+        <state relative-caret-position="304">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、jpsall.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、sqoop(本地-HDP集群).sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar!/scala/Array.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="536" column="6" selection-start-line="536" selection-start-column="6" selection-end-line="536" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、关键字.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3060">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/dateortime/GetDateAddNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#25#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
