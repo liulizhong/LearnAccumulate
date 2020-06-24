@@ -275,7 +275,7 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
-        <!-- 【17】、 -->
+        <!-- 【17】、TDengine数据库API工具 -->
         <dependency>
             <groupId>com.taosdata.jdbc</groupId>
             <artifactId>taos-jdbcdriver</artifactId>
@@ -289,13 +289,13 @@
             <artifactId>poi</artifactId>
             <version>3.14</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.14</version>
         </dependency>
+
         <!-- 【99】、不知道是啥
         <dependency>
             <groupId>jdk.tools</groupId>
