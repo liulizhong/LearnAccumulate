@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +24,7 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="4" />
@@ -33,6 +34,7 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -40,7 +42,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.opened" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,14 +54,14 @@
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="256" />
+          <entry key="java" value="257" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
           <entry key="properties" value="26" />
-          <entry key="scala" value="48" />
+          <entry key="scala" value="50" />
           <entry key="sh" value="20" />
-          <entry key="txt" value="36" />
+          <entry key="txt" value="37" />
           <entry key="xml" value="47" />
           <entry key="各组件命令" value="1" />
         </counts>
@@ -70,11 +72,11 @@
           <entry key="CLASS" value="19" />
           <entry key="DTD" value="5" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="256" />
+          <entry key="JAVA" value="257" />
           <entry key="Manifest" value="2" />
-          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="PLAIN_TEXT" value="51" />
           <entry key="Properties" value="27" />
-          <entry key="Scala" value="48" />
+          <entry key="Scala" value="50" />
           <entry key="XML" value="49" />
         </counts>
       </usages-collector>
@@ -83,12 +85,12 @@
           <entry key="dtd" value="21" />
           <entry key="dummy" value="12" />
           <entry key="html" value="395" />
-          <entry key="java" value="13708" />
+          <entry key="java" value="13852" />
           <entry key="properties" value="467" />
           <entry key="py" value="8" />
-          <entry key="scala" value="4655" />
+          <entry key="scala" value="4740" />
           <entry key="sh" value="165" />
-          <entry key="txt" value="4928" />
+          <entry key="txt" value="4944" />
           <entry key="xml" value="1483" />
           <entry key="xsl" value="1" />
           <entry key="yaml" value="20" />
@@ -99,10 +101,10 @@
           <entry key="Bash" value="9" />
           <entry key="DTD" value="21" />
           <entry key="HTML" value="395" />
-          <entry key="JAVA" value="13708" />
-          <entry key="PLAIN_TEXT" value="5104" />
+          <entry key="JAVA" value="13852" />
+          <entry key="PLAIN_TEXT" value="5120" />
           <entry key="Properties" value="467" />
-          <entry key="Scala" value="4655" />
+          <entry key="Scala" value="4740" />
           <entry key="XML" value="1484" />
           <entry key="YAML" value="20" />
         </counts>
@@ -146,30 +148,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_单链表.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3154">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_双链表.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_队列_数组.scala">
+        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="411">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -252,9 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/Consumer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/ViewConsumer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/project/ServiceConsumer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.java" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala" />
@@ -270,8 +251,6 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/Share198To189File.java" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" />
@@ -303,6 +282,11 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_二叉树.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_单链表.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_双链表.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_队列_数组.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_环形队列_数组.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_稀疏数组.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" />
+        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
       </list>
     </option>
   </component>
@@ -338,9 +322,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="width" value="1944" />
-    <option name="height" value="1056" />
+    <option name="x" value="2234" />
+    <option name="y" value="-42" />
+    <option name="width" value="1296" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -372,6 +357,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,59 +375,18 @@
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructuresandalgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="liulizhong" type="462c0819:PsiDirectoryNode" />
+              <item name="脚本(1查法2脚本3配置4笔记)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592982997235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593337546991" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -488,26 +434,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeDemo">
+  <component name="RunManager" selected="JUnit.FilesReName.reNameFile">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="alltool.datastructuresandalgorithms.BinaryTreeDemo" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="alltool.datastructuresandalgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetDateAddNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.dateortime.GetDateAddNum" />
-      <module name="LearnAccumulate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alltool.dateortime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -554,20 +487,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilesReName.reNameFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnAccumulate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alltool.filetool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alltool.filetool" />
+      <option name="MAIN_CLASS_NAME" value="alltool.filetool.FilesReName" />
+      <option name="METHOD_NAME" value="reNameFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.GetDateAddNum" />
       <item itemvalue="Application.MaoPao" />
       <item itemvalue="Application.ReadExcelToPropertiesFile" />
       <item itemvalue="Application.KafkaToTDengine" />
       <item itemvalue="Application.BinaryTreeDemo" />
+      <item itemvalue="JUnit.FilesReName.reNameFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilesReName.reNameFile" />
         <item itemvalue="Application.BinaryTreeDemo" />
         <item itemvalue="Application.KafkaToTDengine" />
         <item itemvalue="Application.ReadExcelToPropertiesFile" />
         <item itemvalue="Application.MaoPao" />
-        <item itemvalue="Application.GetDateAddNum" />
       </list>
     </recent_temporary>
   </component>
@@ -633,7 +582,8 @@
       <workItem from="1592396621835" duration="643000" />
       <workItem from="1592441320130" duration="15670000" />
       <workItem from="1592531417466" duration="242000" />
-      <workItem from="1592976323002" duration="6035000" />
+      <workItem from="1592976323002" duration="6870000" />
+      <workItem from="1593332738478" duration="2508000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -744,21 +694,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileTool_reNameFile - 2020.05.14 at 10h 17m 08s.xml">
-      <configuration name="FileTool.reNameFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileTool_reNameFile - 2020.05.14 at 10h 17m 43s.xml">
-      <configuration name="FileTool.reNameFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileTool_reNameFile - 2020.05.14 at 10h 18m 15s.xml">
-      <configuration name="FileTool.reNameFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 26m 08s.xml">
-      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 26m 58s.xml">
-      <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 10h 43m 09s.xml">
       <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
@@ -774,9 +709,24 @@
     <history-entry file="HdfsClient_testMkdirs - 2020.06.05 at 11h 33m 52s.xml">
       <configuration name="HdfsClient.testMkdirs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FilesReName_reNameFile - 2020.06.28 at 16h 33m 29s.xml">
+      <configuration name="FilesReName.reNameFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilesReName_reNameFile - 2020.06.28 at 16h 34m 45s.xml">
+      <configuration name="FilesReName.reNameFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilesReName_reNameFile - 2020.06.28 at 16h 37m 09s.xml">
+      <configuration name="FilesReName.reNameFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilesReName_reNameFile - 2020.06.28 at 16h 42m 56s.xml">
+      <configuration name="FilesReName.reNameFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilesReName_reNameFile - 2020.06.28 at 16h 45m 29s.xml">
+      <configuration name="FilesReName.reNameFile" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357654000" />
+    <option name="totallyTimeSpent" value="360997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,10 +738,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2506063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25449872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -800,14 +750,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" weight="0.39233577" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.32142857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.4251825" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.42440802" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.37226278" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -821,7 +771,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195372" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2506063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25464836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -830,14 +780,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.39233577" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.229927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.4251825" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.42440802" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.37226278" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -870,14 +820,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/KafkatoHdfs.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/fs/FSDataOutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -987,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsToLinuxFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1005,13 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1096,9 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,9 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,9 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,9 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#45#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,9 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,9 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#45#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,9 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#45#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,24 +1090,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_单链表.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_双链表.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3154">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_双链表.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_队列_数组.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_环形队列_数组.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_稀疏数组.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_队列_数组.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_单链表.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="19">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="method#reNameFiles#0;class#FilesReName#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
         </state>
       </provider>
     </entry>

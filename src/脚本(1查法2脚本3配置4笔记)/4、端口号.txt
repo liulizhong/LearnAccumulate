@@ -41,3 +41,8 @@ dfs.datanode.address:50010
 11、ELK
  ElasticSearch：9200
  Kibana：5601
+
+12、Spark
+    SPARK_MASTER_PORT=7077
+    hadoop102:8080  网页查看
+    spark.history.ui.port=18080  WEBUI访问的端口号为18080

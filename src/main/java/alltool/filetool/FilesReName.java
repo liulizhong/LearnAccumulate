@@ -15,10 +15,11 @@ import java.io.File;
 public class FilesReName {
     @Test
     public void reNameFile() throws Exception {
-        reNameFiles(new File(
-                        "D:\\studyware\\bizdata_module\\9、韩顺平_Scala\\正式课程每天视频资料"),
+        reNameFiles(
+                new File("D:\\studyware\\bizdata_module\\10、李海波_Spark_JVM_Thread\\1、哔站大数据技术之spark基础\\4.视频\\00 - Spark之前视频排版补充"),
                 "scala核心编程-",
                 "");
+        reNameFiles(new File("D:\\studyware\\bizdata_module\\10、李海波_Spark_JVM_Thread\\1、哔站大数据技术之spark基础\\4.视频\\00 - Spark之前视频排版补充"),"00");
     }
 
     /**
@@ -46,6 +47,35 @@ public class FilesReName {
         } else if (file.isFile()) {
             //该文件名
             file.renameTo(new File(file.getCanonicalPath().replaceAll(regex, replacement)));
+        }
+    }
+
+    /**
+     * 方法二： 文件夹下递归改文件的名,前边加指定字符串
+     *
+     * @param file
+     * @throws Exception
+     */
+    public static void reNameFiles(File file, String str) throws Exception {
+        if (!file.exists()) {
+            throw new Exception("文件夹不存在");
+        }
+        if (file.isDirectory()) {
+            //改目录名
+//            file.renameTo(new File("00" + file.getCanonicalPath()));
+//            file.renameTo(new File(file.getParent() + "\\" + str + file.getName()));
+//            System.out.println(file.getParent() + "\\00" + file.getName());
+            File[] files = file.listFiles();
+            if (!file.exists() || null == file || files.length == 0) {
+            } else {
+                for (File newFile : files) {
+                    reNameFiles(newFile,str);
+                }
+            }
+        } else if (file.isFile()) {
+            //该文件名
+            file.renameTo(new File(file.getParent() + "\\" + str + file.getName()));
+            System.out.println(file.getParent() + "\\" + str + file.getName());
         }
     }
 }
