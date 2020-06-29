@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +24,7 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="4" />
@@ -33,6 +33,7 @@
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="7" />
@@ -42,7 +43,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,10 +60,10 @@
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
           <entry key="properties" value="26" />
-          <entry key="scala" value="50" />
+          <entry key="scala" value="51" />
           <entry key="sh" value="20" />
           <entry key="txt" value="37" />
-          <entry key="xml" value="47" />
+          <entry key="xml" value="48" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
@@ -76,8 +77,8 @@
           <entry key="Manifest" value="2" />
           <entry key="PLAIN_TEXT" value="51" />
           <entry key="Properties" value="27" />
-          <entry key="Scala" value="50" />
-          <entry key="XML" value="49" />
+          <entry key="Scala" value="51" />
+          <entry key="XML" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -88,10 +89,10 @@
           <entry key="java" value="13852" />
           <entry key="properties" value="467" />
           <entry key="py" value="8" />
-          <entry key="scala" value="4740" />
+          <entry key="scala" value="5061" />
           <entry key="sh" value="165" />
-          <entry key="txt" value="4944" />
-          <entry key="xml" value="1483" />
+          <entry key="txt" value="5010" />
+          <entry key="xml" value="1547" />
           <entry key="xsl" value="1" />
           <entry key="yaml" value="20" />
         </counts>
@@ -102,10 +103,10 @@
           <entry key="DTD" value="21" />
           <entry key="HTML" value="395" />
           <entry key="JAVA" value="13852" />
-          <entry key="PLAIN_TEXT" value="5120" />
+          <entry key="PLAIN_TEXT" value="5186" />
           <entry key="Properties" value="467" />
-          <entry key="Scala" value="4740" />
-          <entry key="XML" value="1484" />
+          <entry key="Scala" value="5061" />
+          <entry key="XML" value="1548" />
           <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
@@ -149,11 +150,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="420">
+              <caret line="298" column="18" selection-start-line="298" selection-end-line="299" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding>
+                <element signature="e#23#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,9 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\\</find>
-      <find>com.rh.AllConsumerTo245File</find>
-      <find>GetNames</find>
       <find>test</find>
       <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId() + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date())));</find>
       <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date())));</find>
@@ -201,6 +211,9 @@
       <find>columns</find>
       <find>HeroNode</find>
       <find>HeroNode2</find>
+      <find>8443</find>
+      <find>jackson</find>
+      <find>dependencyManagement</find>
     </findStrings>
     <replaceStrings>
       <replace>DBUtils</replace>
@@ -236,7 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.java" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" />
@@ -264,7 +276,6 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/producer/ProducerCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/tdengine/opc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/tdengine/KafkaToTDengine.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HashTabDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/DataStructuresAndAlgorithms/BinaryTree.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/BinaryTree.scala" />
@@ -287,6 +298,8 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_稀疏数组.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala" />
       </list>
     </option>
   </component>
@@ -357,8 +370,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,7 +388,22 @@
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="脚本(1查法2脚本3配置4笔记)" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +414,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593337546991" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593421371528" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -434,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilesReName.reNameFile">
+  <component name="RunManager" selected="Application.WordCount">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="alltool.datastructuresandalgorithms.BinaryTreeDemo" />
       <module name="LearnAccumulate" />
@@ -461,12 +489,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaoPao" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="liulizhong.sort.MaoPao" />
+    <configuration name="ReadExcelToPropertiesFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.filetool.ReadExcelToPropertiesFile" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liulizhong.sort.*" />
+          <option name="PATTERN" value="alltool.filetool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,12 +502,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadExcelToPropertiesFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.filetool.ReadExcelToPropertiesFile" />
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.WordCount" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.filetool.*" />
+          <option name="PATTERN" value="alltool.spark.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -504,19 +532,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaoPao" />
       <item itemvalue="Application.ReadExcelToPropertiesFile" />
       <item itemvalue="Application.KafkaToTDengine" />
       <item itemvalue="Application.BinaryTreeDemo" />
       <item itemvalue="JUnit.FilesReName.reNameFile" />
+      <item itemvalue="Application.WordCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCount" />
         <item itemvalue="JUnit.FilesReName.reNameFile" />
         <item itemvalue="Application.BinaryTreeDemo" />
         <item itemvalue="Application.KafkaToTDengine" />
         <item itemvalue="Application.ReadExcelToPropertiesFile" />
-        <item itemvalue="Application.MaoPao" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +611,8 @@
       <workItem from="1592441320130" duration="15670000" />
       <workItem from="1592531417466" duration="242000" />
       <workItem from="1592976323002" duration="6870000" />
-      <workItem from="1593332738478" duration="2508000" />
+      <workItem from="1593332738478" duration="2988000" />
+      <workItem from="1593395848662" duration="8119000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -726,7 +755,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360997000" />
+    <option name="totallyTimeSpent" value="369596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,7 +770,7 @@
     <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25449872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21529563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -750,16 +779,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.32142857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49807197" visible="true" weight="0.45192307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.42440802" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.42307693" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.37226278" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.40934065" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -820,13 +849,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1013,13 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="277" column="34" selection-start-line="277" selection-start-column="34" selection-end-line="277" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_归并排序.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1129,16 +1144,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="method#reNameFiles#0;class#FilesReName#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="298" column="18" selection-start-line="298" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

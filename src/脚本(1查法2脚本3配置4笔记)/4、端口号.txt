@@ -14,7 +14,7 @@ dfs.datanode.address:50010
 	历史服务器：hadoop106:18080
 	Standalone模式默认的master访问地址：7077
 
-3、Axkaban
+3、Azkaban
 	azkaban页面管理页面：hadoop105:8443
 
 4、kylin
@@ -44,5 +44,6 @@ dfs.datanode.address:50010
 
 12、Spark
     SPARK_MASTER_PORT=7077
-    hadoop102:8080  网页查看
+    hadoop102:8080  // Standalone模式启动master和worker后网页查看
     spark.history.ui.port=18080  WEBUI访问的端口号为18080
+    hadoop102:4040   //查看Spark Jobs(SparkSubmit)任务 执行情况
