@@ -1,12 +1,12 @@
-package alltool.spark
+package alltool.spark.core
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * @class ??
+  * @class 案例1、对磁盘文件进行简单的wordCount
   * @CalssName WordCount
-  * @author lizhong.liu 
+  * @author lizhong.liu
   * @create 2020-06-29 15:06
   * @Des TODO
   * @version TODO

@@ -8,164 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/consumer/ConsumerHigh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/consumer/ConsumerLow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/InterceptoraddTimestap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerCallBack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerCallBack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerPartitioner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/azkaban/Shell_Java_Hadoop_Hive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueue$$anonfun$showQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueueDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayStack2$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayStack2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$binarySearch2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$binarySearch2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinaryTree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$bubbleSort$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$bubbleSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueue$$anonfun$showQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueueDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$del$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$update$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedListDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$findEmpById$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab$$anonfun$list$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTabDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTabDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$$anonfun$insertSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$3$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$4$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$$anonfun$quickSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$selectSort$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$selectSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$add2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$del$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$update$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedListDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$3$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$5$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/dateortime/GetDateAddNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/FilecopyIOFast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/FilesReName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadExcelToPropertiesFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadOpcToFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadOpcToFile$TimerTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadOpcToFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/WindowsToLinuxFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/flink/FlinkConsumertoFileOrHdfs$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/flink/FlinkConsumertoFileOrHdfs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hadoophdfs/HdfsClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/HbaseAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/mr_hbase_hbase/HbaseMRTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/mr_hbase_hbase/WriteFruitMRReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/influxdb/InfluxdbQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/lovesurprised/Cardioid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/EmployeeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/TestEmPer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/MysqlTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/OracleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/TestOJdbc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/redis/JedisClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/redis/JedisPooltool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/tdengine/KafkaToTDengine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$3$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$4$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/HeroNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList$$anonfun$del$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList$$anonfun$update$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer$$anonfun$del$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer$$anonfun$getConsumerByid$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer$$anonfun$update$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ViewConsumer$$anonfun$getAllConsumer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ViewConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/maintest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/maintest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/sort/MaoPao$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/sort/MaoPao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -206,35 +50,35 @@
         <counts>
           <entry key="4、所有关键字" value="1" />
           <entry key="MF" value="2" />
-          <entry key="class" value="19" />
+          <entry key="class" value="26" />
           <entry key="cnf" value="1" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="257" />
+          <entry key="java" value="259" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
           <entry key="properties" value="26" />
-          <entry key="scala" value="51" />
+          <entry key="scala" value="79" />
           <entry key="sh" value="20" />
           <entry key="txt" value="37" />
-          <entry key="xml" value="48" />
+          <entry key="xml" value="49" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="14" />
-          <entry key="CLASS" value="19" />
+          <entry key="CLASS" value="26" />
           <entry key="DTD" value="5" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="257" />
+          <entry key="JAVA" value="259" />
           <entry key="Manifest" value="2" />
           <entry key="PLAIN_TEXT" value="51" />
           <entry key="Properties" value="27" />
-          <entry key="Scala" value="51" />
-          <entry key="XML" value="50" />
+          <entry key="Scala" value="79" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -245,10 +89,10 @@
           <entry key="java" value="13852" />
           <entry key="properties" value="467" />
           <entry key="py" value="8" />
-          <entry key="scala" value="5061" />
+          <entry key="scala" value="9412" />
           <entry key="sh" value="165" />
           <entry key="txt" value="5010" />
-          <entry key="xml" value="1547" />
+          <entry key="xml" value="1584" />
           <entry key="xsl" value="1" />
           <entry key="yaml" value="20" />
         </counts>
@@ -261,8 +105,8 @@
           <entry key="JAVA" value="13852" />
           <entry key="PLAIN_TEXT" value="5186" />
           <entry key="Properties" value="467" />
-          <entry key="Scala" value="5061" />
-          <entry key="XML" value="1548" />
+          <entry key="Scala" value="9412" />
+          <entry key="XML" value="1585" />
           <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
@@ -306,22 +150,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_5_汇总数据源.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5662">
-              <caret line="298" column="18" selection-start-line="298" selection-end-line="299" />
+            <state relative-caret-position="564">
+              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="e#27#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_1_DataFrame操作.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="123">
+              <caret line="24" column="147" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="147" />
               <folding>
-                <element signature="e#23#54#0" expanded="true" />
+                <element signature="e#27#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_4_自定义spark的强类型聚合函数.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="65" />
+              <folding>
+                <element signature="e#27#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -335,17 +194,12 @@
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test</find>
-      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId() + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date())));</find>
-      <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date())));</find>
-      <find>localhost</find>
-      <find>yyyy-MM</find>
-      <find>---</find>
       <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + &quot;1&quot; + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date()))</find>
       <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId().split(&quot;\\.&quot;)[1] + &quot;---&quot; + &quot;0&quot; + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date()))</find>
       <find>producer.send(new ProducerRecord&lt;String, String&gt;(&quot;influxdb&quot;, sdf.format(itemState.getTimestamp().getTime()) + &quot;---&quot; + item.getId() + &quot;---&quot; + value + &quot;---&quot; + (itemState.getQuality() == 192 ? &quot;Good&quot; : &quot;Bad&quot;) + &quot;---&quot; + sdf.format(new Date()))</find>
@@ -370,6 +224,12 @@
       <find>8443</find>
       <find>jackson</find>
       <find>dependencyManagement</find>
+      <find>org.apache.hbase</find>
+      <find>hbaseRDD</find>
+      <find>jsonRDD</find>
+      <find>Dataframe</find>
+      <find>弱</find>
+      <find>salary</find>
     </findStrings>
     <replaceStrings>
       <replace>DBUtils</replace>
@@ -397,6 +257,10 @@
       <replace>【4】</replace>
       <replace>HeroNode2</replace>
       <replace>HeroNode3</replace>
+      <replace>txtRDD</replace>
+      <replace>DataFrame</replace>
+      <replace>强</replace>
+      <replace>age</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -405,26 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/lovesurprised/Cardioid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/file189to241hdfs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FileTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ShareFileToOtherComputerFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsFileToLinuxFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsToLinuxFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/KafkatoHdfs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/Share198To189File.java" />
-        <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html" />
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/dateortime/GetDateaddnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/dateortime/GetDateAddNum.java" />
         <option value="$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/ReadExcelToProperties.java" />
@@ -454,8 +298,28 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_稀疏数组.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/adsTop3.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/adsTop3.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/方法和属性的序列化问题.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_3_方法和属性地序列化问题.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_3_方法和属性的序列化问题.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_2_省份广告点击量TOP3.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_1_wordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_4_自定义分区器.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_5_关系型数据库的spark操作.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_7_累加器自定义_单词的黑名单.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_6_操作Hbase的Spark操作.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_8_广播变量.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/core/_8_广播变量.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_1_DataFrame操作.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/aa.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_3_自定义spark的弱类型聚合函数.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_4_自定义spark的强类型聚合函数.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_5_汇总数据源.scala" />
       </list>
     </option>
   </component>
@@ -486,15 +350,21 @@
           <item name="LearnAccumulate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LearnAccumulate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.hadoop:hadoop-client:2.7.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2046" />
-    <option name="y" value="73" />
-    <option name="width" value="1296" />
-    <option name="height" value="704" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2515" />
+    <option name="y" value="11" />
+    <option name="width" value="864" />
+    <option name="height" value="469" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -559,6 +429,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alltool" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -568,9 +474,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="HashPatitioner&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593426049183" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593598510154" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -581,15 +488,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
+      <recent name="C:\workhouse\LearnAccumulate\src\脚本工具" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workhouse\LearnAccumulate\src\main\scala\liulizhong" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rhopc" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh\influxdbconsumer" />
-      <recent name="C:\workhouse\LearnAccumulate\myinfluxdb\src\main\java\com\rh" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="alltool.filetool" />
@@ -598,12 +505,12 @@
       <recent name="rh.consumer" />
       <recent name="alltool.Kafka.producer" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
-      <recent name="C:\workhouse\LearnAccumulate\src\脚本工具" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\spark\sql" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\scala\liulizhong" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rhopc" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh\influxdbconsumer" />
+      <recent name="C:\workhouse\LearnAccumulate\myinfluxdb\src\main\java\com\rh" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -618,13 +525,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCount">
-    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.datastructuresandalgorithms.BinaryTreeDemo" />
+  <component name="RunManager" selected="Application._5_汇总数据源">
+    <configuration name="_1_DataFrame操作" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.sql._1_DataFrame操作" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.datastructuresandalgorithms.*" />
+          <option name="PATTERN" value="alltool.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -632,12 +539,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaToTDengine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.tdengine.KafkaToTDengine" />
+    <configuration name="_2_DataSet操作" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.sql._2_DataSet操作" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.tdengine.*" />
+          <option name="PATTERN" value="alltool.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -645,12 +552,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadExcelToPropertiesFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.filetool.ReadExcelToPropertiesFile" />
+    <configuration name="_3_自定义spark的弱类型聚合函数" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.sql._3_自定义spark的弱类型聚合函数" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.filetool.*" />
+          <option name="PATTERN" value="alltool.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -658,12 +565,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.spark.WordCount" />
+    <configuration name="_4_自定义spark的强类型聚合函数" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.sql._4_自定义spark的强类型聚合函数" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.spark.*" />
+          <option name="PATTERN" value="alltool.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -671,36 +578,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesReName.reNameFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_5_汇总数据源" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.sql._5_汇总数据源" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.filetool.*" />
+          <option name="PATTERN" value="alltool.spark.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alltool.filetool" />
-      <option name="MAIN_CLASS_NAME" value="alltool.filetool.FilesReName" />
-      <option name="METHOD_NAME" value="reNameFile" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReadExcelToPropertiesFile" />
-      <item itemvalue="Application.KafkaToTDengine" />
-      <item itemvalue="Application.BinaryTreeDemo" />
-      <item itemvalue="JUnit.FilesReName.reNameFile" />
-      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application._1_DataFrame操作" />
+      <item itemvalue="Application._2_DataSet操作" />
+      <item itemvalue="Application._3_自定义spark的弱类型聚合函数" />
+      <item itemvalue="Application._4_自定义spark的强类型聚合函数" />
+      <item itemvalue="Application._5_汇总数据源" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCount" />
-        <item itemvalue="JUnit.FilesReName.reNameFile" />
-        <item itemvalue="Application.BinaryTreeDemo" />
-        <item itemvalue="Application.KafkaToTDengine" />
-        <item itemvalue="Application.ReadExcelToPropertiesFile" />
+        <item itemvalue="Application._5_汇总数据源" />
+        <item itemvalue="Application._3_自定义spark的弱类型聚合函数" />
+        <item itemvalue="Application._4_自定义spark的强类型聚合函数" />
+        <item itemvalue="Application._2_DataSet操作" />
+        <item itemvalue="Application._1_DataFrame操作" />
       </list>
     </recent_temporary>
   </component>
@@ -770,7 +674,7 @@
       <workItem from="1593332738478" duration="2988000" />
       <workItem from="1593395848662" duration="9032000" />
       <workItem from="1593480295114" duration="34000" />
-      <workItem from="1593480370812" duration="385000" />
+      <workItem from="1593480370812" duration="34217000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -913,7 +817,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370928000" />
+    <option name="totallyTimeSpent" value="404760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,10 +829,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2046" y="73" width="1296" height="704" extended-state="0" />
+    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22168285" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21465296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -937,16 +841,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" weight="0.45192307" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974293" weight="0.20604396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.42124543" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321335" side_tool="true" weight="0.33653846" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.40934065" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.31593406" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.80906594" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -957,6 +861,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195372" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4974293" visible="true" weight="0.20604396" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.31593406" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.80906594" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195372" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -977,129 +911,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/influxdbconsumer/AllConsumerTo175File.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、xsync.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、kafkastart.sh" />
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、zk_hdfs_yarn_jobhistory-start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、从零开始搭apache集群.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/flink/FlinkConsumertoFileOrHdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/Share198To189File.java" />
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、Java-method.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、jpsall.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/2、sqoop(本地-HDP集群).sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar!/scala/Array.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="536" column="6" selection-start-line="536" selection-start-column="6" selection-end-line="536" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、关键字.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rhopc/producer/ReadOPCToLocalFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/dateortime/GetDateAddNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/WindowsToLinuxFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilecopyIOFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/ReadOpcToFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
@@ -1282,19 +1093,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5662">
-          <caret line="298" column="18" selection-start-line="298" selection-end-line="299" />
+        <state relative-caret-position="73">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#23#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/adsTop3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="513">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
             <element signature="e#23#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_3_方法和属性地序列化问题.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#39#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_3_方法和属性的序列化问题.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/java/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_4_自定义分区器.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#40#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar!/org/apache/spark/rdd/JdbcRDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="217" selection-start-line="1" selection-start-column="211" selection-end-line="1" selection-end-column="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_2_省份广告点击量TOP3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.3.1/hbase-common-1.3.1.jar!/org/apache/hadoop/hbase/io/ImmutableBytesWritable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2.jar!/org/apache/hadoop/mapred/JobConf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_5_关系型数据库的spark操作.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_7_累加器自定义_单词的黑名单.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_6_操作Hbase的Spark操作.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_1_wordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_8_广播变量.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/aa.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="e#27#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#27#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_3_自定义spark的弱类型聚合函数.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#27#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_4_自定义spark的强类型聚合函数.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <element signature="e#27#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_1_DataFrame操作.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="147" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="147" />
+          <folding>
+            <element signature="e#27#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_5_汇总数据源.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
