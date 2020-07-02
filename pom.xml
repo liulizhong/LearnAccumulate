@@ -296,7 +296,7 @@
             <version>3.14</version>
         </dependency>
 
-        <!-- 【19】、spark-core依赖,需指定jackson-module版本，不然会出现兼容问题Incompatible Jackson version: 2.8.5 -->
+        <!-- 【19】、Spark-Core依赖,需指定jackson-module版本，不然会出现兼容问题Incompatible Jackson version: 2.8.5 -->
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-scala_2.11</artifactId>
@@ -314,10 +314,24 @@
             </exclusions>
         </dependency>
 
-        <!-- 【20】、spark-sql依赖-->
+        <!-- 【20】、Spark-Sql依赖-->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <!-- 【21】、Spark-Streaming 依赖 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <!-- 【22】、Spark-Streaming对接Kafka的依赖 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
             <version>2.1.1</version>
         </dependency>
 
