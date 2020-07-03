@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/HeroNode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/HeroNode.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/SingleLinkedList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/SingleLinkedList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/Test_1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/Test_1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/Consumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/customerinformation/Consumer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/ServiceConsumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/customerinformation/ServiceConsumer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/ViewConsumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/customerinformation/ViewConsumer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/customerinformation/maintest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/customerinformation/maintest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/liulizhong/sort/MaoPao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/sort/MaoPao.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_5_汇总数据源$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_5_汇总数据源$.class" afterDir="false" />
-    </list>
+    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/myinfluxdb/target/" />
@@ -32,7 +20,7 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="4" />
@@ -362,7 +350,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="384" />
@@ -452,7 +440,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashPatitioner&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593680794717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593681686436" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -649,7 +637,7 @@
       <workItem from="1593332738478" duration="2988000" />
       <workItem from="1593395848662" duration="9032000" />
       <workItem from="1593480295114" duration="34000" />
-      <workItem from="1593480370812" duration="51976000" />
+      <workItem from="1593480370812" duration="52018000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -792,7 +780,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422519000" />
+    <option name="totallyTimeSpent" value="422561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,10 +792,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1616" height="886" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -823,7 +810,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.3382353" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.33791208" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.80906594" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
