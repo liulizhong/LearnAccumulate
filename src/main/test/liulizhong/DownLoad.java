@@ -1,4 +1,4 @@
-package alltool.hadoophdfs;
+package liulizhong;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
@@ -13,11 +13,11 @@ import java.net.URISyntaxException;
  * @author lizhong.liu
  * @version TODO
  * @class ??
- * @CalssName HdfsClient
- * @create 2020-06-05 10:18
+ * @CalssName DownLoad
+ * @create 2020-07-06 16:02
  * @Des TODO
  */
-public class HdfsClient {
+public class DownLoad {
     @Test
     public void testMkdirs() throws IOException, InterruptedException, URISyntaxException {
 

@@ -6,7 +6,410 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf" />
+    <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-109/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-146/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-183/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-220/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-257/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-294/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-35/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/._partitioner.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00002.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00003.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00004.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00005.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00006.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/.part-00007.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/_partitioner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint/c2afd9fb-fced-4305-8b86-f1dd42e92002/rdd-72/part-00007" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/consumer/ConsumerHigh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/consumer/ConsumerLow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/InterceptoraddTimestap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerCallBack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerCallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/Kafka/producer/ProducerPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/azkaban/Shell_Java_Hadoop_Hive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueue$$anonfun$showQueue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueueDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayStack2$$anonfun$list$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayStack2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$binarySearch2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$binarySearch2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinaryTree$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$bubbleSort$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$bubbleSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueue$$anonfun$showQueue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueueDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$add$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$del$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$list$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$update$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedListDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$add$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$findEmpById$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$list$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab$$anonfun$list$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTabDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTabDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$$anonfun$insertSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$3$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$4$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$$anonfun$quickSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$selectSort$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$selectSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$add$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$add2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$del$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$list$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$update$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedListDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$5$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/dateortime/GetDateAddNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/FilecopyIOFast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/FilesReName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadExcelToPropertiesFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadOpcToFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadOpcToFile$TimerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/ReadOpcToFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/filetool/WindowsToLinuxFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/flink/FlinkConsumertoFileOrHdfs$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/flink/FlinkConsumertoFileOrHdfs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hadoophdfs/HdfsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/HbaseAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/mr_hbase_hbase/HbaseMRTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/mr_hbase_hbase/WriteFruitMRReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/influxdb/InfluxdbQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/lovesurprised/Cardioid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mybatis/TestEmPer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/mysqljdbc/MysqlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/OracleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/TB_EMP_ATTENDTIMERULE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/oraclejdbc/TestOJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/redis/JedisClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/redis/JedisPooltool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$main$2$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/AdsTOP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/BlackListAccumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/CustomPartitioner$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/CustomPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/Search$$anonfun$getMatch1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/Search$$anonfun$getMatch2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestAccumulator$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestAccumulator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestAccumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestBroadcast$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestBroadcast$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestBroadcast$$anonfun$main$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestBroadcast$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestBroadcast$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestBroadcast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestHbaseRDD$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestHbaseRDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestJDBCRDD$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestJDBCRDD$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestJDBCRDD$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestJDBCRDD$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestJDBCRDD$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestJDBCRDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestPartitioner$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestPartitioner$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestPartitioner$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestPartitioner$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestSparkSearch$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestSparkSearch$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestSparkSearch$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/TestSparkSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/core/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/Average$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/Average.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/Employee$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/MyAggAverage$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/MyAggAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/MyUserAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/People$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/Person$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_1_DataFrame操作$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_1_DataFrame操作$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_1_DataFrame操作$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_1_DataFrame操作$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_1_DataFrame操作.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$typecreator4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$typecreator6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_2_DataSet操作.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_3_自定义spark的弱类型聚合函数$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_3_自定义spark的弱类型聚合函数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_4_自定义spark的强类型聚合函数$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_4_自定义spark的强类型聚合函数$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_4_自定义spark的强类型聚合函数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_5_汇总数据源$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/sql/_5_汇总数据源.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/CustomerReceiver$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/CustomerReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$$anonfun$6$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$$anonfun$main$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/spark/streaming/_2_创建Dstream的数据源.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alltool/tdengine/KafkaToTDengine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$3$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$4$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/ApplyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/HeroNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList$$anonfun$add$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList$$anonfun$del$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList$$anonfun$update$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer$$anonfun$del$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer$$anonfun$getConsumerByid$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer$$anonfun$update$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ServiceConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ViewConsumer$$anonfun$getAllConsumer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/ViewConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/maintest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/customerinformation/maintest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/sort/MaoPao$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/sort/MaoPao.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/myinfluxdb/target/" />
@@ -20,7 +423,7 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="4" />
@@ -34,12 +437,14 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,12 +456,12 @@
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="259" />
+          <entry key="java" value="264" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
           <entry key="properties" value="26" />
-          <entry key="scala" value="90" />
+          <entry key="scala" value="91" />
           <entry key="sh" value="20" />
           <entry key="txt" value="38" />
           <entry key="xml" value="50" />
@@ -69,11 +474,11 @@
           <entry key="CLASS" value="34" />
           <entry key="DTD" value="5" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="259" />
+          <entry key="JAVA" value="264" />
           <entry key="Manifest" value="2" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="Properties" value="27" />
-          <entry key="Scala" value="90" />
+          <entry key="Scala" value="91" />
           <entry key="XML" value="52" />
         </counts>
       </usages-collector>
@@ -82,13 +487,13 @@
           <entry key="dtd" value="21" />
           <entry key="dummy" value="12" />
           <entry key="html" value="395" />
-          <entry key="java" value="13852" />
+          <entry key="java" value="13877" />
           <entry key="properties" value="467" />
           <entry key="py" value="8" />
           <entry key="scala" value="11038" />
           <entry key="sh" value="165" />
           <entry key="txt" value="5020" />
-          <entry key="xml" value="1658" />
+          <entry key="xml" value="1673" />
           <entry key="xsl" value="1" />
           <entry key="yaml" value="20" />
         </counts>
@@ -98,11 +503,11 @@
           <entry key="Bash" value="9" />
           <entry key="DTD" value="21" />
           <entry key="HTML" value="395" />
-          <entry key="JAVA" value="13852" />
+          <entry key="JAVA" value="13877" />
           <entry key="PLAIN_TEXT" value="5196" />
           <entry key="Properties" value="467" />
           <entry key="Scala" value="11038" />
-          <entry key="XML" value="1659" />
+          <entry key="XML" value="1674" />
           <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
@@ -145,33 +550,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/HeroNode.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="328" column="21" selection-start-line="328" selection-start-column="21" selection-end-line="328" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_2_创建Dstream的数据源.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="e#33#83#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Thread08_Atomic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="228">
+              <caret line="12" column="5" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -183,8 +576,8 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Scala Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -219,7 +612,7 @@
       <find>kafka</find>
       <find>,</find>
       <find>kafka-clients</find>
-      <find>,</find>
+      <find>poll</find>
     </findStrings>
     <replaceStrings>
       <replace>DBUtils</replace>
@@ -259,11 +652,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/liulizhong/HashTabDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/DataStructuresAndAlgorithms/BinaryTree.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/BinaryTree.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/哈希表.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/二分查找.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/冒泡排序.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/选择排序.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/插入排序.scala" />
@@ -304,12 +692,17 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_5_汇总数据源.scala" />
         <option value="$PROJECT_DIR$/input/1.txt" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_简单的WordCount.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_2_创建Dstream的数据源.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_3_有状态转化操作UpdateStateByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_4_滑动窗口函数.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_简单的WordCount带窗口函数.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" />
+        <option value="$PROJECT_DIR$/src/main/test/liulizhong/DownLoad.java" />
+        <option value="$PROJECT_DIR$/src/main/test/liulizhong/aa.java" />
+        <option value="$PROJECT_DIR$/src/main/test/liulizhong/Thread08_Atomic.java" />
       </list>
     </option>
   </component>
@@ -409,38 +802,29 @@
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alltool" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="liulizhong" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="HashPatitioner&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593681686436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594115359651" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -638,6 +1022,9 @@
       <workItem from="1593395848662" duration="9032000" />
       <workItem from="1593480295114" duration="34000" />
       <workItem from="1593480370812" duration="52018000" />
+      <workItem from="1593770406418" duration="261000" />
+      <workItem from="1594000943850" duration="6193000" />
+      <workItem from="1594110112827" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -780,7 +1167,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422561000" />
+    <option name="totallyTimeSpent" value="431251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,9 +1179,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="1912" y="-8" width="1616" height="886" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22236504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -810,7 +1198,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.33791208" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.33791208" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.80906594" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -873,48 +1261,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_快速排序.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_选择排序.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_插入排序.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_冒泡排序.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/查找_二分.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_哈希表.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/递归_迷宫.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -985,43 +1331,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#23#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/adsTop3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding>
-            <element signature="e#23#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_3_方法和属性地序列化问题.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#39#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/adsTop3.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_3_方法和属性地序列化问题.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_3_方法和属性的序列化问题.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,9 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#40#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,10 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,9 +1394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,9 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,9 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,23 +1425,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/aa.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="e#27#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/aa.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,9 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,9 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#27#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,9 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="24" column="147" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="147" />
-          <folding>
-            <element signature="e#27#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,9 +1482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#28#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,13 +1492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/input/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input/1.txt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.1.1/spark-streaming_2.11-2.1.1.jar!/org/apache/spark/streaming/receiver/Receiver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1244,13 +1514,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_4_滑动窗口函数.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_4_滑动窗口函数.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_3_有状态转化操作UpdateStateByKey.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="e#33#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1258,33 +1527,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#33#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_3_有状态转化操作UpdateStateByKey.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="30" column="88" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="88" />
-          <folding>
-            <element signature="e#33#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/DownLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="328" column="21" selection-start-line="328" selection-start-column="21" selection-end-line="328" selection-end-column="21" />
+        <state relative-caret-position="-42">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/HeroNode.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="90">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Thread08_Atomic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
