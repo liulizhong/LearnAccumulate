@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
-      <change afterPath="$PROJECT_DIR$/src/main/test/liulizhong/Thread17_Create.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/liulizhong/Thread08_Atomic.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,15 +27,16 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="52" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="55" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -51,7 +50,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="54" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,15 +62,15 @@
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="264" />
+          <entry key="java" value="265" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
           <entry key="properties" value="26" />
-          <entry key="scala" value="91" />
+          <entry key="scala" value="92" />
           <entry key="sh" value="20" />
           <entry key="txt" value="38" />
-          <entry key="xml" value="50" />
+          <entry key="xml" value="51" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
@@ -81,12 +80,12 @@
           <entry key="CLASS" value="34" />
           <entry key="DTD" value="5" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="264" />
+          <entry key="JAVA" value="265" />
           <entry key="Manifest" value="2" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="Properties" value="27" />
-          <entry key="Scala" value="91" />
-          <entry key="XML" value="52" />
+          <entry key="Scala" value="92" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -159,19 +158,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/HeroNode.scala">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Thread17_Create.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="67" />
+              <folding>
+                <element signature="e#27#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,11 +204,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>consumers.length</find>
-      <find>hadoop</find>
-      <find>headQueue</find>
-      <find>org.apache.logging.log4j</find>
-      <find>org.apache.hadoop</find>
       <find>value</find>
       <find>FSDataOutputStream</find>
       <find>calendar</find>
@@ -205,7 +211,6 @@
       <find>(a</find>
       <find>exists</find>
       <find>【6】</find>
-      <find>fastjson</find>
       <find>columns</find>
       <find>HeroNode</find>
       <find>HeroNode2</find>
@@ -223,6 +228,12 @@
       <find>,</find>
       <find>kafka-clients</find>
       <find>poll</find>
+      <find>fastjson</find>
+      <find>spark-streaming_2.11</find>
+      <find>spark-streaming-kafka-0-10_2.11</find>
+      <find>spark-sql_2.11</find>
+      <find>org.apache.kafka.clients.consumer</find>
+      <find>org.apache.kafka</find>
     </findStrings>
     <replaceStrings>
       <replace>DBUtils</replace>
@@ -255,6 +266,9 @@
       <replace>强</replace>
       <replace>age</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\workhouse\LearnAccumulate</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -291,7 +305,6 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/core/_8_广播变量.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_1_DataFrame操作.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/aa.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_3_自定义spark的弱类型聚合函数.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_4_自定义spark的强类型聚合函数.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_5_汇总数据源.scala" />
@@ -313,6 +326,7 @@
         <option value="$PROJECT_DIR$/src/main/test/liulizhong/Thread14_Lock_1.java" />
         <option value="$PROJECT_DIR$/src/main/test/liulizhong/Thread16_Lock_3.java" />
         <option value="$PROJECT_DIR$/src/main/test/liulizhong/Thread17_Create.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala" />
       </list>
     </option>
   </component>
@@ -349,15 +363,21 @@
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
           <item name="org.apache.hadoop:hadoop-client:2.7.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LearnAccumulate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.hive:hive-exec:1.2.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="384" />
-    <option name="height" value="209" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -389,8 +409,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -414,27 +432,48 @@
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="liulizhong" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="HashPatitioner&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594199028620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594199040836" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -635,7 +674,10 @@
       <workItem from="1593770406418" duration="261000" />
       <workItem from="1594000943850" duration="6193000" />
       <workItem from="1594110112827" duration="3062000" />
-      <workItem from="1594174172594" duration="4481000" />
+      <workItem from="1594174172594" duration="5351000" />
+      <workItem from="1594258567064" duration="1696000" />
+      <workItem from="1594267360170" duration="1533000" />
+      <workItem from="1594275404635" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -778,7 +820,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436558000" />
+    <option name="totallyTimeSpent" value="441352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,10 +832,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22493573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2950687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -802,15 +844,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974293" weight="0.5796703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678662" weight="0.5796703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34065935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" visible="true" weight="0.33791208" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.80906594" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" weight="0.488" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044987" side_tool="true" weight="0.33744857" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -820,7 +862,8 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195372" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41147938" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32969153" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
@@ -1037,13 +1080,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/aa.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_3_自定义spark的弱类型聚合函数.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1138,13 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1439">
@@ -1166,10 +1195,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Thread17_Create.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="343" selection-start-line="343" selection-end-line="343" />
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1180,12 +1209,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Thread17_Create.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="67" />
+          <folding>
+            <element signature="e#27#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
