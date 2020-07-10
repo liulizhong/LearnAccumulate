@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +28,7 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="55" />
+          <entry key="project.closed" value="57" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="2" />
@@ -44,48 +45,49 @@
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="57" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="4、所有关键字" value="1" />
           <entry key="MF" value="2" />
-          <entry key="class" value="34" />
+          <entry key="class" value="35" />
           <entry key="cnf" value="1" />
           <entry key="dtd" value="5" />
           <entry key="fxml" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="265" />
+          <entry key="java" value="266" />
           <entry key="kafkastart" value="1" />
           <entry key="log" value="5" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="26" />
-          <entry key="scala" value="92" />
+          <entry key="properties" value="28" />
+          <entry key="scala" value="115" />
           <entry key="sh" value="20" />
           <entry key="txt" value="38" />
-          <entry key="xml" value="51" />
+          <entry key="xml" value="53" />
           <entry key="各组件命令" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="14" />
-          <entry key="CLASS" value="34" />
+          <entry key="CLASS" value="35" />
           <entry key="DTD" value="5" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="265" />
+          <entry key="JAVA" value="266" />
           <entry key="Manifest" value="2" />
           <entry key="PLAIN_TEXT" value="52" />
-          <entry key="Properties" value="27" />
-          <entry key="Scala" value="92" />
-          <entry key="XML" value="53" />
+          <entry key="Properties" value="29" />
+          <entry key="Scala" value="115" />
+          <entry key="XML" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -96,10 +98,10 @@
           <entry key="java" value="14012" />
           <entry key="properties" value="467" />
           <entry key="py" value="8" />
-          <entry key="scala" value="11038" />
+          <entry key="scala" value="11826" />
           <entry key="sh" value="165" />
           <entry key="txt" value="5020" />
-          <entry key="xml" value="1673" />
+          <entry key="xml" value="1701" />
           <entry key="xsl" value="1" />
           <entry key="yaml" value="20" />
         </counts>
@@ -112,8 +114,8 @@
           <entry key="JAVA" value="14012" />
           <entry key="PLAIN_TEXT" value="5196" />
           <entry key="Properties" value="467" />
-          <entry key="Scala" value="11038" />
-          <entry key="XML" value="1674" />
+          <entry key="Scala" value="11826" />
+          <entry key="XML" value="1702" />
           <entry key="YAML" value="20" />
         </counts>
       </usages-collector>
@@ -160,32 +162,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="67" />
-              <folding>
-                <element signature="e#27#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="328">
+              <caret line="369" column="21" selection-start-line="369" selection-start-column="21" selection-end-line="369" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerHigh.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/offline/One_CategoryTop10Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="113">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#39#72#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/condition.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -204,12 +212,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>value</find>
-      <find>FSDataOutputStream</find>
-      <find>calendar</find>
-      <find>a</find>
-      <find>(a</find>
-      <find>exists</find>
       <find>【6】</find>
       <find>columns</find>
       <find>HeroNode</find>
@@ -228,12 +230,18 @@
       <find>,</find>
       <find>kafka-clients</find>
       <find>poll</find>
-      <find>fastjson</find>
       <find>spark-streaming_2.11</find>
       <find>spark-streaming-kafka-0-10_2.11</find>
       <find>spark-sql_2.11</find>
       <find>org.apache.kafka.clients.consumer</find>
       <find>org.apache.kafka</find>
+      <find>spark-core_2.11</find>
+      <find>spark-streaming-kafka</find>
+      <find>org.apache.spark.streaming.StreamingContext</find>
+      <find>fastjson</find>
+      <find>ConfigurationUtil</find>
+      <find>getValueFromResource</find>
+      <find>spark-hive_2.11</find>
     </findStrings>
     <replaceStrings>
       <replace>DBUtils</replace>
@@ -268,6 +276,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>C:\workhouse\LearnAccumulate</dir>
+      <dir>C:\workhouse\LearnAccumulate\src\main\java\alltool\spark\project\mock</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -276,16 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_快速排序.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/排序_冒泡排序.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/递归_迷宫.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_栈.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_二叉树.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_单链表.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_双链表.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_队列_数组.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_环形队列_数组.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_稀疏数组.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java" />
         <option value="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala" />
@@ -310,12 +309,10 @@
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_5_汇总数据源.scala" />
         <option value="$PROJECT_DIR$/input/1.txt" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_简单的WordCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_2_创建Dstream的数据源.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_3_有状态转化操作UpdateStateByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_4_滑动窗口函数.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_简单的WordCount带窗口函数.scala" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/hadoophdfs/HdfsClient.java" />
         <option value="$PROJECT_DIR$/src/main/test/liulizhong/DownLoad.java" />
@@ -327,6 +324,18 @@
         <option value="$PROJECT_DIR$/src/main/test/liulizhong/Thread16_Lock_3.java" />
         <option value="$PROJECT_DIR$/src/main/test/liulizhong/Thread17_Create.java" />
         <option value="$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_2_创建Dstream的数据源.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/classmodule.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/ConfigurationUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/RandomNum.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/RandomOptions.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/RandomDate.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/test.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/MockerOffline.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/ConfigurationUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/alltool/spark/project/offline/One_CategoryTop10Application.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hive-site.xml" />
       </list>
     </option>
   </component>
@@ -374,10 +383,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1056" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -409,6 +418,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -459,21 +469,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alltool" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alltool" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnAccumulate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnAccumulate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="HashPatitioner&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594199040836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594350106170" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic-tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -484,15 +511,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workhouse\LearnAccumulate\src" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workhouse\LearnAccumulate\src\main\resources" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\spark\sql" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\scala\liulizhong" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rhopc" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh\influxdbconsumer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="alltool.filetool" />
@@ -501,12 +528,12 @@
       <recent name="rh.consumer" />
       <recent name="alltool.Kafka.producer" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\spark\sql" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\scala\liulizhong" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rhopc" />
-      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh\influxdbconsumer" />
-      <recent name="C:\workhouse\LearnAccumulate\myinfluxdb\src\main\java\com\rh" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workhouse\LearnAccumulate\src" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\rh" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\mybatis" />
+      <recent name="C:\workhouse\LearnAccumulate\src\main\java\alltool\Kafka\producer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -521,7 +548,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Thread17_Create">
+  <component name="RunManager" selected="Application.One_CategoryTop10Application">
+    <configuration name="MockerOffline" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.project.mock.MockerOffline" />
+      <module name="LearnAccumulate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alltool.spark.project.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="One_CategoryTop10Application" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.project.offline.One_CategoryTop10Application" />
+      <module name="LearnAccumulate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alltool.spark.project.offline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Thread17_Create" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liulizhong.Thread17_Create" />
       <module name="LearnAccumulate" />
@@ -548,38 +601,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_创建Dstream的数据源" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.spark.streaming._2_创建Dstream的数据源" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="alltool.spark.project.mock.test" />
       <module name="LearnAccumulate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alltool.spark.streaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_3_有状态转化操作UpdateStateByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.spark.streaming._3_有状态转化操作UpdateStateByKey" />
-      <module name="LearnAccumulate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alltool.spark.streaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4_滑动窗口函数" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="alltool.spark.streaming._4_滑动窗口函数" />
-      <module name="LearnAccumulate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alltool.spark.streaming.*" />
+          <option name="PATTERN" value="alltool.spark.project.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -589,18 +616,18 @@
     </configuration>
     <list>
       <item itemvalue="Application._1_简单的WordCount" />
-      <item itemvalue="Application._2_创建Dstream的数据源" />
-      <item itemvalue="Application._3_有状态转化操作UpdateStateByKey" />
-      <item itemvalue="Application._4_滑动窗口函数" />
       <item itemvalue="Application.Thread17_Create" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.MockerOffline" />
+      <item itemvalue="Application.One_CategoryTop10Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.One_CategoryTop10Application" />
+        <item itemvalue="Application.MockerOffline" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Thread17_Create" />
         <item itemvalue="Application._1_简单的WordCount" />
-        <item itemvalue="Application._4_滑动窗口函数" />
-        <item itemvalue="Application._3_有状态转化操作UpdateStateByKey" />
-        <item itemvalue="Application._2_创建Dstream的数据源" />
       </list>
     </recent_temporary>
   </component>
@@ -677,7 +704,9 @@
       <workItem from="1594174172594" duration="5351000" />
       <workItem from="1594258567064" duration="1696000" />
       <workItem from="1594267360170" duration="1533000" />
-      <workItem from="1594275404635" duration="695000" />
+      <workItem from="1594275404635" duration="1639000" />
+      <workItem from="1594278251851" duration="7259000" />
+      <workItem from="1594346741824" duration="3229000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -820,7 +849,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441352000" />
+    <option name="totallyTimeSpent" value="452784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,10 +861,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="1912" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2950687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22943445" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49678662" visible="true" weight="0.46565935" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34065935" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" weight="0.48722628" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044987" side_tool="true" weight="0.33744857" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.4739011" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41131106" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32969153" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2950687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -851,7 +911,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" weight="0.488" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" visible="true" weight="0.48722628" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044987" side_tool="true" weight="0.33744857" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -864,36 +924,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.41147938" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32969153" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21465296" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974293" weight="0.43406594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34175533" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49678662" weight="0.3382353" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025707" side_tool="true" weight="0.80906594" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.44093406" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.41195372" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -915,86 +945,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/递归_迷宫.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_栈.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_二叉树.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4518">
-          <caret line="244" column="40" selection-start-line="244" selection-start-column="40" selection-end-line="244" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_双链表.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_队列_数组.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_环形队列_数组.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_稀疏数组.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/datastructuresandalgorithms/结构_单链表.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/filetool/FilesReName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/WordCount.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/adsTop3.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/KnowledgeInClass/_3_方法和属性地序列化问题.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/core/_3_方法和属性的序列化问题.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/software/java/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1160,20 +1110,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_4_滑动窗口函数.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_3_有状态转化操作UpdateStateByKey.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_2_创建Dstream的数据源.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/Kafka/consumer/ConsumerLow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1439">
@@ -1209,10 +1145,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_1_滑动窗口和有状态的WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-8">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/streaming/_2_创建Dstream的数据源.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1220,19 +1163,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/sql/_2_DataSet操作.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="67" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/software/java/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
           <folding>
-            <element signature="e#27#60#0" expanded="true" />
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar!/scala/util/Random.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/SparkSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/RandomOptions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/RandomNum.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/ConfigurationUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#36#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/RandomDate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="4" lean-forward="true" selection-end-line="37" />
+          <folding>
+            <element signature="e#36#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/MockerOffline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#36#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/mock/classmodule.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="369" column="21" selection-start-line="369" selection-start-column="21" selection-end-line="369" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/condition.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alltool/spark/project/offline/One_CategoryTop10Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#39#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
         </state>
       </provider>
     </entry>
