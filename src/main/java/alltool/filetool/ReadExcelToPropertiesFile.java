@@ -31,7 +31,7 @@ public class ReadExcelToPropertiesFile {
 //        List<Map<String,String>> list = null;
         String cellData = null;  //某单元格读取出来的数值
         String filePath = "C:\\tmp\\opc.xlsx";
-        String fileOutPath = "C:\\tmp\\opc.properties";
+        String fileOutPath = "C:\\tmp\\opchive.txt";
         FileWriter fileWriter = new FileWriter(fileOutPath);
 //        String columns[] = {"name","age","score"};
         wb = readExcel(filePath);
@@ -45,21 +45,21 @@ public class ReadExcelToPropertiesFile {
             System.out.println("总行数：" + rownum);
             //获取第一行
             row = sheet.getRow(0);
-            //获取最大列数
+            //获取最大行数
             int colnum = row.getPhysicalNumberOfCells();
             for (int i = 1; i < rownum; i++) {
 //                Map<String, String> map = new LinkedHashMap<String, String>();
                 Row newRow = sheet.getRow(i);
                 if (newRow != null) {
-                    String head = (String) getCellFormatValue(newRow.getCell(0)) + "=";
+                    String head = (String) getCellFormatValue(newRow.getCell(0)) + "^";
                     for (int j = 1; j < colnum; j++) {
-                        cellData = ((String) getCellFormatValue(newRow.getCell(j))).replaceAll("\n", "。");
+                        cellData = ((String) getCellFormatValue(newRow.getCell(j))).replaceAll("\n", "。").replaceAll(" ","");
                         if ("".equals(cellData)) {
                             cellData = "empty";
                         }
                         head = head + cellData;
                         if (j != colnum - 1) {
-                            head = head + "---";
+                            head = head + "^";
                         }
 //                        map.put(columns[j], cellData);
                     }
@@ -79,7 +79,7 @@ public class ReadExcelToPropertiesFile {
         }*/
     }
 
-    //读取excel,return：.xls -> new HSSFWorkbook  .xlsx -> new XSSFWorkbook
+    //读取封装excel对象,return：.xls -> new HSSFWorkbook  .xlsx -> new XSSFWorkbook
     public static Workbook readExcel(String filePath) {
         Workbook wb = null;
         if (filePath == null) {

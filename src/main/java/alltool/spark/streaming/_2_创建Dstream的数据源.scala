@@ -2,13 +2,14 @@ package alltool.spark.streaming
 
 import java.io.{BufferedReader, InputStreamReader}
 import java.net.Socket
+
 import kafka.serializer.StringDecoder
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.dstream.{DStream, InputDStream, ReceiverInputDStream}
-import org.apache.spark.streaming.kafka.KafkaUtils
+//import org.apache.spark.streaming.kafka.KafkaUtils
 import org.apache.spark.streaming.receiver.Receiver
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
@@ -51,12 +52,13 @@ object _2_创建Dstream的数据源 {
       ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG -> "hadoop102:9092,hadoop103:9092,hadoop104:9092"
     )
     //       2）通过KafkaUtil创建kafkaDSteam
-    val kafkaDSteam: ReceiverInputDStream[(String, String)] = KafkaUtils.createStream[String, String, StringDecoder, StringDecoder](
-      ssc,
-      kafkaParam,
-      Map("source" -> 3), // 主题topic，3是分区数量
-      StorageLevel.MEMORY_ONLY
-    )
+//    val kafkaDSteam: ReceiverInputDStream[(String, String)] = KafkaUtils.createStream[String, String, StringDecoder, StringDecoder](
+//      ssc,
+//      kafkaParam,
+//      Map("source" -> 3), // 主题topic，3是分区数量
+//      StorageLevel.MEMORY_ONLY
+//    )
+    val kafkaDSteam: ReceiverInputDStream[(String, String)] = null
     //       3）对kafkaDSteam做计算（WordCount）
     kafkaDSteam.flatMap(_._2.split(" ")).map((_, 1)).reduceByKey(_ + _).print
 
