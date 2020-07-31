@@ -1,6 +1,6 @@
 // 0、网络及端口转发(cmd里执行就ok)
     netsh interface portproxy show all       //查看本机所有端口转发情况
-    netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=50071 connectaddress=192.168.1.241 connectport=50070     //设置机器端口映射，访问本机的20000端口会转发到10.8.0.6:1525
+    netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=10145 connectaddress=10.238.255.145 connectport=10000     //设置机器端口映射，访问本机的20000端口会转发到10.8.0.6:1525
     netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=9093 connectaddress=10.238.255.151 connectport=9092
     netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=9094 connectaddress=10.238.255.152 connectport=9092
     netsh interface portproxy add v4tov4 listenaddress=10.8.0.6 listenport=9095 connectaddress=10.238.255.153 connectport=9092
