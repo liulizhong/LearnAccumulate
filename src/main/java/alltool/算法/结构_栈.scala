@@ -1,4 +1,4 @@
-package alltool.datastructuresandalgorithms
+package alltool.算法
 
 import util.control.Breaks._
 

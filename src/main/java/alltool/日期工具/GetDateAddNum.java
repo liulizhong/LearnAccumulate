@@ -1,4 +1,4 @@
-package alltool.dateortime;
+package alltool.日期工具;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -15,7 +15,7 @@ import java.util.Date;
  */
 public class GetDateAddNum {
     public static void main(String[] args) {
-        System.out.println(getLastsDay("2020-06-10",3));
+        System.out.println(getLastsDay("2020-06-10", 3));
     }
 
     /**

@@ -1,4 +1,4 @@
-package alltool.datastructuresandalgorithms
+package alltool.算法
 
 /**
   * @class 数据结构和算法 -- 迷宫问题
