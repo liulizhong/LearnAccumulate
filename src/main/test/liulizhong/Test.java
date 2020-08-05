@@ -1,5 +1,9 @@
 package liulizhong;
 
+import alltool.hbase.HbaseAPI;
+
+import java.io.IOException;
+
 /**
  * @author lizhong.liu
  * @version TODO
@@ -9,7 +13,9 @@ package liulizhong;
  * @Des TODO
  */
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        System.out.println("测试成功！！！！！");
+        System.out.println(HbaseAPI.isTableExist("bizhan:user"));
         System.out.println("测试成功！！！！！");
     }
 }

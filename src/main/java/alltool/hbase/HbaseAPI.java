@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @author lizhong.liu
  * @version TODO
- * @class HBase-API常用方法
+ * @class HBase-API 常用方法
  * @CalssName HbaseAPI
  * @create 2020-05-07 17:11
  * @Des TODO
@@ -20,23 +20,22 @@ import java.util.List;
 public class HbaseAPI {
     private static Configuration conf;
     private static HBaseAdmin admin;
-    private static Connection connection;
 
     static {
         conf = HBaseConfiguration.create();
         // 配置zookeeper集群
-        conf.set("hbase.zookeeper.quorum", "192.168.1.242,192.168.1.243,192.168.1.244");
+        conf.set("hbase.zookeeper.quorum", "192.168.1.241");
         conf.set("hbase.zookeeper.property.clientPort", "2181");
 //        conf.set("hbase.rootdir", "hdfs://192.168.1.241:8020/apps/hbase/data");
 //        conf.set("zookeeper.znode.parent", "/hbase-unsecure");
         try {
             //创建HBase连接和admin
-            connection = ConnectionFactory.createConnection(conf);
+            Connection connection = ConnectionFactory.createConnection(conf);
             admin = (HBaseAdmin) connection.getAdmin();
+            System.out.println("connection::" + connection);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("connection::" + connection);
     }
 
     /**

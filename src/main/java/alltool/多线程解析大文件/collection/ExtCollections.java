@@ -1,6 +1,6 @@
 package alltool.多线程解析大文件.collection;
 
-import com.github.tools.pub.Checks;
+import alltool.多线程解析大文件.pub.Checks;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

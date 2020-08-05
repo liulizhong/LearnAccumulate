@@ -1,4 +1,3 @@
-
 package alltool.influxdb;
 
 import org.influxdb.BatchOptions;
@@ -8,7 +7,6 @@ import org.influxdb.dto.Point;
 import org.influxdb.dto.Query;
 
 import java.util.concurrent.TimeUnit;
-
 
 /**
  * @author lizhong.liu
@@ -21,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 public class InfluxdbQuery {
     public static void main(String[] args) {
-        InfluxDB influxDB = InfluxDBFactory.connect("http://192.168.1.245:8086","administrator","abc@123@!@#");
+        InfluxDB influxDB = InfluxDBFactory.connect("http://192.168.1.245:8086", "administrator", "abc@123@!@#");
         String dbName = "mytestdb";
         influxDB.query(new Query("CREATE DATABASE " + dbName));
         influxDB.setDatabase(dbName);
