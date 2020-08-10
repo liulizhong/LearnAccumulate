@@ -8,111 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef7162c9-6fca-41fb-a708-5da93164fc6d" name="Default Changelist" comment="my.cnf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/influxdb/InfluxdbQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/collection/ExtCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/collection/ExtCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/Dates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/Dates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/IdCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/IdCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/LogFormats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/LogFormats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/Randoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alltool/多线程解析大文件/pub/Randoms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/liulizhong/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/liulizhong/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/1、组件命令行命令.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueue$$anonfun$showQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueueDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayStack2$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/ArrayStack2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$binarySearch2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$binarySearch2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinaryTree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$bubbleSort$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$bubbleSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueue$$anonfun$showQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueueDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/CircleArrayQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$del$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList$$anonfun$update$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedListDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/DoubleLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$findEmpById$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/EmpLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab$$anonfun$list$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTabDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HashTabDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/HeroNode3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$$anonfun$insertSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$3$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$4$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/MiGong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$$anonfun$quickSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$selectSort$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$$anonfun$selectSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$add$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$add2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$del$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$list$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList$$anonfun$update$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedListDemo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SingleLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$3$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$5$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/datastructuresandalgorithms/SparseArr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/dateortime/GetDateAddNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/hbase/HbaseAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alltool/hbase/HbaseAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/influxdb/InfluxdbQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alltool/influxdb/InfluxdbQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alltool/lovesurprised/Cardioid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/liulizhong/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/liulizhong/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,11 +27,11 @@
     <session id="1560965352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="72" />
+          <entry key="project.closed" value="74" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="5" />
@@ -156,7 +51,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="74" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -277,7 +172,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -288,7 +183,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="2508">
               <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
             </state>
           </provider>
@@ -297,7 +192,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="304">
               <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -532,8 +427,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -638,7 +533,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashPatitioner&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596619975769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596620073839" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/rhopc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../opcredis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -863,7 +758,8 @@
       <workItem from="1596157773428" duration="5926000" />
       <workItem from="1596419754606" duration="2318000" />
       <workItem from="1596521443705" duration="1351000" />
-      <workItem from="1596591608023" duration="7753000" />
+      <workItem from="1596591608023" duration="8038000" />
+      <workItem from="1596677674742" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1587564855318</created>
@@ -1006,7 +902,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="513630000" />
+    <option name="totallyTimeSpent" value="514535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1020,7 +916,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="886" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22879177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23200513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1029,14 +925,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41346154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678662" visible="true" weight="0.38186812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678662" weight="0.38186812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34065935" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" weight="0.364011" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49550128" visible="true" weight="0.364011" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044987" side_tool="true" weight="0.33744857" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49871466" weight="0.63049453" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -1337,13 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/azkaban/Shell_Java_Hadoop_Hive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1393,26 +1282,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/脚本(1查法2脚本3配置4笔记)/4、端口号.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
+        <state relative-caret-position="627">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alltool/hbase/HbaseAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/liulizhong/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="304">
           <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
