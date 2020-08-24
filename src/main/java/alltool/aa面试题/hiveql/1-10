@@ -1,0 +1,24 @@
+1、已知条件如下
+    用户表(t_user)
+        uid int 用户ID
+    订单表(t_order)
+        oid int 订单ID
+        uid int 用户ID
+        otime data 订单时间
+        oamount int 订单金额
+    其中用户表和订单表是一对多的关系。结果集要求：(标准SQL/HIVE或其他脚本)
+            1) 计算再2017年1月下过订单，2月份没有下过订单的用户再3月份的订单金额分布具体字段如下
+            2) 注：没匹配到3月份订单的用0填充
+            3) 注：uid，3月份订单金额超过10的订单数，3月份首次下单的金额，3月份最后一次下单的金额) 要求对订单表的查询次数不大于2次
+    答案：->   select uid,
+              sum(if(date_format(otime,'yyyy-MM')='2018-01',1,0)) month1count,
+              sum(if(date_format(otime,'yyyy-MM')='2018-02',1,0)) month2count,
+              sum(if(date_format(otime,'yyyy-MM')='2018-03'and oamount>10,1,0)) month3count,
+              sum(if(date_format(otime,'yyyy-MM')='2018-03'  and ok.rk=1 ,oamount,0)) month3first,
+              sum(if(date_format(otime,'yyyy-MM')='2018-03' and ok.rk=ct ,oamount,0)) month3last
+              from
+                  (select *,
+                  row_number()over( partition by date_format(otime,'yyyy-MM'),uid order by otime) rk,
+                  count(*)over(partition by date_format(otime,'yyyy-MM'),uid) ct from   t_order) ok
+              group by uid having month1count>0 and month2count=0
+2、
