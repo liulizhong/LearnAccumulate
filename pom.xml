@@ -99,6 +99,7 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>0.11.0.0</version>
+            <!--<version>0.10.1.0</version>-->
         </dependency>
 
         <!-- 【4】、Kafka监听器导包 -->
@@ -108,7 +109,11 @@
             <artifactId>kafka_2.12</artifactId>
             <version>0.11.0.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.11</artifactId>
+            <version>0.10.1.0</version>
+        </dependency>
         <!-- 【5】、log4j 和 src/main/respurces/log4j.properties 配合 -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -180,11 +185,13 @@
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-server</artifactId>
             <version>1.3.1</version>
+            <!--<version>1.1.2</version>-->
         </dependency>
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-client</artifactId>
             <version>1.3.1</version>
+            <!--<version>1.1.2</version>-->
         </dependency>
 
         <!-- 【14】、influxdb连接工具 https://mvnrepository.com/artifact/org.influxdb/influxdb-java -->
@@ -208,6 +215,16 @@
         </dependency>
 
         <!-- 【16】、flink消费Kafka -->
+        <dependency>
+            <groupId>org.apache.phoenix</groupId>
+            <artifactId>phoenix-core</artifactId>
+            <version>4.7.0-HBase-1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-redis_2.10</artifactId>
+            <version>1.1.5</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
@@ -247,6 +264,12 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <!--陆鹏琦的依赖-->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka_2.11</artifactId>
+            <version>1.7.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
