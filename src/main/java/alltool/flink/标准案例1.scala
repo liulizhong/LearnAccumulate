@@ -104,7 +104,7 @@ object 标准案例1 {
     //    resulthighandlow.print("connect:")
     //// 9) 合流： union 要求数据流必须相同，不同于connect的是可以同时合并多条流，即可多参。
     val allNewStream: DataStream[SensorReading] = highStrem.union(lowStrem)
-    //    allNewStream.print("union:")
+        allNewStream.print("union:")
     //// 10) 自定义函数类
     val filterSRsStream: DataStream[SensorReading] = SRsStream.filter(new MyFilterFunction())
     filterSRsStream.print("自定义UDF：")
@@ -147,9 +147,7 @@ object 标准案例1 {
     // 存到hdfs
     stream1.addSink(hdfs_sink)
 
-
-
-    // 【5】、Sink
+    // 【5】、开启任务
     env.execute()
   }
 }
