@@ -11,8 +11,11 @@ import org.apache.flink.api.java.tuple.Tuple
 import org.apache.flink.streaming.api.scala.{ConnectedStreams, DataStream, KeyedStream, StreamExecutionEnvironment}
 import org.apache.flink.api.scala._
 import org.apache.flink.configuration.Configuration
+import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.sink.{RichSinkFunction, SinkFunction}
 import org.apache.flink.streaming.api.functions.source.SourceFunction
+import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor
+import org.apache.flink.streaming.api.windowing.time.Time
 import org.apache.flink.streaming.connectors.elasticsearch.{ElasticsearchSinkFunction, RequestIndexer}
 import org.apache.flink.streaming.connectors.elasticsearch6.ElasticsearchSink
 import org.apache.flink.streaming.connectors.fs.bucketing.{BasePathBucketer, BucketingSink, DateTimeBucketer}
@@ -42,6 +45,8 @@ object 标准案例1 {
     val env = StreamExecutionEnvironment.getExecutionEnvironment //★获取流处理执行环境(自动判断是本地执行环境还是集群执行环境)
     val localEnvironment = StreamExecutionEnvironment.createLocalEnvironment(1) //获取本地执行环境并且设置并行度
     val remoteEnvironment = ExecutionEnvironment.createRemoteEnvironment("jobmanage-hostname", 6123, "YOURPATH//wordcount.jar") //获取集群执行环境
+    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime) // 开启时间语义为EventTime，默认是ProcessingTime。
+//    env.getConfig.setAutoWatermarkInterval(500)                   // 设置周期性的生成watermark，半秒
 
     // 【2】、source
     //// 1) 从集合读取数据
@@ -64,10 +69,14 @@ object 标准案例1 {
     //    val stream4 = env.addSource(new MySensorSource())
 
     // 【3】、Transform
-    //// 1) map
+    //// 1) map + Watermark
     val SRsStream: DataStream[SensorReading] = stream11.map(x => {
       val datas = x.split(",")
       SensorReading(datas(0).trim, datas(1).trim.toLong, datas(2).trim.toDouble)
+    })
+//      .assignAscendingTimestamps(_.timestamp * 1000L) //针对有序数据情况使用Watermark
+      .assignTimestampsAndWatermarks(new BoundedOutOfOrdernessTimestampExtractor[SensorReading](Time.seconds(4)) { // 对乱序数据分配时间戳和Watermark，参数是数据里最大乱序程度
+      override def extractTimestamp(element: SensorReading): Long = element.timestamp * 1000L
     })
     //    wordAndone.print("wordAndone:").setParallelism(1)
     //// 2) flatMap
@@ -104,7 +113,7 @@ object 标准案例1 {
     //    resulthighandlow.print("connect:")
     //// 9) 合流： union 要求数据流必须相同，不同于connect的是可以同时合并多条流，即可多参。
     val allNewStream: DataStream[SensorReading] = highStrem.union(lowStrem)
-        allNewStream.print("union:")
+    allNewStream.print("union:")
     //// 10) 自定义函数类
     val filterSRsStream: DataStream[SensorReading] = SRsStream.filter(new MyFilterFunction())
     filterSRsStream.print("自定义UDF：")
