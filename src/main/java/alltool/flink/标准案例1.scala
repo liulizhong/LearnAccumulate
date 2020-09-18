@@ -46,7 +46,7 @@ object 标准案例1 {
     val localEnvironment = StreamExecutionEnvironment.createLocalEnvironment(1) //获取本地执行环境并且设置并行度
     val remoteEnvironment = ExecutionEnvironment.createRemoteEnvironment("jobmanage-hostname", 6123, "YOURPATH//wordcount.jar") //获取集群执行环境
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime) // 开启时间语义为EventTime，默认是ProcessingTime。
-//    env.getConfig.setAutoWatermarkInterval(500)                   // 设置周期性的生成watermark，半秒
+    //    env.getConfig.setAutoWatermarkInterval(500)                   // 设置周期性的生成watermark，半秒
 
     // 【2】、source
     //// 1) 从集合读取数据
@@ -74,7 +74,7 @@ object 标准案例1 {
       val datas = x.split(",")
       SensorReading(datas(0).trim, datas(1).trim.toLong, datas(2).trim.toDouble)
     })
-//      .assignAscendingTimestamps(_.timestamp * 1000L) //针对有序数据情况使用Watermark
+      //      .assignAscendingTimestamps(_.timestamp * 1000L) //针对有序数据情况使用Watermark
       .assignTimestampsAndWatermarks(new BoundedOutOfOrdernessTimestampExtractor[SensorReading](Time.seconds(4)) { // 对乱序数据分配时间戳和Watermark，参数是数据里最大乱序程度
       override def extractTimestamp(element: SensorReading): Long = element.timestamp * 1000L
     })
