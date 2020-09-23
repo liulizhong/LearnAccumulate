@@ -31,14 +31,14 @@ import org.elasticsearch.client.Requests
 import scala.util.Random
 
 /**
-  * @class ??
+  * @class flink-api(source + 算子+ sink + 自定义UDF函数) 、 时间语义与Wartermark
   * @CalssName 标准案例1
   * @author lizhong.liu 
   * @create 2020-09-14 15:20
   * @Des TODO
   * @version TODO
   */
-object 标准案例1 {
+object O1_source_operator_sink_udf_watermark {
   def main(args: Array[String]): Unit = {
     // 【1】、获取flink的执行环境
     val executionEnvironment = ExecutionEnvironment.getExecutionEnvironment //获取批处理执行环境

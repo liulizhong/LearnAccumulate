@@ -7,14 +7,14 @@ import org.apache.flink.streaming.api.windowing.time.Time
 import org.apache.flink.streaming.api.windowing.windows.{GlobalWindow, TimeWindow}
 
 /**
-  * @class ??
+  * @class flink的各类窗口函数
   * @CalssName Flink_Window
   * @author lizhong.liu 
   * @create 2020-09-16 10:40
   * @Des TODO
   * @version TODO
   */
-object Flink_Window {
+object O2_flink_window {
   def main(args: Array[String]): Unit = {
     //【0】环境及数据准备
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
