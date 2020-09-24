@@ -16,9 +16,12 @@
 ###### 请求URL
 > http://10.238.255.252:9008/docs/index
 
+###### 详见protobuf设计文档
+> http://106.120.237.30:8088/base/opcredis/blob/master/rhtect-restful/src/main/proto/ruihua.rpc.apiService.proto
+> http://106.120.237.30:8088/base/opcredis/blob/master/rhtect-restful/src/main/proto/ruihua.rpc.common.proto
+
 ###### 参数支持格式
 > GetLatestDataRequest
-
 
 ###### 返回值类型
 > StreamObserver<GetLatestDataResponse>
@@ -27,25 +30,35 @@
 > GET
 
 ###### 请求参数
-|参数               |必选       |类型           |说明                                |
-|-----              |-------    |-----          |-----                               |
-|appAuth            |true       |DataNameItem        |类比String类型的数组，可填0~n个值|
-|systemNames        |false       |DataNameItem       |类比String类型的数组，可填0~n个值|
-|categoryNames      |false       |DataNameItem       |类比String类型的数组，可填0~n个值|
-|equipmentNames     |false       |DataNameItem       |类比String类型的数组，可填0~n个值|
-|clients            |true       |DataNameItem        |类比String类型的数组，可填0~n个值|
-|descriptions      |false       |DataNameItem        |类比String类型的数组，可填0~n个值|
-|columns           |false       |DataNameItem        |类比String类型的数组，可填0~n个值， 可选列设备时间"DATA_TIME"、点表名"POINT_NAME"、点表值"POINT_VALUE"、点表状态"POINT_QUALITY"、拉取时间"PULL_TIME"|
+|参数               |必选       |类型             |例子                     |说明                                |
+|-----              |-------    |-----            |---                      |-----                               |
+|appAuth            |true       |DataNameItem     |  {"ruihua":"pwd@123"} |类比String类型的数组，可填0~n个值|
+|systemNames        |false       |DataNameItem    | "安全监测系统"        |类比String类型的数组，可填0~n个值|
+|categoryNames      |false       |DataNameItem    |  "地面环境监测"       |类比String类型的数组，可填0~n个值|
+|equipmentNames     |false       |DataNameItem    |  "虎龙沟风井湿度"     |类比String类型的数组，可填0~n个值|
+|clients            |true       |DataNameItem     |  "HJJC01FT02"         |类比String类型的数组，可填0~n个值|
+|descriptions      |false       |DataNameItem     |  "温度","湿度"        |类比String类型的数组，可填0~n个值|
+|columns           |false       |DataNameItem     | "DATA_TIME","POINT_NAME","POINT_VALUE","POINT_QUALITY","PULL_TIME"  |类比String类型的数组，可填0~n个值， 可选列设备时间"DATA_TIME"、点表名"POINT_NAME"、点表值"POINT_VALUE"、点表状态"POINT_QUALITY"、拉取时间"PULL_TIME"|
 
 ###### 返回字段
-|返回字段   |字段类型       | 说明                              |
-|-----      |------         | -----------------------------   |
-|header     |int            | 返回结果状态。0：正常；1：错误。   |
-|dataMap    |DataValueItem  |  DataValueItem类型的数组，  |
+|返回字段   |字段类型                           | 说明                              |
+|-----      |------                             | -----------------------------   |
+|header     |CommonResponse                     | 返回结果状态。       |
+|dataMap    |map<string,string> dataMap         | 属性和值的Map集合  |
 
 ###### 接口源码
 > 地址：[http://106.120.237.30:8088/base/opcredis/blob/master/rhtect-restful/src/main/java/rhtect/data/restful/rhtectrestful/gRPC/grpcserver/GRpcApiServer.java]
 
+###### 返回数据格式实例
+[client: "HJJC01FT02",
+datetime: "2020-09-23 19:37:13",
+dataMap { 
+"DATA_TIME": "2020-09-22 19:15:18",
+"POINT_NAME":"HJJC01FT02",
+"POINT_VALUE": "0.0",
+"POINT_QUALITY": "Good",
+"PULL_TIME": "2020-09-23 19:25:21"
+}] 
 
 ###### 测试调用实例
 <details>
@@ -93,6 +106,10 @@
 ###### 请求URL
 > http://10.238.255.252:9008/docs/index
 
+###### 详见protobuf设计文档
+> http://106.120.237.30:8088/base/opcredis/blob/master/rhtect-restful/src/main/proto/ruihua.rpc.apiService.proto
+> http://106.120.237.30:8088/base/opcredis/blob/master/rhtect-restful/src/main/proto/ruihua.rpc.common.proto
+
 ###### 参数支持格式
 > GetCustomizedDataRequest
 
@@ -103,29 +120,39 @@
 > GET
 
 ###### 请求参数
-|参数               |必选       |类型           |说明                                |
-|-----              |-------    |-----          |-----                               |
-|appAuth            |true       |DataNameItem        |类比String类型的数组，可填0~n个值|
-|systemNames        |false       |DataNameItem       |类比String类型的数组，可填0~n个值|
-|categoryNames      |false       |DataNameItem       |类比String类型的数组，可填0~n个值|
-|equipmentNames     |false       |DataNameItem       |类比String类型的数组，可填0~n个值|
-|clients            |true       |DataNameItem        |类比String类型的数组，可填0~n个值|
-|descriptions      |false       |DataNameItem        |类比String类型的数组，可填0~n个值|
-|columns           |false       |DataNameItem        |类比String类型的数组，可填0~n个值， 可选列设备时间"DATA_TIME"、点表名"POINT_NAME"、点表值"POINT_VALUE"、点表状态"POINT_QUALITY"、拉取时间"PULL_TIME"|
-|starttime         |true        |string              |筛选数据的开始时间for example: 2020-09-21 13:50:33|
-|endtime           |true        |string              |筛选数据的结束时间for example: 2020-09-21 15:50:33|
-|limit             |false       |DataNameItem        |数据条数限制，sql语句中的limit|
+|参数               |必选       |类型            |例子                     |说明                              |
+|-----              |-------    |-----           |---                      |-----                             |
+|appAuth            |true       |DataNameItem    |  {"ruihua":"pwd@123"}   |类比String类型的数组，可填0~n个值|
+|systemNames        |false       |DataNameItem   | "安全监测系统"          |类比String类型的数组，可填0~n个值|
+|categoryNames      |false       |DataNameItem   |  "地面环境监测"         |类比String类型的数组，可填0~n个值|
+|equipmentNames     |false       |DataNameItem   |  "虎龙沟风井湿度"       |类比String类型的数组，可填0~n个值|
+|clients            |true       |DataNameItem    |  "HJJC01FT02"           |类比String类型的数组，可填0~n个值|
+|descriptions      |false       |DataNameItem    |  "温度","湿度"          |类比String类型的数组，可填0~n个值|
+|columns           |false       |DataNameItem    | "DATA_TIME","POINT_NAME","POINT_VALUE","POINT_QUALITY","PULL_TIME"  |类比String类型的数组，可填0~n个值， 可选列设备时间"DATA_TIME"、点表名"POINT_NAME"、点表值"POINT_VALUE"、点表状态"POINT_QUALITY"、拉取时间"PULL_TIME"|
+|starttime         |true        |string          | "2020-09-21 13:50:33"  |筛选数据的开始时间|
+|endtime           |true        |string          | "2020-09-21 15:50:33"  |筛选数据的结束时间|
+|limit             |false       |DataNameItem    |  1000                  |数据条数限制，sql语句中的limit|
 
 ###### 返回字段
 |返回字段           |字段类型           |说明                              |
 |-----              |------             |-----------------------------   |
-|client             |string             | 返回客户|
-|datetime           |string             | 数据的时间 |
-|dataMap            |DataValueItem      | DataColumnItem类型的数组，   |
+|client             |string             | 返回点表名|
+|datetime           |string             | 数据的时间|
+|columnValues       |map<string,string> | 属性和值的Map集合   |
 
 ###### 接口源码
 > 地址：[http://106.120.237.30:8088/base/opcredis/blob/master/rhtect-restful/src/main/java/rhtect/data/restful/rhtectrestful/gRPC/grpcserver/GRpcApiServer.java]
 
+###### 返回数据格式实例
+[client: "HJJC01FT02",
+datetime: "2020-09-23 19:37:13",
+dataMap { 
+"DATA_TIME": "2020-09-22 19:15:18",
+"POINT_NAME":"HJJC01FT02",
+"POINT_VALUE": "0.0",
+"POINT_QUALITY": "Good",
+"PULL_TIME": "2020-09-23 19:25:21"
+}] 
 
 ###### 测试调用实例
 <details>
