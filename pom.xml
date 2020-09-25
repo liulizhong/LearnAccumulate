@@ -216,6 +216,11 @@
 
         <!-- 【16】、flink消费Kafka -->
         <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table_2.11</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-core</artifactId>
             <version>4.7.0-HBase-1.1</version>
