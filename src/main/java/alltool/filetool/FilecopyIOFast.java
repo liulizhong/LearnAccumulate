@@ -36,13 +36,13 @@ public class FilecopyIOFast {
 
     private static void copyFileIOStr(String src, String dec_event, String dec_startup) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader(src));
-        BufferedWriter eventWriter = new BufferedWriter(new FileWriter(dec_event));
-        BufferedWriter startupWriter = new BufferedWriter(new FileWriter(dec_startup));
+        BufferedWriter eventWriter = new BufferedWriter(new FileWriter(dec_event,true));
+        BufferedWriter startupWriter = new BufferedWriter(new FileWriter(dec_startup,true));
         int num = 0;
         while (true) {
             String readLine = bufferedReader.readLine();
             if (readLine == null) {
-                return;
+                break;
             }
             if (readLine.contains("\"type\":\"event\"") && readLine.contains("\"type\":\"startup\"")) {
                 System.out.println("数据有问题" + ++num);
@@ -54,12 +54,15 @@ public class FilecopyIOFast {
                 System.out.println("数据有问题" + ++num);
             }
         }
+        eventWriter.close();
+        startupWriter.close();
+        bufferedReader.close();
     }
 
     //普通复制文件
     private static void copyFileIO(String src, String dec) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(src);
-        FileOutputStream fileOutputStream = new FileOutputStream(dec);
+        FileOutputStream fileOutputStream = new FileOutputStream(dec,true);
         int len;
         byte[] bytes = new byte[1024];
         while (true) {
@@ -69,12 +72,14 @@ public class FilecopyIOFast {
             }
             fileOutputStream.write(bytes);
         }
+        fileOutputStream.close();
+        fileInputStream.close();
     }
 
     //高效复制文件
     private static void copyFileIOFast(String src, String dec) throws IOException {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(src));
-        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(dec));
+        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(dec, true));
         int len;
         byte[] bytes = new byte[2048];
         while (true) {
@@ -84,5 +89,7 @@ public class FilecopyIOFast {
             }
             bufferedOutputStream.write(bytes);
         }
+        bufferedOutputStream.close();
+        bufferedInputStream.close();
     }
 }
