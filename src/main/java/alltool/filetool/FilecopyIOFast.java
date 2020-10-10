@@ -20,24 +20,27 @@ public class FilecopyIOFast {
         String src = "D:\\tmp\\hive\\data.txt";
         String dec_event = "D:\\tmp\\hive\\event_log.txt";
         String dec_startup = "D:\\tmp\\hive\\startup_log.txt";
-//        File fileParents = new File("F:\\liulizhong\\opcdata\\" + date.substring(0, 7));
-//        if (!fileParents.exists()) {
-//            fileParents.mkdirs();
-//        }
-//        long start = System.currentTimeMillis();
-//        copyFileIO("D:\\software\\idea\\ideaIU-2018.2.5.exe","d://ideaIU-2018.2.5.exe"); //用时6950
-        copyFileIOStr(
+
+        // 测试方法 1
+        copyFileIOToTwoFile(
                 src,
                 dec_event,
                 dec_startup);  //用时5380
-//        long end = System.currentTimeMillis();
-//        System.out.println("复制完成，时间为： " + (start - end));
+
+        // 测试方法 4
+        File[] files = new File("C:\\tmp\\result\\").listFiles();
+        for (File filesrc : files) {
+            copyFileIOAddStr(filesrc.getAbsolutePath(), "C:\\tmp\\oneopcalltest.txt", filesrc.getName().split("_")[0]);
+//            System.out.println(filesrc.getName().split("_")[0]);
+        }
+
     }
 
-    private static void copyFileIOStr(String src, String dec_event, String dec_startup) throws IOException {
+    // 1、根据数据内容分流写入到不通过文件夹
+    private static void copyFileIOToTwoFile(String src, String dec_event, String dec_startup) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new FileReader(src));
-        BufferedWriter eventWriter = new BufferedWriter(new FileWriter(dec_event,true));
-        BufferedWriter startupWriter = new BufferedWriter(new FileWriter(dec_startup,true));
+        BufferedWriter eventWriter = new BufferedWriter(new FileWriter(dec_event, true));
+        BufferedWriter startupWriter = new BufferedWriter(new FileWriter(dec_startup, true));
         int num = 0;
         while (true) {
             String readLine = bufferedReader.readLine();
@@ -46,7 +49,7 @@ public class FilecopyIOFast {
             }
             if (readLine.contains("\"type\":\"event\"") && readLine.contains("\"type\":\"startup\"")) {
                 System.out.println("数据有问题" + ++num);
-            }else if (readLine.contains("\"type\":\"event\"")) {
+            } else if (readLine.contains("\"type\":\"event\"")) {
                 eventWriter.write(readLine + "\r\n");
             } else if (readLine.contains("\"type\":\"startup\"")) {
                 startupWriter.write(readLine + "\r\n");
@@ -59,10 +62,10 @@ public class FilecopyIOFast {
         bufferedReader.close();
     }
 
-    //普通复制文件
+    // 2、普通复制文件
     private static void copyFileIO(String src, String dec) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(src);
-        FileOutputStream fileOutputStream = new FileOutputStream(dec,true);
+        FileOutputStream fileOutputStream = new FileOutputStream(dec, true);
         int len;
         byte[] bytes = new byte[1024];
         while (true) {
@@ -76,7 +79,7 @@ public class FilecopyIOFast {
         fileInputStream.close();
     }
 
-    //高效复制文件
+    // 3、高效复制文件
     private static void copyFileIOFast(String src, String dec) throws IOException {
         BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream(src));
         BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(dec, true));
@@ -91,5 +94,21 @@ public class FilecopyIOFast {
         }
         bufferedOutputStream.close();
         bufferedInputStream.close();
+    }
+
+    // 4、复制文件，并添加指定字符串
+    private static void copyFileIOAddStr(String src, String dec, String str) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(src));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(dec, true));
+        int num = 0;
+        while (true) {
+            String readLine = bufferedReader.readLine();
+            if (readLine == null) {
+                break;
+            }
+            bufferedWriter.write(str + "," + readLine + "\r\n");
+        }
+        bufferedWriter.close();
+        bufferedReader.close();
     }
 }
