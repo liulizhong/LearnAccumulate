@@ -14,8 +14,6 @@ import java.io.IOException;
  */
 public class Test {
     public static void main(String[] args) throws IOException {
-        System.out.println("测试成功！！！！！");
-        System.out.println(HbaseAPI.isTableExist("bizhan:user"));
-        System.out.println("测试成功！！！！！");
+        System.out.println("123456789".substring(2,7));
     }
 }
