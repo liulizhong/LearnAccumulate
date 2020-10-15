@@ -22,12 +22,13 @@ import scala.collection.mutable.ListBuffer
 /**
   * @class 需求一：实时热门商品统计
   *        -- 1小时窗口大小滑动5分钟，实时统计这一小时内广告点击量前三的展示
-  * @CalssName UserBehavior
+  * @CalssName HotItems
   * @author lizhong.liu
   * @create 2020-10-14 16:11
   * @Des TODO
   * @version TODO
   */
+
 // 定义输入数据的样例类
 case class UserBehavior(userId: Long, itemId: Long, categoryId: Int, behavior: String, timestamp: Long)
 
