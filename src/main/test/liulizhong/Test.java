@@ -14,6 +14,13 @@ import java.io.IOException;
  */
 public class Test {
     public static void main(String[] args) throws IOException {
-        System.out.println("123456789".substring(2,7));
+        System.out.println("开始");
+        for (int i = 0; i < 100; i++) {
+            if (i == 10) {
+                break;
+            }
+            System.out.println(i);
+        }
+        System.out.println("出来了！！！");
     }
 }

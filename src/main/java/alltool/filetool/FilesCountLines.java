@@ -16,6 +16,7 @@ public class FilesCountLines {
     public static void main(String[] args) throws IOException {
         // 1、简单计算一个文件的总行数
         System.out.println(Files.lines(Paths.get("C:\\tmp\\oneopcall.txt")).count());
+        int i = "abc,df,v,s,e".split(",").length;
 /*      // 2、计算一个文件夹下所有文件的总行数
         String[] src = {"C:\\tmp\\result"};
         Long count = 0L;
@@ -29,7 +30,6 @@ public class FilesCountLines {
         System.out.println("count:" + count);
 */
     }
-
     public static Long countFileLines(String dir) throws IOException {
         long count = Files.lines(Paths.get(dir)).count();
 
