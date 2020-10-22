@@ -20,7 +20,7 @@
     bin/kafka-topics.sh --zookeeper 10.238.251.3:2181 --create --replication-factor 3 --partitions 1 --topic first     //创建topic：--replication-factor  定义副本数，不能大于节点数
     bin/kafka-topics.sh --zookeeper 10.238.251.3:2181 --delete --topic first                                           //删除topic
     bin/kafka-console-producer.sh --broker-list 10.238.251.3:9092 --topic first                                        //命令行给topic发送消息
-    bin/kafka-console-consumer.sh --bootstrap-server 1.238.251.3:9092 --from-beginning --topic opc-olddata  --consumer.config config/consumer.properties    //消费消息(--from-beginning 把主题下所有数据都消费出来)
+    bin/kafka-console-consumer.sh --bootstrap-server 10.238.251.3:9092 --from-beginning --topic opc-olddata  --consumer.config config/consumer.properties    //消费消息(--from-beginning 把主题下所有数据都消费出来)
     bin/kafka-topics.sh --zookeeper 10.238.251.3:2181 --describe --topic first                                         //查看某个topic详情
     bin/kafka-console-consumer.sh --topic __consumer_offsets --zookeeper 10.238.251.3:2181 \
         --formatter "kafka.coordinator.group.GroupMetadataManager\$OffsetsMessageFormatter" \

@@ -22,6 +22,7 @@ import org.apache.flink.util.Collector
   * @Des TODO
   * @version TODO
   */
+
 // 输入log数据样例类
 case class AdClickLog(userId: Long, adId: Long, province: String, city: String, timestamp: Long)
 
