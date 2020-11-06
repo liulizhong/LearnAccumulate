@@ -16,14 +16,15 @@ public class FilesReName {
     @Test
     public void reNameFile() throws Exception {
         reNameFiles(
-                new File("D:\\studyware\\bizdata_module\\10、李海波_Spark_JVM_Thread\\1、哔站大数据技术之spark基础\\4.视频\\00 - Spark之前视频排版补充"),
-                "scala核心编程-",
-                "");
-        reNameFiles(new File("D:\\studyware\\bizdata_module\\10、李海波_Spark_JVM_Thread\\1、哔站大数据技术之spark基础\\4.视频\\00 - Spark之前视频排版补充"),"00");
+                new File("D:\\study\\bizdata_module\\21、实时项目(13day)\\"),
+                "__",
+                "_");
+//        reNameFiles(new File("D:\\studyware\\bizdata_module\\10、李海波_Spark_JVM_Thread\\1、哔站大数据技术之spark基础\\4.视频\\00 - Spark之前视频排版补充"),
+//                "00");
     }
 
     /**
-     * 方法一： 文件夹下递归改文件名
+     * 方法一： 文件夹下递归改文件名：将一个字符串修改为另一个字符串
      *
      * @param file
      * @param regex       正则匹配内容
@@ -51,7 +52,7 @@ public class FilesReName {
     }
 
     /**
-     * 方法二： 文件夹下递归改文件的名,前边加指定字符串
+     * 方法二： 文件夹下递归改文件的名：前边加指定字符串
      *
      * @param file
      * @throws Exception
@@ -69,7 +70,7 @@ public class FilesReName {
             if (!file.exists() || null == file || files.length == 0) {
             } else {
                 for (File newFile : files) {
-                    reNameFiles(newFile,str);
+                    reNameFiles(newFile, str);
                 }
             }
         } else if (file.isFile()) {

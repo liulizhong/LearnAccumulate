@@ -14,13 +14,16 @@ import java.io.IOException;
  */
 public class Test {
     public static void main(String[] args) throws IOException {
-        System.out.println("开始");
-        for (int i = 0; i < 100; i++) {
-            if (i == 10) {
-                break;
-            }
-            System.out.println(i);
+        int num = 0;
+        if (num == 2) {
+            System.out.println("chengli");
         }
-        System.out.println("出来了！！！");
+        System.out.println("你好老婆！！！");
+    }
+}
+
+class Test2{
+    public static void main(String[] args) {
+        System.out.println("你好2老婆！！！！");
     }
 }

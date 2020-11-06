@@ -1,33 +1,25 @@
 package alltool.aa面试题.力扣算法题;
 
-import org.apache.commons.lang3.ArrayUtils;
-import org.junit.Test;
+import java.util.HashMap;
 
-import java.util.Arrays;
-
-/**
- * @author lizhong.liu
- * @version TODO
- * @class ??
- * @CalssName 算法题
- * @create 2020-10-13 15:35
- * @Des TODO
- */
+// 力扣算法题
 public class 算法题 {
-    @Test  // 1. 两数之和
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length - 1; i++) {
-            for (int j = i + 1; j < nums.length; i++) {
-                if (nums[i] + nums[j] == target) {
-                    return new int[]{i, j};
-                }
+
+    // 1.两数之和
+    public static int[] leetcode1(int[] nums, int target) {
+        HashMap hashMap = new HashMap<Integer, Integer>();
+        for (int i = 0; i < nums.length; i++) {
+            if (hashMap.containsKey(target - nums[i])) {
+                return new int[]{(Integer) hashMap.get(target - nums[i]), i};
+            } else {
+                hashMap.put(nums[i], i);
             }
         }
-        return new int[]{};
+        return null;
     }
 
-    @Test  // 2. 两数相加
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    // 2. 两数相加
+    public ListNode leetcode2(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(-1);
         ListNode pro = result;
         int t = 0;
@@ -47,90 +39,126 @@ public class 算法题 {
         return result.next;
     }
 
-    @Test // 3. 无重复字符的最长子串
-    public int lengthOfLongestSubstring(String s) {
+    // 3. 无重复字符的最长子串
+    public int leetcode3(String s) {
         int chang = 0;
-        if (s.length() > 0) chang = 1;
-        for (int i = 0; i < s.length() - 1; i++) {
-            String strtmp = s.charAt(i) + "";
-            for (int j = i + 1; j < s.length(); j++) {
-                if (strtmp.contains(s.charAt(j) + "")) {
-                    if (strtmp.length() > chang) {
-                        chang = strtmp.length();
-                    }
-                    break;
-                } else {
-                    strtmp += s.charAt(j);
-                    if (strtmp.length() > chang) {
-                        chang = strtmp.length();
-                    }
+        String str = "";
+        for (int i = 0; i < (s.length()); i++) {
+            String cha = s.charAt(i) + "";
+            if (!str.contains(cha)) {
+                str += cha;
+                System.out.println("不包含str：" + str);
+            } else {
+                while (str.contains(cha)) {
+                    str = str.substring(1);
+                    System.out.println("包含-循环str：" + str);
                 }
-
+                str += cha;
+                System.out.println("包含str：" + str);
+            }
+            if (chang < str.length()) {
+                chang = str.length();
             }
         }
         return chang;
     }
 
-    @Test // 4. 寻找两个正序数组的中位数
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-//        int[] nums = new int[nums1.length+nums2.length];
-//        for (int i = 0; i < nums1.length; i++) {
-//            nums[i] = nums[i];
-//        }
-//        for (int i = 0; i < nums2.length; i++) {
-//            nums[i+nums1.length] = nums[i];
-//        }
-        int[] nums = ArrayUtils.addAll(nums1, nums2);
-        Arrays.sort(nums);
-        int length = nums.length;
+    // 4. 寻找两个正序数组的中位数
+    public double leetcode4(int[] nums1, int[] nums2) {
+        int length = nums1.length + nums2.length;
+        int[] result = new int[length];
+        int index1 = 0;
+        int index2 = 0;
+        int indexResult = 0;
+        while (index1 < nums1.length || index2 < nums2.length) {
+            if (index1 >= nums1.length) {
+                result[indexResult++] = nums2[index2++];
+                continue;
+            }
+            if (index2 >= nums2.length) {
+                result[indexResult++] = nums1[index1++];
+                continue;
+            }
+            if (nums1[index1] < nums2[index2]) {
+                result[indexResult++] = nums1[index1++];
+            } else {
+                result[indexResult++] = nums2[index2++];
+            }
+        }
         if (length % 2 == 0) {
-            return (double) (nums[length / 2] + nums[length / 2 - 1]) / 2;
+            return (result[length / 2] + result[length / 2 - 1]) / 2.0;
         } else {
-            return (double) nums[length / 2];
+            return result[length / 2];
         }
     }
 
-    @Test // 5. 最长回文子串
-    public String longestPalindrome(String s) {
-        int length = s.length();
-        for (int i = length; i > 1; i--) {
-            for (int j = 0; j < length - i + 1; j++) {
-                String substring = s.substring(i, j + length - 1);
-                if (huiwen(substring)) {
-                    return substring;
-                }
+    // 5. 最长回文子串
+    public String leetcode5(String s) {
+        int len = s.length();
+        int maxl = 0;       // 记录最大回文串长度。
+        String maxStr = ""; // 记录最大回文字符串。
+        int index = 0;      // 下标开始位置
+        while (index < len) {
+            int left = index;
+            int right = index;
+            while (index < len - 1 && s.charAt(index) == s.charAt(index + 1)) {
+                index++;
+                right++;
             }
-        }
-        return s.charAt(0) + "";
-    }
-
-    public Boolean huiwen(String str) {
-        for (int i = 0; i <= str.length() / 2; i++) {
-            if (str.charAt(i) != str.charAt(str.length() - 1 - i)) {
-                return false;
+            while (right < len && left >= 0 && s.charAt(right) == s.charAt(left)) {
+                right++;
+                left--;
             }
+            right--;
+            left++;
+            if (right - left + 1 > maxl) {
+                maxl = right - left + 1;
+                maxStr = s.substring(left, right + 1);
+            }
+            index++;
         }
-        return true;
+        return maxStr;
     }
 
-    @Test // 6. Z 字形变换
-    public String convert(String s, int numRows) {
+    // 6. Z 字形变换
+    public String leetcode6(String s, int numRows) {
+        String[] temp = new String[numRows];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = "";
+        }
         String result = "";
-        if (s.length() > 0) {
-            for (int i = 0; i < s.length(); i = i + 4) {
-                result += s.charAt(i);
+        if ("".equals(s) || numRows < 1) return result;
+        if (numRows == 1) return s;
+        for (int i = 0; i < s.length(); i++) {
+            int yushu = i % (numRows - 1);
+            int beishu = i / (numRows - 1);
+            if (beishu % 2 == 0) {
+                temp[yushu] += s.charAt(i);
+            } else {
+                temp[numRows - 1 - yushu] += s.charAt(i);
             }
         }
-        if (s.length() > 1) {
-            for (int i = 1; i < s.length(); i = i + 2) {
-                result += s.charAt(i);
-            }
-        }
-        if (s.length() > 2) {
-            for (int i = 2; i < s.length(); i = i + 4) {
-                result += s.charAt(i);
+        for (int i = 0; i < temp.length; i++) {
+            if (temp[i] != "") {
+                result += temp[i];
             }
         }
         return result;
+    }
+
+    // 7. 整数反转
+    public int leetcode7(int x) {
+        long l = 0;
+        while (x != 0) {
+            int wei = x % 10;
+            l = l * 10 + wei;
+            x = x / 10;
+        }
+        return (int) l == l ? (int) l : 0;
+    }
+
+    // 8. 字符串转换整数 (atoi)
+    public int leetcode8(String s) {
+        return 0;
     }
 }
