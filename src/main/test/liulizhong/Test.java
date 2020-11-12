@@ -14,16 +14,22 @@ import java.io.IOException;
  */
 public class Test {
     public static void main(String[] args) throws IOException {
-        int num = 0;
-        if (num == 2) {
-            System.out.println("chengli");
+        int i = 0;
+        int j = 0;
+        while (i < 10) {
+            while (j <= 5) {
+                if (i == 8) {
+                    return;
+                }
+                if (j == 2) {
+                    break;
+                }
+                j++;
+            }
+            i++;
         }
-        System.out.println("你好老婆！！！");
-    }
-}
-
-class Test2{
-    public static void main(String[] args) {
-        System.out.println("你好2老婆！！！！");
+        System.out.println("外边代码执行了");
+        System.out.println(i);
+        System.out.println(j);
     }
 }
