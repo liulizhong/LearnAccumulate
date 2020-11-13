@@ -38,7 +38,8 @@ public class 算法题 {
     }
 
     // 4.重建二叉树
-    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
-
+    public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
+        TreeNode treeNode = new TreeNode(3);
+        return treeNode;
     }
 }
