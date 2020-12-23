@@ -39,7 +39,11 @@ public class JedisPooltool {
         sentinels.add("10.238.255.196:6379");
         poolConfig = new JedisPoolConfig();  //先配置连接池
         poolConfig.setMaxIdle(8);   //最大空数
+        poolConfig.setMinIdle(20);  //最小空闲
         poolConfig.setMaxTotal(18); //最大链接数
+        poolConfig.setBlockWhenExhausted(true);  //忙碌时是否等待
+        poolConfig.setMaxWaitMillis(5000);        //忙碌时等待时长 毫秒
+        poolConfig.setTestOnBorrow(true);        //每次获得连接的进行测试
         JedisSentinelPool sentinelPool = new JedisSentinelPool("mymaster", sentinels, poolConfig, 2000);//参数里还可设置密码
         jedis = sentinelPool.getResource();
         System.out.println("ping:" + jedis.ping());     //测试连通性

@@ -37,7 +37,16 @@ object _1_滑动窗口和有状态的WordCount {
     // 7、窗口函数：reduceByKeyAndWindow
     val wordAndCountStreamsWindow: DStream[(String, Int)] = wordAndOneStreams.reduceByKeyAndWindow((x: Int, y: Int) => x + y, Seconds(12), Seconds(6))
     wordAndCountStreamsWindow.print()
-
+//保存到Hbase
+    import org.apache.phoenix.spark._
+    objectDstream.foreachRDD{
+      rdd=>{
+        rdd.saveToPhoenix("GMALL0421_BASE_CATEGORY3",
+          Seq("ID", "NAME", "CATEGORY2_ID" )
+          ,new Configuration,Some("hadoop202,hadoop203,hadoop204:2181"))
+        OffsetManagerUtil.saveOffset(topic,groupId, offsetRanges)
+      }
+    }
     // 8、有状态转换：updateStateByKey
     val wordAndCountStreamsStatus: DStream[(String, Int)] = wordAndOneStreams.updateStateByKey((seq: Seq[Int], option: Option[Int]) => {
       val totalcnt: Int = seq.sum + option.getOrElse(0)
