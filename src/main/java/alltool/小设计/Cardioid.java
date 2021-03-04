@@ -12,11 +12,9 @@ import javax.swing.JFrame;
  * @Des TODO
  */
 public class Cardioid extends JFrame {
-
     //获取屏幕大小
     private static final int WIDTH = 500;
     private static final int HEIGHT = 500;
-
     private static int WINDOW_WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width;
     private static int WINDOW_HEIGHT = Toolkit.getDefaultToolkit().getScreenSize().height;
 
@@ -45,7 +43,6 @@ public class Cardioid extends JFrame {
             g.drawImage(image, 0, 0, this);//生成图片
         }
     }
-
 
     public static void main(String[] args) {
         new Cardioid();
