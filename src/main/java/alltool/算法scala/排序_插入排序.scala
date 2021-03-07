@@ -1,4 +1,4 @@
-package alltool.算法
+package alltool.算法scala
 
 import java.text.SimpleDateFormat
 import java.util.Date

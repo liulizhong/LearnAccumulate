@@ -1,9 +1,10 @@
-package alltool.算法
+package alltool.算法scala
 
 import java.text.SimpleDateFormat
 import java.util.Date
 
 import util.control.Breaks._
+import java.util
 
 /**
   * @class 数据结构和算法 -- 快速排序
@@ -16,19 +17,20 @@ import util.control.Breaks._
 object QuickSort {
   def main(args: Array[String]): Unit = {
 
-    //val arr = Array(-9,78,0,23,-567,70)
+    val arr = Array(15,8,7,16,10)
 
-    val random = new util.Random()
-    val arr = new Array[Int](80000000)
-    for (i <- 0 until 80000000) { //循环的生成随机数
-      arr(i) = random.nextInt(8000000)
-    }
+//    val random = new util.Random()
+//    val arr = new Array[Int](80000000)
+//    for (i <- 0 until 80000000) { //循环的生成随机数
+//      arr(i) = random.nextInt(8000000)
+//    }
     println("排序前")
     val now: Date = new Date()
     val dateFormat: SimpleDateFormat =
       new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
     val date = dateFormat.format(now)
     println("排序前时间=" + date) //输出时间
+    println(util.Arrays.toString(arr))
 
     quickSort(0, arr.length - 1, arr) // 调用快排
     println("排序后")
@@ -36,6 +38,7 @@ object QuickSort {
     val now2: Date = new Date()
     val date2 = dateFormat.format(now2)
     println("排序后时间=" + date2) //输出时间
+    println(util.Arrays.toString(arr))
     //println(arr.mkString(" ")) // ( 0 )// -567 -9 0 23 78 70
   }
 
@@ -64,7 +67,7 @@ object QuickSort {
         var temp = arr(l) //交换
         arr(l) = arr(r)
         arr(r) = temp
-        //处理后，如果发现arr(l) == pivot 就r - =1 , 提高效率
+        //处理后,如果发现arr(l) == pivot 就r - =1 , 提高效率
         if (arr(l) == pivot) {
           r -= 1
         }

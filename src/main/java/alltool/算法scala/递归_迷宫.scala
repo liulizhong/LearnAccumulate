@@ -1,4 +1,4 @@
-package alltool.算法
+package alltool.算法scala
 
 /**
   * @class 数据结构和算法 -- 迷宫问题
