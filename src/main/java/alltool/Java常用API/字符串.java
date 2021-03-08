@@ -28,7 +28,5 @@ public class 字符串 {
         System.out.println(str5 == str6); 				// true    常量 + 常量=》常量池
         System.out.println(str5 == str7); 				// false   变量 + 变量=》堆中
         System.out.println(str5 == str8); 				// false   常量 + 变量=》堆中
-
-
     }
 }
