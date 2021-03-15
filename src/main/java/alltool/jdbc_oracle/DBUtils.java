@@ -1,4 +1,4 @@
-package alltool.mysqljdbc;
+package alltool.jdbc_oracle;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import org.apache.commons.dbutils.QueryRunner;
@@ -6,7 +6,6 @@ import org.apache.commons.dbutils.QueryRunner;
 import javax.sql.DataSource;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.util.Properties;
 
 /**
@@ -24,7 +23,7 @@ public class DBUtils {
     static {
         Properties pro = new Properties();
         try {
-            pro.load(new FileInputStream(new File("src\\main\\java\\alltool\\mysqljdbc\\druid.properties")));
+            pro.load(new FileInputStream(new File("src\\main\\java\\alltool\\oraclejdbc\\druid.properties")));
             ds = DruidDataSourceFactory.createDataSource(pro);
         } catch (Exception e) {
             e.printStackTrace();
@@ -32,5 +31,4 @@ public class DBUtils {
     }
 
     static QueryRunner qr = new QueryRunner(ds);
-
 }

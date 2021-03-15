@@ -38,5 +38,19 @@ public class 数学类 {
         BigInteger divide = bigInteger.divide(bigInteger);                         // 返回其值为 (this / val) 的 BigInteger。整数相除只保留整数部分。
         BigInteger remainder = bigInteger.remainder(bigInteger);                   // 返回其值为 (this % val) 的 BigInteger。
         BigInteger pow = bigInteger.pow(2);                                        // 返回其值为 (thisexponent) 的 BigInteger。
+
+        System.out.println("SELECT TOP" +
+                "\t1 SAMPLEID," +
+                "\tSAMPLEPOINTID," +
+                "\tSAMPLEDATETIME," +
+                "\tSAMPLETYPE," +
+                "\tSAMPLESTATE," +
+                "\tSampleData03 SAMPLEDATA," +
+                "\tN'瓦斯' DATATYPE " +
+                "FROM " +
+                "\tSAMPLE " +
+                "WHERE" +
+                "\t1 =1");
+
     }
 }

@@ -1,4 +1,4 @@
-package alltool.oraclejdbc;
+package alltool.jdbc_oracle;
 
 import org.apache.commons.dbutils.handlers.*;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package alltool.mysqljdbc;
+package alltool.jdbc_mysql;
 
 import org.apache.commons.dbutils.handlers.*;
 import org.junit.Test;

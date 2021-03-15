@@ -1,4 +1,4 @@
-package alltool.mysqljdbc;
+package alltool.jdbc_mysql;
 
 /**
  * @author lizhong.liu

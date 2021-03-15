@@ -1,4 +1,4 @@
-package alltool.oraclejdbc;
+package alltool.jdbc_oracle;
 
 /**
  * @author lizhong.liu
