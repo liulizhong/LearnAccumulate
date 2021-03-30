@@ -12,7 +12,7 @@ import java.io.*;
  * @create 2020-06-09 14:30
  * @Des TODO
  */
-public class WindowsToLinuxFile {
+public class 文件_从windows到Linux复制 {
     public static void main(String[] args) throws JSchException, IOException, SftpException {
         String src_file_198_file = "\\\\10.238.255.198\\liulizhong\\opcdata\\2020-06\\2020-06-06.txt";    // Windows文件
         String dec_file_241_path = "/home/liulizhong/opcdata/2020-06/";        // Linux上父目录

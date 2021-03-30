@@ -12,7 +12,7 @@ import java.nio.file.Paths;
  * @create 2020-09-25 15:09
  * @Des TODO
  */
-public class FilesCountLines {
+public class 文件_统计行数 {
     public static void main(String[] args) throws IOException {
         // 1、简单计算一个文件的总行数
         System.out.println(Files.lines(Paths.get("C:\\tmp\\oneopcall.txt")).count());

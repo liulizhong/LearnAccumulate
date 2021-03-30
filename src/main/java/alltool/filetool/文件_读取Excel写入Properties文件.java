@@ -23,7 +23,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  * @create 2020-06-18 8:49
  * @Des TODO
  */
-public class ReadExcelToPropertiesFile {
+public class 文件_读取Excel写入Properties文件 {
     public static void main(String[] args) throws IOException {
         Workbook wb = null;   //读取excel文件会返回wd对象
         Sheet sheet = null;   //读取表中第一个sheet对象返回值

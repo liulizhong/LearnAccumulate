@@ -10,7 +10,7 @@ import java.io.*;
  * @create 2020-06-09 14:11
  * @Des TODO
  */
-public class FilecopyIOFast {
+public class 文件_快速文件 {
     public static void main(String[] args) throws Exception {
 //        if (args.length != 1 || args[0].split("-").length != 3 || !args[0].split("-")[0].startsWith("202")) {
 //            throw new Exception("请输入要同步的数据日期，或日期格式不对！！！！！！！！！！！");

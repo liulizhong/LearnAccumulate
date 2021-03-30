@@ -12,7 +12,7 @@ import java.io.File;
  * @create 2020-03-26 9:08
  * @Des TODO
  */
-public class FilesReName {
+public class 文件_递归修改名字 {
     @Test
     public void reNameFile() throws Exception {
         reNameFiles(
