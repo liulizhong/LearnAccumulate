@@ -1,15 +1,17 @@
 package alltool.spark.streaming
 
+import java.io
 import java.io.{BufferedReader, InputStreamReader}
 import java.net.Socket
 
 import kafka.serializer.StringDecoder
-import org.apache.kafka.clients.consumer.ConsumerConfig
+import org.apache.kafka.clients.consumer.{ConsumerConfig, ConsumerRecord}
+import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.dstream.{DStream, InputDStream, ReceiverInputDStream}
-//import org.apache.spark.streaming.kafka.KafkaUtils
+import org.apache.spark.streaming.kafka010.{ConsumerStrategies, KafkaUtils, LocationStrategies}
 import org.apache.spark.streaming.receiver.Receiver
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
@@ -45,22 +47,24 @@ object _2_创建Dstream的数据源 {
 
     // 5、对接Kafka数据源，消费Kafka数据并作简单处理，并打印在控制台
     //       1）将kafka参数映射为map
-    val kafkaParam: Map[String, String] = Map[String, String](
-      ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG -> "org.apache.kafka.common.serialization.StringDeserializer",
-      ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG -> "org.apache.kafka.common.serialization.StringDeserializer",
-      ConsumerConfig.GROUP_ID_CONFIG -> "spark",
-      ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG -> "hadoop102:9092,hadoop103:9092,hadoop104:9092"
+    var kafkaParam: mutable.Map[String, io.Serializable] = collection.mutable.Map(
+      "bootstrap.servers" -> "hadoop102:9092,hadoop103:9092,hadoop104:9092", //用于初始化链接到集群的地址
+      "key.deserializer" -> classOf[StringDeserializer],
+      "value.deserializer" -> classOf[StringDeserializer],
+      "group.id" -> "spark",    //用于标识这个消费者属于哪个消费团体
+      "auto.offset.reset" -> "latest",    //latest自动重置偏移量为最新的偏移量
+      //如果是true，则这个消费者的偏移量会在后台自动提交,但是kafka宕机容易丢失数据
+      //如果是false，会需要手动维护kafka偏移量
+      "enable.auto.commit" -> (false: java.lang.Boolean)
     )
     //       2）通过KafkaUtil创建kafkaDSteam
-//    val kafkaDSteam: ReceiverInputDStream[(String, String)] = KafkaUtils.createStream[String, String, StringDecoder, StringDecoder](
-//      ssc,
-//      kafkaParam,
-//      Map("source" -> 3), // 主题topic，3是分区数量
-//      StorageLevel.MEMORY_ONLY
-//    )
-    val kafkaDSteam: ReceiverInputDStream[(String, String)] = null
+    val kafkaDSteam: InputDStream[ConsumerRecord[String, String]] = KafkaUtils.createDirectStream[String, String](
+      ssc,
+      LocationStrategies.PreferConsistent,
+      ConsumerStrategies.Subscribe[String, String](Array("topic_spark"), kafkaParam)
+    )
     //       3）对kafkaDSteam做计算（WordCount）
-    kafkaDSteam.flatMap(_._2.split(" ")).map((_, 1)).reduceByKey(_ + _).print
+    kafkaDSteam.flatMap(_.value().split(" ")).map((_, 1)).reduceByKey(_ + _).print
 
     // 6、启动SparkStreamingContext流式处理，awaitTermination是流式处理的等待数据意思
     ssc.start()

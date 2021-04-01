@@ -58,10 +58,7 @@ object _2_DataSet操作 {
     spark.udf.register("addName", (x: String) => "Name:" + x)
     spark.sql("SELECT addName(name),age FROM persons where age > 21").show()
 
-    // 13、
-
-
-    // 12、关闭sparksession资源
+    // 14、关闭sparksession资源
     spark.stop()
   }
 }

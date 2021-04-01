@@ -1,5 +1,6 @@
 package alltool.Kafka.Kafka精准消费一次用Redis
 
+import java.io
 import java.util.Properties
 
 import alltool.filetool.MyPropertiesUtil
@@ -10,16 +11,18 @@ import org.apache.spark.streaming.StreamingContext
 import org.apache.spark.streaming.dstream.InputDStream
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, KafkaUtils, LocationStrategies}
 
+import scala.collection.mutable
+
 /**
   * Author: lizhong.liu
   * Date: 2020/9/12
   * Desc: Sparkstreaming消费kafka工具类
   */
 object MyKafkaUtil {
-  val broker_list = MyPropertiesUtil.load("config.properties","kafka.broker.list")
+  val broker_list: String = MyPropertiesUtil.load("config.properties","kafka.broker.list")
 
   // 1、kafka消费者配置
-  var kafkaParam = collection.mutable.Map(
+  var kafkaParam: mutable.Map[String, io.Serializable] = collection.mutable.Map(
     "bootstrap.servers" -> broker_list, //用于初始化链接到集群的地址
     "key.deserializer" -> classOf[StringDeserializer],
     "value.deserializer" -> classOf[StringDeserializer],
