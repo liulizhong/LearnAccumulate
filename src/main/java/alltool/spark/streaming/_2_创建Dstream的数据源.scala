@@ -74,10 +74,8 @@ object _2_创建Dstream的数据源 {
 
 // 自定义接收器，接收spark的数据源数据（string泛型为接受数据类型，MEMORY_ONLY 为数据存储级别：只内存）
 class CustomerReceiver(host: String, port: Int) extends Receiver[String](StorageLevel.MEMORY_ONLY) {
-
   // 用来关闭线程的标志
   var runflg = true
-
   // 接收数据方法
   def receive(): Unit = {
     // 1、创建socket
@@ -95,7 +93,6 @@ class CustomerReceiver(host: String, port: Int) extends Receiver[String](Storage
     // 5、跳出循环则关闭资源
     bufferedReader.close()
     socket.close()
-
     // 6、重启任务
     restart("restart")
   }
