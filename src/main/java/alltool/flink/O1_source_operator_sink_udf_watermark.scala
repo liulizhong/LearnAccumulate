@@ -45,8 +45,8 @@ object O1_source_operator_sink_udf_watermark {
     val env = StreamExecutionEnvironment.getExecutionEnvironment //★获取流处理执行环境(自动判断是本地执行环境还是集群执行环境)
     val localEnvironment = StreamExecutionEnvironment.createLocalEnvironment(1) //获取本地执行环境并且设置并行度
     val remoteEnvironment = ExecutionEnvironment.createRemoteEnvironment("jobmanage-hostname", 6123, "YOURPATH//wordcount.jar") //获取集群执行环境
-    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime) // 开启时间语义为EventTime，默认是ProcessingTime。
-    //    env.getConfig.setAutoWatermarkInterval(500)                   // 设置周期性的生成watermark，半秒
+    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime) // 开启时间语义(默认ProcessingTime),设置为EventTime。
+    env.getConfig.setAutoWatermarkInterval(5000) // 设置周期性的生成watermark，每5秒
 
     // 【2】、source
     //// 1) 从集合读取数据
@@ -74,8 +74,8 @@ object O1_source_operator_sink_udf_watermark {
       val datas = x.split(",")
       SensorReading(datas(0).trim, datas(1).trim.toLong, datas(2).trim.toDouble)
     })
-      //      .assignAscendingTimestamps(_.timestamp * 1000L) //针对有序数据情况使用Watermark
-      .assignTimestampsAndWatermarks(new BoundedOutOfOrdernessTimestampExtractor[SensorReading](Time.seconds(4)) { // 对乱序数据分配时间戳和Watermark，参数是数据里最大乱序程度
+      //.assignAscendingTimestamps(_.timestamp * 1000L) //针对有序数据情况使用Watermark
+      .assignTimestampsAndWatermarks(new BoundedOutOfOrdernessTimestampExtractor[SensorReading](Time.seconds(4)) { // 对乱序数据分配时间戳和Watermark，参数是数据里最大乱序程度4秒
       override def extractTimestamp(element: SensorReading): Long = element.timestamp * 1000L
     })
     //    wordAndone.print("wordAndone:").setParallelism(1)
@@ -116,7 +116,7 @@ object O1_source_operator_sink_udf_watermark {
     allNewStream.print("union:")
     //// 10) 自定义函数类
     val filterSRsStream: DataStream[SensorReading] = SRsStream.filter(new MyFilterFunction())
-    filterSRsStream.print("自定义UDF：")
+    filterSRsStream.print("自定义UDF结果：")
 
     // 【4】、Sink（转化为基本类型的数据流才能写）
     //// 1) Kafka Sink

@@ -27,13 +27,13 @@ object O3_processfunction_state_checkpoint {
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
     env.setParallelism(1)
 
-    //// 1、设置检查点，默认是不开启的
+    //// 【1】、设置检查点，默认是不开启的
     env.enableCheckpointing(60000)     //设置6秒触发一次checkpoint
     env.getCheckpointConfig.setCheckpointingMode(CheckpointingMode.AT_LEAST_ONCE)   //数据至少处理一次的状态保证，EXACTLY_ONCE是精确一次的状态保证(但是性能影响是很大的)
-    env.getCheckpointConfig.setCheckpointTimeout(100000)            //查过多上时间淘汰
-    env.getCheckpointConfig.setFailOnCheckpointingErrors(false)   //如果存盘过程中，任务报错了，那么算不算checkpoint成功呢
-    //    env.getCheckpointConfig.setMaxConcurrentCheckpoints(1)  //最多能有几个checkpoint并行执行，若下边的设置的时间逻辑上不允许这个并行度超过10，那么此处设置12也是没用的
-    env.getCheckpointConfig.setMinPauseBetweenCheckpoints(100)    //两个checkpoint最小间隔多长时间（相比触发check时间不同点在于这个时间是上一个尾和这次头的时间间隔）
+    env.getCheckpointConfig.setCheckpointTimeout(100000)            // 查过多上时间淘汰
+    env.getCheckpointConfig.setFailOnCheckpointingErrors(false)   // 如果存盘过程中，任务报错了，那么算不算checkpoint成功呢
+    //    env.getCheckpointConfig.setMaxConcurrentCheckpoints(1)  // 最多能有几个checkpoint并行执行，若下边的设置的时间逻辑上不允许这个并行度超过10，那么此处设置12也是没用的
+    env.getCheckpointConfig.setMinPauseBetweenCheckpoints(100)    // 两个checkpoint最小间隔多长时间（相比触发check时间不同点在于这个时间是上一个尾和这次头的时间间隔）
     env.getCheckpointConfig.enableExternalizedCheckpoints(ExternalizedCheckpointCleanup.DELETE_ON_CANCELLATION)    //开启外部的持久化保存（任务执行完后DELETE_***是删除RETAIN_***是留着）
     //重启策略配置-checkpoint :: failureRateRestart:固定延迟时间重启( 重启次数，重启延迟总时间，重启间隔时间)
     env.setRestartStrategy(RestartStrategies.failureRateRestart(3, org.apache.flink.api.common.time.Time.seconds(300), org.apache.flink.api.common.time.Time.seconds(10)))
@@ -47,7 +47,6 @@ object O3_processfunction_state_checkpoint {
       new SensorReading(dataArray(0).trim, dataArray(1).trim.toLong, dataArray(2).trim.toDouble)
     })
     /*
-
         // 需求一：
         val keyProcessStream: DataStream[String] = dataStream.keyBy(_.id).process(new MyTempincreWarning())
         keyProcessStream.print("processtest:")
