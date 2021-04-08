@@ -2,7 +2,6 @@ package alltool.Kafka.Kafka精准消费一次用Redis
 
 import java.io
 import java.util.Properties
-
 import alltool.filetool.MyPropertiesUtil
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.TopicPartition

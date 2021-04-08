@@ -2,7 +2,6 @@ package alltool.flink.电商项目
 
 import java.sql.Timestamp
 import java.util.Properties
-
 import org.apache.flink.api.common.functions.AggregateFunction
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.api.common.state.{ListState, ListStateDescriptor}

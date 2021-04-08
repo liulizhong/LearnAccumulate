@@ -1,7 +1,6 @@
 package alltool.Kafka.Kafka精准消费一次用Redis
 
 import java.util
-
 import org.apache.kafka.common.TopicPartition
 import org.apache.spark.streaming.kafka010.OffsetRange
 import redis.clients.jedis.Jedis
