@@ -2,7 +2,6 @@ package alltool.jdbc_mysql;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import org.apache.commons.dbutils.QueryRunner;
-
 import javax.sql.DataSource;
 import java.io.File;
 import java.io.FileInputStream;

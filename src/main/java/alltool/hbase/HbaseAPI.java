@@ -149,7 +149,7 @@ public class HbaseAPI {
         Scan scan = new Scan();
         //使用HTable得到resultcanner实现类的对象
         ResultScanner resultScanner = hTable.getScanner(scan);
-        /* for (Result result : resultScanner) {
+        /*for (Result result : resultScanner) {
             Cell[] cells = result.rawCells();
             for (Cell cell : cells) {
                 //得到rowkey、列族、列名、列值
@@ -158,7 +158,7 @@ public class HbaseAPI {
                 System.out.println("列:" + Bytes.toString(CellUtil.cloneQualifier(cell)));
                 System.out.println("值:" + Bytes.toString(CellUtil.cloneValue(cell)));
             }
-        } */
+        }*/
         return resultScanner;
     }
 
