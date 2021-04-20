@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <!-- 【0.1】、父工程管理依赖版本，在子工程中就可以不配置以来的版本了 -->
+    <!-- 【0.1】、父工程管理依赖版本，在子工程中就可以不配置依赖的版本了 -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -25,15 +25,14 @@
         </dependencies>
     </dependencyManagement>
 
-    <!-- 【0.2】、在子工程配置自己的父工程
-    <parent>
-        <groupId>myfirst</groupId>
-        <artifactId>LearnAccumulate</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        指定从当前子工程的pom.xml文件出发，查找父工程的pom.xml的路径
-        <relativePath>../Parent/pom.xml</relativePath>
-    </parent>
-    -->
+    <!--【0.2】、在子工程配置自己的父工程-->
+    <!-- <parent>
+         <groupId>myfirst</groupId>
+         <artifactId>LearnAccumulate</artifactId>
+         <version>1.0-SNAPSHOT</version>
+         &lt;!&ndash;指定从当前子工程的pom.xml文件出发，查找父工程的pom.xml的路径&ndash;&gt;
+         <relativePath>../Parent/pom.xml</relativePath>
+     </parent>-->
 
     <!-- 【0.3】、聚合操作，在总的聚合工程中使用modules/module标签组合，指定模块工程的相对路径，这样工程的多个子模块打包就会自动打包相关依赖，不报错了
     <modules>
@@ -49,7 +48,7 @@
             &lt;!&ndash;<testSourceDirectory>src/test/java</testSourceDirectory>&ndash;&gt;
             <plugins>
 
-                &lt;!&ndash; 【1】、解决maven test命令时console出现中文乱码问题，每个项目都要单独导 &ndash;&gt;
+                &lt;!&ndash; 【0.5】、解决maven test命令时console出现中文乱码问题，每个项目都要单独导 &ndash;&gt;
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
@@ -70,13 +69,14 @@
             </plugins>
         </build>-->
 
-    <!-- 【0.4】、依赖的版本管理，控制依赖都是4.1.1版本及以上，‘<spring.version>’的明细随便取
+    <!-- 【0.6】、依赖的版本管理，控制依赖都是4.1.1版本及以上，‘<spring.version>’的明细随便取
             然后在下边dependencies里指定 “<version>${spring.version}</version>”即可使用-->
     <properties>
         <spring.version>4.1.1.RELEASE</spring.version>
     </properties>
 
     <dependencies>
+
         <!-- 【1】、junit - Test工具类-->
         <dependency>
             <groupId>junit</groupId>
@@ -94,34 +94,32 @@
         </dependency>
 
         <!-- 【3】、Kafka消费者和生产者导包 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>0.11.0.0</version>
             <!--<version>0.10.1.0</version>-->
         </dependency>
-
-        <!-- 【4】、Kafka监听器导包 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
+        <!-- Kafka监听器导包 -->
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.12</artifactId>
             <version>0.11.0.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.11</artifactId>
             <version>0.10.1.0</version>
-        </dependency>
-        <!-- 【5】、log4j 和 src/main/respurces/log4j.properties 配合 -->
+        </dependency>-->
+
+        <!-- 【4】、log4j 和 src/main/respurces/log4j.properties 配合 -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.8.2</version>
         </dependency>
 
-        <!-- 【6】、hadoop相关 -->
+        <!-- 【5】、hadoop相关 -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
@@ -137,28 +135,30 @@
             <artifactId>hadoop-hdfs</artifactId>
             <version>2.7.5</version>
         </dependency>
-        <!--  【7】、zookeeper的API -->
-        <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+
+        <!--  【6】、zookeeper的API -->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
             <version>3.4.14</version>
         </dependency>
-        <!-- 【8】、MyBatis -->
+
+        <!-- 【7】、MyBatis -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.2</version>
         </dependency>
 
-        <!-- 【9】、MySqlJDBC -->
+        <!-- 【8】、MySqlJDBC -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.37</version>
+            <version>8.0.19</version>
+            <!--<version>5.1.37</version>-->
         </dependency>
 
-        <!-- 【10】、redis导入 jedis 依赖 -->
+        <!-- 【9】、redis导入 jedis 依赖 -->
         <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
         <dependency>
             <groupId>redis.clients</groupId>
@@ -166,21 +166,27 @@
             <version>2.9.0</version>
         </dependency>
 
-        <!-- 【11】、hive依赖：https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+        <!-- 【10】、hive依赖（spark和flink操作hive时需有hive依赖）：https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-exec</artifactId>
             <version>1.2.1</version>
         </dependency>
+        <!--hive的JDBC依赖-->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-jdbc</artifactId>
+            <version>1.2.1</version>
+        </dependency>
 
-        <!-- 【12】、flume-API依赖 -->
+        <!-- 【11】、flume-API依赖 -->
         <dependency>
             <groupId>org.apache.flume</groupId>
             <artifactId>flume-ng-core</artifactId>
             <version>1.7.0</version>
         </dependency>
 
-        <!-- 【13】、hbase服务端、客户端依赖 -->
+        <!-- 【12】、hbase服务端、客户端依赖（phoenix依赖在spark/fink处） -->
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-server</artifactId>
@@ -194,37 +200,39 @@
             <!--<version>1.1.2</version>-->
         </dependency>
 
-        <!-- 【14】、influxdb连接工具 https://mvnrepository.com/artifact/org.influxdb/influxdb-java -->
+        <!-- 【13】、influxdb连接工具 https://mvnrepository.com/artifact/org.influxdb/influxdb-java -->
         <dependency>
             <groupId>org.influxdb</groupId>
             <artifactId>influxdb-java</artifactId>
             <version>2.15</version>
         </dependency>
 
-        <!-- 【15】、数据写到远程Linux服务器依赖包 -->
+        <!-- 【14】、数据写到远程Linux服务器依赖包 -->
         <dependency>
             <groupId>ch.ethz.ganymed</groupId>
             <artifactId>ganymed-ssh2</artifactId>
             <version>build210</version>
         </dependency>
-
         <dependency>
             <groupId>com.jcraft</groupId>
             <artifactId>jsch</artifactId>
             <version>0.1.50</version>
         </dependency>
 
-        <!-- 【16】、flink消费Kafka -->
+        <!-- 【15】、flink依赖 -->
+        <!--flinktable依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table_2.11</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <!--phoenix依赖-->
         <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-core</artifactId>
             <version>4.7.0-HBase-1.1</version>
         </dependency>
+        <!--spark-phoenix依赖-->
         <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-spark</artifactId>
@@ -236,70 +244,72 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--flink连接rocksdb依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-statebackend-rocksdb_2.11</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <!--flink连接redis依赖-->
         <dependency>
             <groupId>org.apache.bahir</groupId>
             <artifactId>flink-connector-redis_2.11</artifactId>
             <version>1.0</version>
         </dependency>
+        <!--flink连接es依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-elasticsearch6_2.11</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <!--flink-java依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <!--flink-scala依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-scala_2.11</artifactId>
             <version>1.7.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-scala -->
+        <!--flinkStreaming-scala依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-scala_2.11</artifactId>
             <version>1.7.2</version>
         </dependency>
+        <!--flink-web依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-runtime-web_2.11</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <!--flinkStreaming-java依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-java_2.11</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <!--flink客户端依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-clients_2.11</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <!--flink连接wikiedits依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-wikiedits_2.11</artifactId>
             <version>1.7.0</version>
         </dependency>
+        <!--flink连接Kafka依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka-0.11_2.11</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-cep-scala_2.11</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-        <!--<dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka-0.10_2.11</artifactId>
+            <artifactId>flink-connector-kafka_2.11</artifactId>
+            <!--<artifactId>flink-connector-kafka-0.11_2.11</artifactId>-->
+            <!--<artifactId>flink-connector-kafka-0.10_2.11</artifactId>-->
             <version>1.7.0</version>
             <exclusions>
                 <exclusion>
@@ -311,13 +321,14 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>-->
-        <!--陆鹏琦的依赖-->
+        </dependency>
+        <!--flink-cep-scala依赖依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka_2.11</artifactId>
-            <version>1.7.0</version>
+            <artifactId>flink-cep-scala_2.11</artifactId>
+            <version>1.7.2</version>
         </dependency>
+        <!--flink-操作文件依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-filesystem_2.11</artifactId>
@@ -333,7 +344,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
+        <!--flink-avro依赖依赖-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-avro</artifactId>
@@ -345,14 +356,15 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
-        <!-- 【17】、TDengine数据库API工具 -->
+
+        <!-- 【16】、TDengine数据库API工具 -->
         <dependency>
             <groupId>com.taosdata.jdbc</groupId>
             <artifactId>taos-jdbcdriver</artifactId>
             <version>1.0.3</version>
         </dependency>
 
-        <!-- 【18】、Java读取Excel文件工具-->
+        <!-- 【17】、Java读取Excel文件工具-->
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -366,12 +378,14 @@
             <version>3.14</version>
         </dependency>
 
-        <!-- 【19】、Spark-Core依赖,需指定jackson-module版本，不然会出现兼容问题Incompatible Jackson version: 2.8.5 -->
+        <!-- 【18】、Spark依赖 -->
+        <!--spark-scala依赖-->
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-scala_2.11</artifactId>
             <version>2.8.5</version>
         </dependency>
+        <!-- Spark-Core依赖,需指定jackson-module版本，不然会出现兼容问题Incompatible Jackson version: 2.8.5 -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
@@ -383,13 +397,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!-- 【20】、Spark-Sql依赖-->
+        <!-- Spark-Sql依赖-->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_2.11</artifactId>
             <version>2.1.1</version>
         </dependency>
+        <!--spark-hive-->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-hive_2.11</artifactId>
@@ -400,37 +414,35 @@
             <artifactId>hive-exec</artifactId>
             <version>1.2.1</version>
         </dependency>
-
-        <!-- 【21】、Spark-Streaming 依赖 -->
+        <!-- Spark-Streaming 依赖 -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming_2.11</artifactId>
             <version>2.1.1</version>
         </dependency>
-
-        <!-- 【22】、Spark-Streaming对接Kafka的依赖 -->
+        <!-- Spark-Streaming对接Kafka的依赖 -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
             <version>2.1.1</version>
         </dependency>
-
-        <!-- 【23】、Yarn依赖 -->
+        <!-- Yarn依赖 -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-yarn_2.11</artifactId>
             <version>2.1.1</version>
         </dependency>
 
-        <!-- 【24】、spark项目依赖 -->
+        <!-- 【19】、fastjson项目依赖 -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
+
+        <!-- 【20】、common-pool2依赖-->
         <dependency>
-            <!-- common-pool2使用的是面向接口的编程，它为我们提供的是一个抽象的对象池管理方式，
-                 根据我们业务的不同，我们需要重写或实现一些方法和接口 -->
+            <!-- common-pool2使用的是面向接口的编程，它为我们提供的是一个抽象的对象池管理方式，根据我们业务的不同，我们需要重写或实现一些方法和接口 -->
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
             <version>2.4.2</version>
@@ -449,7 +461,7 @@
             <version>1.9.3</version>
         </dependency>
 
-        <!-- 【25】多线程解析数据依赖 -->
+        <!-- 【21】多线程解析数据依赖 -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -477,7 +489,7 @@
             <!--<scope>provided</scope>-->
         </dependency>
 
-        <!-- 【26】 Java操作ES的客户端工具Jest-->
+        <!-- 【22】 Java操作ES的客户端工具Jest-->
         <dependency>
             <groupId>io.searchbox</groupId>
             <artifactId>jest</artifactId>
@@ -499,15 +511,18 @@
             <version>6.6.0</version>
         </dependency>
 
-        <!-- 【99】、不知道是啥
-        <dependency>
+        <!--【23】、jdk工具Java依赖-->
+        <!--<dependency>
             <groupId>jdk.tools</groupId>
             <artifactId>jdk.tools</artifactId>
             <version>1.8</version>
             <scope>system</scope>
             <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
-        </dependency>
-        -->
+        </dependency>-->
+
+        <!--【24】、jdk工具Java依赖-->
+
+
     </dependencies>
 
     <build>
