@@ -508,7 +508,7 @@
         <dependency> <!-- ElasticSearch依赖 -->
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>6.6.0</version>
+            <version>6.8.17</version>
         </dependency>
 
         <!--【23】、jdk工具Java依赖-->
